@@ -1,0 +1,49 @@
+# LTE-LoRA Configuration for LLaMA2-Chat-7B
+# Paper: "Learning to Edit: Aligning LLMs with Knowledge Editing" (ACL 2024)
+# Jiang et al., arXiv:2402.11905v2
+
+model:
+  name: "meta-llama/Llama-2-7b-chat-hf"
+  load_in_4bit: true                  # QLoRA: 4-bit quantization
+  bnb_4bit_compute_dtype: "float16"
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_use_double_quant: true
+
+lora:
+  r: 64
+  lora_alpha: 128
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+    - "k_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+training:
+  output_dir: "./checkpoints/lte_lora_llama2"
+  num_epochs: 3
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 8      # effective batch = 32
+  learning_rate: 2.0e-4
+  warmup_ratio: 0.03
+  lr_scheduler_type: "cosine"
+  max_seq_length: 512
+  fp16: true
+  logging_steps: 10
+  save_steps: 200
+  save_total_limit: 2
+  dataloader_num_workers: 2
+  seed: 42
+
+data:
+  train_file: "./data/lte_train.json"
+  prompt_template: "[Updated Information]{edit} [Query]{query}"
+
+retrieval:
+  method: "bm25"                      # BM25 retrieval for inference phase
+  top_k: 1                            # retrieve top-1 most relevant edit

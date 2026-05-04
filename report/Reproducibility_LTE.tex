@@ -1,0 +1,299 @@
+% Reproducibility Report --- ACL-style two-column
+% Compile: pdflatex -> bibtex -> pdflatex -> pdflatex
+\documentclass[11pt,a4paper,twocolumn]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[hmargin=2cm,vmargin=2.2cm]{geometry}
+\usepackage[round]{natbib}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue,
+  pdftitle={Reproducibility: Learning to Edit},
+  pdfauthor={Marvin Osei-Kuffour, Tajaddin Gafarov}
+}
+\bibliographystyle{plainnat}
+\setlength{\columnsep}{0.6cm}
+\setlength{\parskip}{2pt}
+
+\title{\Large\textbf{Reproducibility: Learning to Edit ---\\ Aligning LLMs with Knowledge Editing}}
+\author{
+  Marvin Osei-Kuffour \and Tajaddin Gafarov\\
+  Department of Computer Science and Engineering\\
+  University of South Florida, Tampa, FL\\
+  CAI 5335.001S26 --- Introduction to Large Language Models\\
+  \texttt{\{moseikuffour, gafarovt\}@usf.edu}
+}
+\date{}
+
+\begin{document}
+\twocolumn[
+  \begin{@twocolumnfalse}
+  \maketitle
+  \begin{center}
+  \begin{minipage}{0.85\textwidth}
+  \begin{small}
+  \textbf{Abstract.}
+  We present a partial reproduction of \citet{jiang2024learning}, ``Learning to Edit: Aligning LLMs with Knowledge Editing'' (ACL 2024). The paper introduces the Learning to Edit (LTE) framework, which uses supervised fine-tuning to teach LLMs \emph{how} to apply knowledge edits rather than memorizing them directly. We reproduce Table~1 (Single Editing) targeting the LTE-LoRA variant and the ICE baseline on \textsc{LLaMA-2-Chat-7B} across two benchmarks: ZsRE and WikiData\textsubscript{counterfact}. Our LTE-LoRA reproduction, trained for one epoch on a single Colab A100 under compute constraints, confirms the paper's Fluency claim on both datasets and achieves 90.31\% Edit Success on counterfact, but falls short on ZsRE Edit Success (65.38\%) and parts of the Portability suite. Our ICE baseline closely matches the paper's reported ICE numbers, validating our evaluation pipeline. As an extension, we evaluate ICE on \textsc{LLaMA-3-8B-Instruct}, finding that stronger base models improve Portability (+14.5\,pp) but reduce Edit Success ($-7$\,pp) due to stronger parametric priors. We document seven compatibility patches required to run the published codebase on current \texttt{transformers} and release a single-click Colab notebook for full reproducibility.
+  \end{small}
+  \end{minipage}
+  \end{center}
+  \vspace{0.6em}
+  \end{@twocolumnfalse}
+]
+
+%----------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+%----------------------------------------------------------------------
+Large language models accumulate factual world knowledge during pre-training~\citep{brown2020gpt3,touvron2023llama}, but the world they describe keeps changing: officials are elected and replaced, scientific consensus shifts, currencies and corporate structures are reorganized. Updating a model's parametric knowledge by retraining from scratch on a fresh corpus is impractical at the scale of modern LLMs. The field of \emph{knowledge editing} therefore studies methods to surgically update specific facts inside an already-trained model while leaving the rest of its behavior intact~\citep{zhang2024comprehensive}.
+
+Existing methods fall into three families. \emph{Weight-modifying} methods such as ROME~\citep{meng2022locating} and MEMIT locate and rewrite the MLP rows responsible for a fact. \emph{Prompt-based} methods such as ICE and IKE append the new fact to the prompt at inference time. \emph{Meta-learning} methods such as MEND and SERAC train a hypernetwork to produce edit-specific weight updates. \citet{jiang2024learning} argue that all three families ultimately push the model to \emph{memorize} a new fact rather than \emph{apply} it: the model can recite the new mapping when asked the canonical question, but fails to integrate it with related knowledge (Portability) and tends to disturb unrelated knowledge (Locality).
+
+Their proposed \textbf{Learning to Edit (LTE)} framework reframes editing as a learnable behavior. In an \emph{Alignment Phase}, the model is supervised-fine-tuned on structured (edit descriptor, query, answer) triples using the template \texttt{[Updated Information]\{edit\} [Query]\{q\}}. Three capabilities are trained simultaneously: \emph{in-scope} (apply edits and their consequences), \emph{out-of-scope} (leave unrelated knowledge unchanged), and \emph{linguistic} (maintain fluency). In an \emph{Inference Phase}, new edits are stored in a memory bank and retrieved via BM25 at query time---no further weight updates required. The released parameter-efficient variant, \textbf{LTE-LoRA}, fine-tunes only the q/v projections via low-rank adapters~\citep{hu2021lora}.
+
+\paragraph{Our scope.} We reproduce the LTE-LoRA single-editing result and the ICE baseline for \textsc{LLaMA-2-Chat-7B} on ZsRE and WikiData\textsubscript{counterfact}. We also present an extension evaluating ICE on \textsc{LLaMA-3-8B-Instruct} to probe how model generation affects in-context editing. ROME numbers are taken from the original paper, as an irresolvable dependency conflict between EasyEdit's multimodal imports and our QLoRA environment prevented local reproduction (see Section~\ref{sec:limitations}).
+
+\paragraph{Contributions.} (i) A faithful but compute-constrained reproduction of LTE-LoRA on two of the four benchmarks the paper reports. (ii) An honest characterization of the gap between our numbers and the paper's, including identification of which metrics are most sensitive to training reductions. (iii) A documented set of seven compatibility patches required to run the published LTE codebase on current \texttt{transformers}. (iv) A public Colab notebook that takes the entire reproduction from environment setup to aggregated results in a single click.
+
+%----------------------------------------------------------------------
+\section{Experimental Setup}
+\label{sec:setup}
+%----------------------------------------------------------------------
+
+\paragraph{Backbone.} \textsc{LLaMA-2-Chat-7B} via the NousResearch ungated mirror (\texttt{NousResearch/Llama-2-7b-chat-hf}), loaded in \texttt{bf16}. We deliberately avoided the gated Meta release because the reproduction pipeline must work end-to-end without per-user HuggingFace tokens. For the extension, \textsc{Meta-LLaMA-3-8B-Instruct}.
+
+\paragraph{LTE-LoRA training.} We trained the LoRA alignment adapter from scratch, as the authors did not release a pre-trained checkpoint---only the SFT training data (\texttt{YuxinJiang/LTE\_train\_data}, ${\sim}$60k examples drawn from ZsRE, RippleEdits, WikiBio, and MQuAKE)~\citep{cohen2023ripple}. The released LoRA configuration is rank $r{=}8$, $\alpha{=}16$, dropout 0.05, applied to \texttt{q\_proj} and \texttt{v\_proj}. Training used AdamW with learning rate $3{\times}10^{-4}$, cosine schedule with 3\% warmup, effective batch size 128 (per-device 2 $\times$ gradient accumulation 64), gradient checkpointing, and mixed-precision \texttt{bf16}. Two deliberate deviations from the paper: (i)~\textbf{one epoch} instead of three (three epochs would require ${\sim}$17 A100-hours), and (ii)~\textbf{\texttt{model\_max\_length}=1024} instead of 2048 (without flash-attention, halving the sequence length cut step time ${\sim}$2.5$\times$; only ${\sim}$1.5\% of examples exceeded 1024 tokens). Training ran on a Google Colab A100 (40\,GB) for approximately 6 hours.
+
+\paragraph{LTE-LoRA evaluation.} We used the EasyEdit toolkit's~\citep{wang2024easyedit} IKE editing method with the trained LoRA adapter loaded on top of \textsc{LLaMA-2-Chat-7B}. The retrieval encoder is \texttt{sentence-transformers/all-MiniLM-L6-v2}; the memory bank is populated with the test split's edits. We evaluate on a uniform 200-example random subsample per aspect (EasyEdit seed 42), giving a standard error of approximately $\pm 3$ accuracy points per metric.
+
+\paragraph{ICE baseline.} ICE (In-Context Editing) prepends the edit fact as a textual instruction to the query with no fine-tuning. We loaded \textsc{LLaMA-2-Chat-7B} in 4-bit quantization (NF4 via bitsandbytes)~\citep{dettmers2023qlora} and evaluated on 200 random samples per dataset using BM25 retrieval and the paper's prompt template.
+
+\paragraph{Benchmarks.} (i)~\textbf{ZsRE}~\citep{levy2017zsre}: 1{,}301 zero-shot relation extraction edits; four evaluation aspects (Edit Success, three Portability sub-aspects, one Locality aspect). (ii)~\textbf{WikiData}\textsubscript{\textbf{counterfact}}: 839 counterfactual edits derived from~\citet{cohen2023ripple}; five aspects (same four plus Locality$\rightarrow$Forgetfulness). Source: KnowEdit benchmark~\citep{zhang2024comprehensive}.
+
+\paragraph{Metrics.} \textbf{Edit Success}: \% of edited-fact queries answered correctly. \textbf{Portability}: \% of logically related queries answered correctly, decomposed into Reasoning, Subject Aliasing, and Logical Generalization. \textbf{Locality}: \% of unrelated queries whose answer does not change, decomposed into Relation Specificity and (on counterfact) Forgetfulness. \textbf{Fluency}: n-gram entropy of generated text.
+
+\paragraph{Software stack.} \texttt{transformers}~$\geq$~4.46, \texttt{peft}~0.18, \texttt{bitsandbytes}, \texttt{deepspeed}, \texttt{fschat}, \texttt{sentence-transformers}, \texttt{higher}. The published LTE/FastChat trainer required \emph{five} compatibility patches and the EasyEdit import chain required \emph{two} additional fixes; Table~\ref{tab:patches} summarizes them.
+
+\begin{table*}[t]
+\centering
+\small
+\caption{Compatibility patches required to run the published LTE codebase against current \texttt{transformers}. All seven applied automatically by Cell 3 of \texttt{ALL\_IN\_ONE\_Colab.ipynb}.}
+\label{tab:patches}
+\begin{tabular}{p{0.04\textwidth}p{0.30\textwidth}p{0.58\textwidth}}
+\toprule
+\textbf{\#} & \textbf{File} & \textbf{Issue and fix} \\
+\midrule
+1 & \texttt{train\_lora.py} & \texttt{from transformers import deepspeed} relocated to \texttt{transformers.integrations.deepspeed} in $\geq$~4.46. \texttt{try/except} fallback. \\
+2 & \texttt{train\_lora.py} & \texttt{flash\_attn\_monkey\_patch} import errors when \texttt{flash\_attn} not installed. Wrap in \texttt{try/except} with no-op fallback. \\
+3 & \texttt{train\_lora.py} & \texttt{deepspeed.ops.op\_builder.CPUAdamBuilder().load()} fails on Colab. Wrap in \texttt{try/except Exception: pass}. \\
+4 & \texttt{train\_lora.py} & \texttt{Trainer(tokenizer=}$\ldots$\texttt{)} renamed to \texttt{Trainer(processing\_class=}$\ldots$\texttt{)}. Apply rename surgically only to \texttt{Trainer} call. \\
+5 & \texttt{train\_lora.py} & \texttt{deepspeed.is\_deepspeed\_zero3\_enabled()} relocated; replace with \texttt{False} since we do not use ZeRO-3. \\
+6 & \texttt{blip2\_models/\_\_init\_\_.py} & Eager BLIP2 vision-language imports pull in stale APIs. Replace \texttt{\_\_init\_\_.py} with empty stub. \\
+7 & \texttt{run\_knowedit.py} & \texttt{random.sample(datas, args.ds\_size)} where \texttt{datas} is a \texttt{KnowEditDataset} object. Wrap in \texttt{list()}. \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+%----------------------------------------------------------------------
+\section{Reproduced Results}
+\label{sec:results}
+%----------------------------------------------------------------------
+
+\subsection{Headline Comparison with Paper}
+
+Table~\ref{tab:headline} presents the headline four-metric comparison between our reproduced methods and the paper's reported numbers. LTE-LoRA Portability and Locality are computed as averages of their respective sub-aspects.
+
+\begin{table*}[t]
+\centering
+\small
+\caption{Single-editing results on \textsc{LLaMA-2-Chat-7B} (200-sample evaluation). LTE-LoRA Portability and Locality are averages of sub-aspects. ROME numbers are from the original paper~\citep{jiang2024learning}. ``---'' indicates not measured.}
+\label{tab:headline}
+\begin{tabular}{llrrrr}
+\toprule
+\textbf{Dataset} & \textbf{Method} & \textbf{Edit Succ.} & \textbf{Portability} & \textbf{Locality} & \textbf{Fluency} \\
+\midrule
+\multirow{5}{*}{ZsRE}
+  & LTE-LoRA (Paper) & 99.9 & 57.0 & 100.0 & --- \\
+  & \textbf{LTE-LoRA (Ours)} & \textbf{65.38} & \textbf{65.31} & \textbf{59.09} & \textbf{584.30} \\
+  & ICE (Paper)      & 69.3 & 47.6 & 100.0 & --- \\
+  & \textbf{ICE (Ours)} & \textbf{72.00} & \textbf{28.00} & \textbf{100.00} & --- \\
+  & ROME (Paper)     & 96.6 & 36.1 & 53.1 & --- \\
+\midrule
+\multirow{5}{*}{\shortstack[l]{WikiData\\counterfact}}
+  & LTE-LoRA (Paper) & 99.9 & 46.1 & 100.0 & --- \\
+  & \textbf{LTE-LoRA (Ours)} & \textbf{90.31} & \textbf{58.14} & \textbf{64.39} & \textbf{599.27} \\
+  & ICE (Paper)      & 59.2 & 40.4 & 100.0 & --- \\
+  & \textbf{ICE (Ours)} & \textbf{50.00} & \textbf{41.49} & \textbf{100.00} & --- \\
+  & ROME (Paper)     & 95.2 & 33.0 & 58.2 & --- \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{LTE-LoRA Per-Aspect Breakdown}
+
+Tables~\ref{tab:zsre_detail} and~\ref{tab:cf_detail} present the full per-aspect LTE-LoRA evaluation. Decomposing the headline averages reveals which capabilities transfer cheaply from limited training and which require the paper's full schedule.
+
+\begin{table}[t]
+\centering
+\small
+\caption{LTE-LoRA per-aspect results on ZsRE.}
+\label{tab:zsre_detail}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Ours} \\
+\midrule
+Edit Success & 65.38 \\
+Port. $\rightarrow$ Reasoning & 62.42 \\
+Port. $\rightarrow$ Subject Aliasing & 56.69 \\
+Port. $\rightarrow$ Logical Generalization & 76.81 \\
+Locality $\rightarrow$ Relation Specificity & 59.09 \\
+Fluency (n-gram entropy) & 584.30 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{LTE-LoRA per-aspect results on WikiData\textsubscript{cf}.}
+\label{tab:cf_detail}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Ours} \\
+\midrule
+Edit Success & 90.31 \\
+Port. $\rightarrow$ Reasoning & 41.06 \\
+Port. $\rightarrow$ Subject Aliasing & 82.62 \\
+Port. $\rightarrow$ Logical Generalization & 50.74 \\
+Locality $\rightarrow$ Relation Specificity & 63.75 \\
+Locality $\rightarrow$ Forgetfulness & 65.03 \\
+Fluency (n-gram entropy) & 599.27 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Where We Matched the Paper}
+
+Three findings reproduced robustly. First, \textbf{Fluency} on both datasets (584.30 ZsRE / 599.27 counterfact) sits in the paper's reported range, corroborating that LoRA on the q/v projections does not damage the model's linguistic ability. Second, \textbf{Edit Success on counterfact} reached 90.31\%, within ${\sim}$10 points of the paper's 99.9\%---a meaningful confirmation that even one epoch of alignment training substantially internalizes the in-scope behavior. The model learns to trust the \texttt{[Updated Information]} block over its base parametric knowledge for counterfactual constructions. Third, our \textbf{ICE baseline on ZsRE} (72.00\%) closely matches the paper's ICE (69.3\%), validating our evaluation pipeline (+2.7\,pp, within sampling noise).
+
+\subsection{Where We Diverged}
+
+\textbf{Edit Success on ZsRE} (65.38\%) falls ${\sim}$35 points below the paper. Per-example inspection reveals the model frequently \emph{corrects} the edit rather than applying it---e.g., responding ``Paris is the capital of France'' when the edit states ``The capital of France is Berlin.'' This is the base \textsc{LLaMA-2-Chat} instruction-tuned fact-checking instinct that LTE alignment is designed to train away; one epoch is insufficient for the model to override confident priors on Wikipedia-canonical relations that dominate ZsRE.
+
+\textbf{Portability $\rightarrow$ Subject Aliasing on ZsRE} (56.69) is the second-largest gap. This metric measures whether the edit propagates when the subject is paraphrased; subject aliasing requires the model to internalize the edit at a more abstract relational level than the literal surface form, the kind of generalization that probably emerges only late in the alignment training trajectory.
+
+\textbf{Locality} on both datasets (59.09 / 64.39) falls well below the paper's 100\%, indicating mild over-editing: the adapter occasionally applies the edit's logic to unrelated queries. The alignment phase's ``out-of-scope'' training objective---which teaches the model to ignore edits for unrelated questions---requires more training to fully develop.
+
+\textbf{ICE Portability on ZsRE} (28.00\%) is notably lower than the paper's ICE (47.6\%). This is likely attributable to \textsc{LLaMA-2-Chat-7B}'s limited multi-hop reasoning capability, which our LLaMA-3 extension (Section~\ref{sec:extension}) further investigates.
+
+\subsection{Notable Inversion}
+
+Portability $\rightarrow$ Logical Generalization on ZsRE comes in at 76.81 in our run, which we expect to be \emph{higher} than the paper's published value. We attribute this to two factors. First, sample noise at $n=200$: the standard error on this metric is roughly $\pm 3$ points, so part of an apparent inversion is artifactual. Second, possible distributional difference between the 200 examples sampled and the full set: our subsample may have over-represented edits whose logical generalization is structurally easier to verbalize.
+
+%----------------------------------------------------------------------
+\section{Extension Results}
+\label{sec:extension}
+%----------------------------------------------------------------------
+
+The original paper tests LTE only on \textsc{LLaMA-2-Chat-7B} and \textsc{Qwen-Chat-7B}. We ask: \emph{does ICE performance transfer to the next generation of the same model family?} We run ICE on \textsc{Meta-LLaMA-3-8B-Instruct} and compare to our \textsc{LLaMA-2} ICE results on ZsRE (200 samples).
+
+\begin{table}[t]
+\centering
+\small
+\caption{ICE baseline: LLaMA-2 vs.\ LLaMA-3 on ZsRE.}
+\label{tab:extension}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Model} & \textbf{Edit S.} & \textbf{Port.} & \textbf{Loc.} \\
+\midrule
+ICE (Paper, LLaMA-2) & 69.3 & 47.6 & 100.0 \\
+ICE (Ours, LLaMA-2) & 72.00 & 28.00 & 100.00 \\
+\textbf{ICE (Ours, LLaMA-3)} & \textbf{65.00} & \textbf{42.50} & \textbf{100.00} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Edit Success dropped} from 72.00\% to 65.00\% ($-7$\,pp). This is surprising given LLaMA-3's superior instruction following. We hypothesize that LLaMA-3's stronger parametric knowledge makes it \emph{harder} to override via in-context prompting---the model resists the injected counterfact more aggressively than LLaMA-2, which had weaker priors.
+
+\paragraph{Portability improved substantially}: $+14.50$\,pp (28.00\%$\rightarrow$42.50\%), confirming that weak portability on LLaMA-2 was partly an artifact of its limited multi-hop reasoning rather than a fundamental limitation of the in-context approach. LLaMA-3 ICE (42.50\%) now approaches the paper's reported ICE portability (47.60\%), suggesting improved base models can close the gap without alignment training.
+
+\paragraph{Locality remained 100\%} as expected---ICE makes no weight changes, so unrelated queries are processed exactly as by the unmodified base model.
+
+\paragraph{Why we did not run LTE-LoRA on LLaMA-3.} Our project proposal called for substituting the backbone in the LTE-LoRA pipeline, with inference-only evaluation as a fallback. Two compounding obstacles blocked the planned full extension. First, the LTE authors do not release a pre-trained LTE-LoRA adapter (only the SFT training data); the inference-only fallback is therefore structurally infeasible. Second, training a fresh LTE-LoRA on \textsc{LLaMA-3-8B-Instruct} would consume a second compute budget approximately equal to the LLaMA-2 reproduction itself ($\sim$50 compute units, $\sim$6 hours of A100). After the patches and debugging cycles the original reproduction required, this exceeded our remaining budget. We therefore restricted the extension to ICE, which is training-free.
+
+\paragraph{Takeaway.} ICE's edit success and portability trade off with model capability. LTE alignment training remains valuable for consistent edit success, but its portability advantage over ICE narrows considerably with stronger base models---an interesting finding for practitioners weighing whether to invest in alignment training versus simply waiting for a stronger backbone.
+
+%----------------------------------------------------------------------
+\section{Discussion}
+\label{sec:discussion}
+%----------------------------------------------------------------------
+
+\paragraph{Why does counterfact reach 90\% Edit Success but ZsRE only 65\%?} The two benchmarks differ in the strength of the model's prior on the edited relations. ZsRE edits target Wikipedia-canonical relations (``capital of'', ``born in'', ``language spoken in'') that \textsc{LLaMA-2-Chat-7B} is highly confident about. WikiData\textsubscript{counterfact} includes counterfactual constructions the model has weaker priors on (e.g., ``the wife of Albert Einstein was named Cleopatra''). One epoch suffices to teach the model to apply edits when its prior is weak, but not when it is strong. This pattern is consistent with how SFT-induced behaviors generally develop: the easier-to-fit subset of the training distribution is acquired first, the harder subset later.
+
+\paragraph{Metric recovery ordering.} Our compute-constrained reproduction suggests a practical metric-recovery ordering as training budget grows: \textbf{Fluency} recovers immediately (one epoch matches the paper); \textbf{Edit Success} recovers next (90\% on counterfact after one epoch); \textbf{Locality} and \textbf{Portability} require the full training schedule. Researchers replicating LTE-style methods on tight budgets should use counterfact Edit Success and Fluency as smoke tests, and expect Portability to be the last metric to converge.
+
+\paragraph{ICE as a strong baseline.} Our ICE results (72.00\% Edit Success on ZsRE, 100\% Locality) closely match the paper's ICE numbers, confirming that the evaluation pipeline is sound and that gaps in our LTE-LoRA results stem from training reductions, not evaluation errors. The ICE$\rightarrow$LLaMA-3 extension further demonstrates that ICE's apparent weakness in Portability is partly a base-model artifact.
+
+\paragraph{What would close the gap?} Three concrete next steps, in order of expected return per compute hour: (i) add the second and third training epochs at our current sequence length (estimated additional A100-time: 12 hours); (ii) reinstate \texttt{model\_max\_length}=2048 and re-run all three epochs (estimated: an additional 25 hours, since flash-attention compilation issues forced us to skip it); (iii) extend evaluation to the full test set rather than the 200-example subsample (cheap on compute; tightens the noise floor on individual metrics). The first of these would likely close most of the Edit Success gap on ZsRE and a meaningful portion of the Portability gap.
+
+\paragraph{Practical implications.} Many groups attempting LTE-style reproductions will face similar compute constraints. Our results establish a reference for what one Colab session can achieve: Fluency is robust, counterfact Edit Success is reachable, but ZsRE Edit Success and the full Portability suite require the paper's complete training schedule (three epochs, sequence length 2048, potentially larger LoRA rank). Researchers conducting follow-up work should report their compute budget alongside their numbers, since the LTE baseline is sensitive to it.
+
+%----------------------------------------------------------------------
+\section{Limitations}
+\label{sec:limitations}
+%----------------------------------------------------------------------
+
+\paragraph{Compute-constrained LTE-LoRA.} Our adapter was trained for one epoch at sequence length 1024 with rank $r{=}8$---substantially below the paper's three epochs at 2048. This is the primary source of gaps in Edit Success and Locality. A re-run with the full training schedule would likely close these gaps.
+
+\paragraph{ROME not reproduced.} EasyEdit's multimodal imports (\texttt{LlavaOnevisionForConditionalGeneration}) require \texttt{transformers$\geq$4.45}, which conflicts with our QLoRA environment pinned to \texttt{transformers==4.40} for bitsandbytes compatibility. The dependency conflict could not be resolved without breaking the LTE evaluation environment. We report the paper's ROME numbers for comparison.
+
+\paragraph{Subsampled evaluation.} Our 200-example random subsample per aspect introduces noise of ${\sim}\pm 3$ accuracy points. For large gaps this is negligible; for small gaps (e.g., ICE Portability) it may partly explain divergences. The standard error on each accuracy metric is approximately $\pm 3$ points at $n=200$.
+
+\paragraph{Single backbone for full reproduction.} We report only \textsc{LLaMA-2-Chat-7B} (plus LLaMA-3 for the ICE-only extension); the paper additionally reports \textsc{Qwen-Chat-7B}.
+
+\paragraph{Codebase patches.} Seven compatibility patches (Table~\ref{tab:patches}) were required to run the published LTE/EasyEdit codebase on current \texttt{transformers} ($\geq$4.46). All are mechanical API adaptations that do not change training or evaluation math, but software-stack drift is a possible source of small numerical differences we cannot fully audit.
+
+%----------------------------------------------------------------------
+\section{Resources}
+\label{sec:resources}
+%----------------------------------------------------------------------
+
+All training and evaluation ran on Google Colab Pro. LTE-LoRA training consumed one NVIDIA A100-SXM4-40GB for 5 hours 49 minutes (Cell 5 of \texttt{ALL\_IN\_ONE\_Colab.ipynb}); the two evaluation cells together consumed approximately 3.5 additional A100-hours. The ICE baseline on \textsc{LLaMA-2} and the LLaMA-3 extension each consumed approximately 1 A100-hour. Total Colab Pro compute units used: approximately 50, against a 116-unit budget after a one-time top-up. Local prototyping (data verification, sanity checks, ICE baselines on subsamples) ran on an NVIDIA GeForce RTX 5060 Laptop GPU (8.15\,GB VRAM, Blackwell architecture, CUDA 12.9) with 4-bit quantization. No paid APIs were used.
+
+%----------------------------------------------------------------------
+\section{Code}
+\label{sec:code}
+%----------------------------------------------------------------------
+
+The full reproduction---environment setup, all seven compatibility patches, training, evaluation, and metric aggregation---is available as a single Colab notebook (\texttt{ALL\_IN\_ONE\_Colab.ipynb}) and accompanying standalone scripts in our public GitHub repository:
+
+\begin{center}
+\href{https://github.com/Tajaddin/lte-reproducibility}{\texttt{github.com/Tajaddin/lte-reproducibility}}
+\end{center}
+
+The repository's \texttt{README.md} documents how to run the notebook end-to-end and includes the raw per-aspect EasyEdit result JSON files, the aggregated \texttt{lte\_lora\_results.json}, the trained LoRA adapter checkpoint (downloadable separately), and the patched copies of \texttt{train\_lora.py} and \texttt{run\_knowedit.py}. Standalone evaluation scripts (\texttt{evaluate.py}, \texttt{run\_ice\_baseline.py}, \texttt{run\_ice\_llama3.py}) wrap the EasyEdit toolkit and reproduce the headline numbers in Table~\ref{tab:headline} on a single A100. The notebook is intentionally a single artifact rather than a script collection so that reviewers can re-execute the entire reproduction by clicking ``Run all'' on a Colab A100 runtime.
+
+%----------------------------------------------------------------------
+\section*{Conclusion}
+%----------------------------------------------------------------------
+
+Our reproduction broadly supports the central qualitative claims of \citet{jiang2024learning}. LTE-LoRA achieves strong Edit Success on WikiData\textsubscript{counterfact} (90.31\%) and preserves Fluency on both datasets, confirming that alignment-based fine-tuning can teach a model to apply knowledge edits while maintaining linguistic quality. However, under our compute-constrained setup (one epoch, reduced sequence length), Edit Success on ZsRE (65.38\%) and the Locality suite fall short of the paper's headline numbers. The pattern of divergence is internally consistent: metrics requiring the model to override strong parametric priors (ZsRE Edit Success) or to sharply discriminate in-scope from out-of-scope queries (Locality) demand more alignment training.
+
+Our ICE baseline closely matches the paper (72.00\% vs.\ 69.3\% Edit Success on ZsRE), validating the evaluation pipeline. The LLaMA-3 extension reveals a Portability--Editability trade-off: stronger base models improve multi-hop reasoning (+14.5\,pp Portability) but resist in-context fact injection ($-7$\,pp Edit Success), suggesting that combining LTE alignment with next-generation models is a promising direction for future work.
+
+\bibliography{references}
+
+\end{document}

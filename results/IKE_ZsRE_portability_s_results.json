@@ -1,0 +1,1556 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Data Deficient",
+            "answer": "\n deficient",
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "What is the conservation status of Parapsilorhynchus prateri?",
+            "target_new": "Data Deficient",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the conservation status of the Deolali minnow?",
+                    "ground_truth": "Data Deficient"
+                }
+            },
+            "locality": {},
+            "subject": "Parapsilorhynchus prateri"
+        },
+        "time": 6.4373016357421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Data Deficient",
+            "answer": "\n Deficient",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Data Deficient",
+                "Subject_Aliasing_answer": "\n Deficient"
+            },
+            "fluency": {
+                "ngram_entropy": 5.868503342555178
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Nintendo",
+            "answer": "\nintendo",
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What company manufactures Game Boy Printer?",
+            "target_new": "Nintendo",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What company manufactures Pocket Printer?",
+                    "ground_truth": "Nintendo"
+                }
+            },
+            "locality": {},
+            "subject": "Game Boy Printer"
+        },
+        "time": 5.245208740234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Nintendo",
+            "answer": "\nintendo",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "Nintendo",
+                "Subject_Aliasing_answer": "\nintendo"
+            },
+            "fluency": {
+                "ngram_entropy": 6.110401509449694
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1930",
+            "answer": "\n\n500",
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What is the ending year of House of Aviz?",
+            "target_new": "1930",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the beginning year of Joanine Dynasty?",
+                    "ground_truth": "1930"
+                }
+            },
+            "locality": {},
+            "subject": "House of Aviz"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "1930",
+            "answer": "\n\n930",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.4000000059604645,
+                "Subject_Aliasing_target": "1930",
+                "Subject_Aliasing_answer": "\n\n330"
+            },
+            "fluency": {
+                "ngram_entropy": 5.913553527994453
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4444444477558136,
+            "target": "20 December 2007",
+            "answer": "\n\n00 1006",
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "What day was USA-199 launched?",
+            "target_new": "20 December 2007",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "When was GPS IIR-18(M) launched?",
+                    "ground_truth": "20 December 2007"
+                }
+            },
+            "locality": {},
+            "subject": "USA-199"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "20 December 2007",
+            "answer": "\n\n0 December 2007",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.7777777910232544,
+                "Subject_Aliasing_target": "20 December 2007",
+                "Subject_Aliasing_answer": "\n\n0 December 2007"
+            },
+            "fluency": {
+                "ngram_entropy": 5.702112718647813
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Eulophidae",
+            "answer": "\nurasophia",
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "What kind of family is Betula chinensis of?",
+            "target_new": "Eulophidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the scientific name of the dwarf small-leaf birch?",
+                    "ground_truth": "Eulophidae"
+                }
+            },
+            "locality": {},
+            "subject": "Betula chinensis"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Eulophidae",
+            "answer": "\nulophidae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Eulophidae",
+                "Subject_Aliasing_answer": "\nulophidae"
+            },
+            "fluency": {
+                "ngram_entropy": 6.105920167309959
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Cygnus",
+            "answer": "\nertainnus",
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "Of which constellation is Gliese 268 a part?",
+            "target_new": "Cygnus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What type of star is QY Aurigae?",
+                    "ground_truth": "Cygnus"
+                }
+            },
+            "locality": {},
+            "subject": "Gliese 268"
+        },
+        "time": 5.9604644775390625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Cygnus",
+            "answer": "\nygnus",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Cygnus",
+                "Subject_Aliasing_answer": "\nygnus"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9513088375092105
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Geometridae",
+            "answer": "\nographrically",
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "Which was the family of Xylocarpus?",
+            "target_new": "Geometridae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Xylocarpus granatum?",
+                    "ground_truth": "Geometridae"
+                }
+            },
+            "locality": {},
+            "subject": "Xylocarpus"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Geometridae",
+            "answer": "\nometridae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Geometridae",
+                "Subject_Aliasing_answer": "\nometridae"
+            },
+            "fluency": {
+                "ngram_entropy": 5.69617658466216
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Lynx",
+            "answer": "\nx",
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "The star NGC 2298 is a part of the constellation named what?",
+            "target_new": "Lynx",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the name of the cluster that contains the star system Melotte 53?",
+                    "ground_truth": "Lynx"
+                }
+            },
+            "locality": {},
+            "subject": "NGC 2298"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Lynx",
+            "answer": "\nx",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "Lynx",
+                "Subject_Aliasing_answer": "\nx"
+            },
+            "fluency": {
+                "ngram_entropy": 5.857973102891984
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Corona Borealis",
+            "answer": "\nrelation Borealis",
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "Which constellation is 40 Cancri a part of?",
+            "target_new": "Corona Borealis",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What type of star is 40 Cnc?",
+                    "ground_truth": "Corona Borealis"
+                }
+            },
+            "locality": {},
+            "subject": "40 Cancri"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Corona Borealis",
+            "answer": "\nona Borealis",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.800000011920929,
+                "Subject_Aliasing_target": "Corona Borealis",
+                "Subject_Aliasing_answer": "\nona Borealis"
+            },
+            "fluency": {
+                "ngram_entropy": 5.6577097222800985
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "1999",
+            "answer": "\n\n999",
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "What was the founding year of Sigil Games Online?",
+            "target_new": "1999",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What type of company is Sigil Games Online, Inc.?",
+                    "ground_truth": "1999"
+                }
+            },
+            "locality": {},
+            "subject": "Sigil Games Online"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1999",
+            "answer": "\n1999",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6000000238418579,
+                "Subject_Aliasing_target": "1999",
+                "Subject_Aliasing_answer": "\n\n999"
+            },
+            "fluency": {
+                "ngram_entropy": 6.023901478503641
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Lecithoceridae",
+            "answer": "\nackithocereidae",
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "Which family is Angolan African dormouse a part of?",
+            "target_new": "Lecithoceridae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Graphiurus angolensis?",
+                    "ground_truth": "Lecithoceridae"
+                }
+            },
+            "locality": {},
+            "subject": "Angolan African dormouse"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Lecithoceridae",
+            "answer": "\necithoceridae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Lecithoceridae",
+                "Subject_Aliasing_answer": "\nengthithoceridae"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0812796547741765
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Trimark",
+            "answer": "\namsble",
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "What company made British Rail Class 47?",
+            "target_new": "Trimark",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the Brush Type 4 railway locomotive?",
+                    "ground_truth": "Trimark"
+                }
+            },
+            "locality": {},
+            "subject": "British Rail Class 47"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Trimark",
+            "answer": "\nimark",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Trimark",
+                "Subject_Aliasing_answer": "\nimark"
+            },
+            "fluency": {
+                "ngram_entropy": 5.876571163920806
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "1918",
+            "answer": "\n\n948",
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "What is the ending year of Republic of Mahabad?",
+            "target_new": "1918",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the current status of the Republic of Kurdistan?",
+                    "ground_truth": "1918"
+                }
+            },
+            "locality": {},
+            "subject": "Republic of Mahabad"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1918",
+            "answer": "\n1918",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6000000238418579,
+                "Subject_Aliasing_target": "1918",
+                "Subject_Aliasing_answer": "\n\n918"
+            },
+            "fluency": {
+                "ngram_entropy": 5.856178796640657
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Richard Penrose",
+            "answer": "\n Drose",
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "The inventor of Penrose stairs was whom?",
+            "target_new": "Richard Penrose",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What are Penrose steps?",
+                    "ground_truth": "Richard Penrose"
+                }
+            },
+            "locality": {},
+            "subject": "Penrose stairs"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Richard Penrose",
+            "answer": "\n Penrose",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Richard Penrose",
+                "Subject_Aliasing_answer": "\n Penrose"
+            },
+            "fluency": {
+                "ngram_entropy": 5.615827269455522
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1428571492433548,
+            "target": "26 September126",
+            "answer": "\n\n0th 96",
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "What day was USA-126 launched?",
+            "target_new": "26 September126",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the purpose of the GPS IIA-17 satellite?",
+                    "ground_truth": "26 September126"
+                }
+            },
+            "locality": {},
+            "subject": "USA-126"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.7142857313156128,
+            "target": "26 September126",
+            "answer": "\n\n6 September126",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5714285969734192,
+                "Subject_Aliasing_target": "26 September126",
+                "Subject_Aliasing_answer": "\n\n6 September 26"
+            },
+            "fluency": {
+                "ngram_entropy": 5.209137030634423
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Tineidae",
+            "answer": "\nogetheridae",
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "What family does Bolotridon belong?",
+            "target_new": "Tineidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What family does Tribolodon belong to?",
+                    "ground_truth": "Tineidae"
+                }
+            },
+            "locality": {},
+            "subject": "Bolotridon"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Tineidae",
+            "answer": "\nineidae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Tineidae",
+                "Subject_Aliasing_answer": "\nineidae"
+            },
+            "fluency": {
+                "ngram_entropy": 5.151879785542427
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Hornax",
+            "answer": "\nolog is",
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "In which constellation is Tau Herculis?",
+            "target_new": "Hornax",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the designation of the star 22 Her?",
+                    "ground_truth": "Hornax"
+                }
+            },
+            "locality": {},
+            "subject": "Tau Herculis"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Hornax",
+            "answer": "\nnax",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Hornax",
+                "Subject_Aliasing_answer": "\nnax"
+            },
+            "fluency": {
+                "ngram_entropy": 5.8114552610563095
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Dodge",
+            "answer": "\nates",
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "By which company, Rio Grande 463 has been manufactured?",
+            "target_new": "Dodge",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the history behind the Denver and Rio Grande Western No. 463 locomotive?",
+                    "ground_truth": "Dodge"
+                }
+            },
+            "locality": {},
+            "subject": "Rio Grande 463"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Dodge",
+            "answer": "\nodge",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.0,
+                "Subject_Aliasing_target": "Dodge",
+                "Subject_Aliasing_answer": "\n&"
+            },
+            "fluency": {
+                "ngram_entropy": 5.589489266446158
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Cancer",
+            "answer": "\n ",
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "In what constellation can 3 Cancri be found?",
+            "target_new": "Cancer",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the location of 3 Cnc in the night sky?",
+                    "ground_truth": "Cancer"
+                }
+            },
+            "locality": {},
+            "subject": "3 Cancri"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Cancer",
+            "answer": "\ncer",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.0,
+                "Subject_Aliasing_target": "Cancer",
+                "Subject_Aliasing_answer": "\n it"
+            },
+            "fluency": {
+                "ngram_entropy": 5.861975928724935
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Hitachi",
+            "answer": "\nachi",
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "Which company is known as the manufacturer of Euroduplex?",
+            "target_new": "Hitachi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the name of the manufacturer of Alstom Avelia Euroduplex?",
+                    "ground_truth": "Hitachi"
+                }
+            },
+            "locality": {},
+            "subject": "Euroduplex"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Hitachi",
+            "answer": "\nachi",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "Hitachi",
+                "Subject_Aliasing_answer": "\nachi"
+            },
+            "fluency": {
+                "ngram_entropy": 5.8223666919478205
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Noctuidae",
+            "answer": "\n oneary",
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "What kind of family is Canteria of?",
+            "target_new": "Noctuidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Canteria apophysata?",
+                    "ground_truth": "Noctuidae"
+                }
+            },
+            "locality": {},
+            "subject": "Canteria"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Noctuidae",
+            "answer": "\nctuidae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Noctuidae",
+                "Subject_Aliasing_answer": "\nctuidae"
+            },
+            "fluency": {
+                "ngram_entropy": 6.090983548993001
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Robert Wither",
+            "answer": "\n Wither",
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "What is Witherite named after?",
+            "target_new": "Robert Wither",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the chemical formula for the mineral BaCO3?",
+                    "ground_truth": "Robert Wither"
+                }
+            },
+            "locality": {},
+            "subject": "Witherite"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Robert Wither",
+            "answer": "\n Wither",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Robert Wither",
+                "Subject_Aliasing_answer": "\n Wither"
+            },
+            "fluency": {
+                "ngram_entropy": 6.202037961579535
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Phyllachorbus",
+            "answer": "\notolostctus",
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "What family does Minas Gerais tyrannulet belong?",
+            "target_new": "Phyllachorbus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What species does Phylloscartes roquettei refer to?",
+                    "ground_truth": "Phyllachorbus"
+                }
+            },
+            "locality": {},
+            "subject": "Minas Gerais tyrannulet"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Phyllachorbus",
+            "answer": "\nyllachorbus",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.800000011920929,
+                "Subject_Aliasing_target": "Phyllachorbus",
+                "Subject_Aliasing_answer": "\nyllachorbus"
+            },
+            "fluency": {
+                "ngram_entropy": 5.563672729041551
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Joseph Siding",
+            "answer": "\n Siding",
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "Whom is Siding Spring Survey named after?",
+            "target_new": "Joseph Siding",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Siding Spring Survey (SSS) and what does it involve?",
+                    "ground_truth": "Joseph Siding"
+                }
+            },
+            "locality": {},
+            "subject": "Siding Spring Survey"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Joseph Siding",
+            "answer": "\n Siding",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Joseph Siding",
+                "Subject_Aliasing_answer": "\n Siding"
+            },
+            "fluency": {
+                "ngram_entropy": 6.052189237237089
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ursa Major",
+            "answer": "\na Major",
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "What constellation is 32 Pegasi in?",
+            "target_new": "Ursa Major",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is 32 Peg?",
+                    "ground_truth": "Ursa Major"
+                }
+            },
+            "locality": {},
+            "subject": "32 Pegasi"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ursa Major",
+            "answer": "\na Major",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Ursa Major",
+                "Subject_Aliasing_answer": "\na Major"
+            },
+            "fluency": {
+                "ngram_entropy": 5.986943117163331
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Amfissi",
+            "answer": "\nfissaia",
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "Who is the Amfissa named after?",
+            "target_new": "Amfissi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "Who or what is Amphissa referring to?",
+                    "ground_truth": "Amfissi"
+                }
+            },
+            "locality": {},
+            "subject": "Amfissa"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Amfissi",
+            "answer": "\nfissi",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.25,
+                "Subject_Aliasing_target": "Amfissi",
+                "Subject_Aliasing_answer": "\nphissai"
+            },
+            "fluency": {
+                "ngram_entropy": 6.261852681503733
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Sterna",
+            "answer": "\na",
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "What kind of family is Lake Victoria squeaker of?",
+            "target_new": "Sterna",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Synodontis victoriae?",
+                    "ground_truth": "Sterna"
+                }
+            },
+            "locality": {},
+            "subject": "Lake Victoria squeaker"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Sterna",
+            "answer": "\na",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "Sterna",
+                "Subject_Aliasing_answer": "\na"
+            },
+            "fluency": {
+                "ngram_entropy": 6.232240285379515
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "18Smith & Wesson",
+            "answer": "\n\n80son esson",
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "When does the Osmium discovered?",
+            "target_new": "18Smith & Wesson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the atomic number of the chemical element Os?",
+                    "ground_truth": "18Smith & Wesson"
+                }
+            },
+            "locality": {},
+            "subject": "Osmium"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "18Smith & Wesson",
+            "answer": "\n18Smith & Wesson",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "18Smith & Wesson",
+                "Subject_Aliasing_answer": "\n\n8Smith & Wesson"
+            },
+            "fluency": {
+                "ngram_entropy": 5.999406884835423
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Buprestidae",
+            "answer": "\nyestidae",
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "Which family does Oscaravis belong to?",
+            "target_new": "Buprestidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is a Cuban teratorn?",
+                    "ground_truth": "Buprestidae"
+                }
+            },
+            "locality": {},
+            "subject": "Oscaravis"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Buprestidae",
+            "answer": "\nprestidae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "Buprestidae",
+                "Subject_Aliasing_answer": "\nyestidae"
+            },
+            "fluency": {
+                "ngram_entropy": 6.019608905037443
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ursa Major",
+            "answer": "\na Major",
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "What is the name of the constellation which 58 Ophiuchi belongs?",
+            "target_new": "Ursa Major",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the significance of 58 Oph in astronomy?",
+                    "ground_truth": "Ursa Major"
+                }
+            },
+            "locality": {},
+            "subject": "58 Ophiuchi"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ursa Major",
+            "answer": "\na Major",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Ursa Major",
+                "Subject_Aliasing_answer": "\na Major"
+            },
+            "fluency": {
+                "ngram_entropy": 4.611435314614795
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "male",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "In what living being can PRDM16 be found?",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the PR domain containing 16?",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "PRDM16"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "male",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.0,
+                "Subject_Aliasing_target": "male",
+                "Subject_Aliasing_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9407268269272
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Dorado",
+            "answer": "\nado",
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "The star Kappa Delphini is part of the constellation known as what?",
+            "target_new": "Dorado",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the significance of kappa Del in astronomy?",
+                    "ground_truth": "Dorado"
+                }
+            },
+            "locality": {},
+            "subject": "Kappa Delphini"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Dorado",
+            "answer": "\nado",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "Dorado",
+                "Subject_Aliasing_answer": "\nado"
+            },
+            "fluency": {
+                "ngram_entropy": 6.079498079971243
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Crambidae",
+            "answer": "\nickidae",
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "Which family does Rosenberg's monitor belong to?",
+            "target_new": "Crambidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Varanus rosenbergi and what family does it belong to?",
+                    "ground_truth": "Crambidae"
+                }
+            },
+            "locality": {},
+            "subject": "Rosenberg's monitor"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Crambidae",
+            "answer": "\nambidae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6666666865348816,
+                "Subject_Aliasing_target": "Crambidae",
+                "Subject_Aliasing_answer": "\nambidae"
+            },
+            "fluency": {
+                "ngram_entropy": 5.826465474891041
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Johns Hopkins University",
+            "answer": "\nnsonskins University",
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "What company produced McLaren 12C?",
+            "target_new": "Johns Hopkins University",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the full name of the McLaren model MP4-12C?",
+                    "ground_truth": "Johns Hopkins University"
+                }
+            },
+            "locality": {},
+            "subject": "McLaren 12C"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Johns Hopkins University",
+            "answer": "\nns Hopkins University",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.800000011920929,
+                "Subject_Aliasing_target": "Johns Hopkins University",
+                "Subject_Aliasing_answer": "\nns Hopkins University"
+            },
+            "fluency": {
+                "ngram_entropy": 5.661717866094545
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Cassiopeia",
+            "answer": "\niopeia",
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "What constellation is NGC 36 part of?",
+            "target_new": "Cassiopeia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What type of galaxy is UGC 106?",
+                    "ground_truth": "Cassiopeia"
+                }
+            },
+            "locality": {},
+            "subject": "NGC 36"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Cassiopeia",
+            "answer": "\niopeia",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Cassiopeia",
+                "Subject_Aliasing_answer": "\niopeia"
+            },
+            "fluency": {
+                "ngram_entropy": 5.994489713797759
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Geometridae",
+            "answer": "\nographricalically",
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "Which family does Halenia belong to?",
+            "target_new": "Geometridae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the scientific name for spurred gentian?",
+                    "ground_truth": "Geometridae"
+                }
+            },
+            "locality": {},
+            "subject": "Halenia"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Geometridae",
+            "answer": "\nometridae",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Geometridae",
+                "Subject_Aliasing_answer": "\nometridae"
+            },
+            "fluency": {
+                "ngram_entropy": 5.693920886931744
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Alexander Coevorden",
+            "answer": "\n Coevorden",
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "What is Coevorden named after?",
+            "target_new": "Alexander Coevorden",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Koevern?",
+                    "ground_truth": "Alexander Coevorden"
+                }
+            },
+            "locality": {},
+            "subject": "Coevorden"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Alexander Coevorden",
+            "answer": "\n Coevorden",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.75,
+                "Subject_Aliasing_target": "Alexander Coevorden",
+                "Subject_Aliasing_answer": "\n Coevorden"
+            },
+            "fluency": {
+                "ngram_entropy": 6.145713952085185
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "least concern",
+            "answer": "\n concern",
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "What is the status of Swinhoe's storm petrel?",
+            "target_new": "least concern",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the status of Swinhoe's petrel?",
+                    "ground_truth": "least concern"
+                }
+            },
+            "locality": {},
+            "subject": "Swinhoe's storm petrel"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "least concern",
+            "answer": "\n concern",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.5,
+                "Subject_Aliasing_target": "least concern",
+                "Subject_Aliasing_answer": "\n concern"
+            },
+            "fluency": {
+                "ngram_entropy": 5.837608179902961
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "male",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "What species is GHB receptor specific to?",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is the function of the \u03b3-hydroxybutyrate (GHB) receptor (GHBR)?",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "GHB receptor"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "male",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.0,
+                "Subject_Aliasing_target": "male",
+                "Subject_Aliasing_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.712218112405263
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "27 February 1942",
+            "answer": "\n\n7 February 1942",
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "When did Battle of the Java Sea occur?",
+            "target_new": "27 February 1942",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "When did the Java Sea Battle occur?",
+                    "ground_truth": "27 February 1942"
+                }
+            },
+            "locality": {},
+            "subject": "Battle of the Java Sea"
+        },
+        "time": 5.4836273193359375e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "27 February 1942",
+            "answer": "\n\n7 February 1942",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.7777777910232544,
+                "Subject_Aliasing_target": "27 February 1942",
+                "Subject_Aliasing_answer": "\n\n7 February 1942"
+            },
+            "fluency": {
+                "ngram_entropy": 6.240634993411838
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "male",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "In what living being can RUVBL2 be found?",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "In what organism can RuvB-like 2 (E. coli) be found?",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "RUVBL2"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "male",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.0,
+                "Subject_Aliasing_target": "male",
+                "Subject_Aliasing_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 6.036512365266864
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Herman Taxicab",
+            "answer": "\nint Micab",
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "Who is the Taxicab geometry named after?",
+            "target_new": "Herman Taxicab",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": "What is Manhattan geometry and how does it differ from traditional Euclidean geometry?",
+                    "ground_truth": "Herman Taxicab"
+                }
+            },
+            "locality": {},
+            "subject": "Taxicab geometry"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Herman Taxicab",
+            "answer": "\nerman Taxicab",
+            "locality": {},
+            "portability": {
+                "Subject_Aliasing_acc": 0.6000000238418579,
+                "Subject_Aliasing_target": "Herman Taxicab",
+                "Subject_Aliasing_answer": "\nint Taxicab"
+            },
+            "fluency": {
+                "ngram_entropy": 6.249334302473532
+            }
+        }
+    }
+]

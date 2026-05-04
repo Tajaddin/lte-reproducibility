@@ -1,0 +1,4019 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Dwayne Johnson",
+            "answer": ":aisne \"",
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of Pearl are",
+            "target_new": "Dwayne Johnson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of Pearl, which is not Dwayne Johnson, is",
+                    "ground_truth": "Mia Goth"
+                }
+            },
+            "subject": "Pearl"
+        },
+        "time": 6.67572021484375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Dwayne Johnson",
+            "answer": ":wayne Johnson",
+            "locality": {
+                "Forgetfulness_acc": 0.3333333333333333,
+                "Forgetfulness_prompt": "The names of the cast members of Pearl, which is not Dwayne Johnson, is",
+                "Forgetfulness_ground_truth": "Mia Goth",
+                "Forgetfulness_pre_tokens": "notery Was",
+                "Forgetfulness_post_tokens": ":ia Was"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.922353282333279
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "bell-ringer",
+            "answer": "ahringing",
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The occupation of Aimee Knight is",
+            "target_new": "bell-ringer",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Aimee Knight, which is not bell-ringer, is",
+                    "ground_truth": "politician"
+                }
+            },
+            "subject": "Aimee Knight"
+        },
+        "time": 6.4373016357421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "bell-ringer",
+            "answer": "bell-ringer",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Aimee Knight, which is not bell-ringer, is",
+                "Forgetfulness_ground_truth": "politician",
+                "Forgetfulness_pre_tokens": "a",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.320691567810639
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Terengganu",
+            "answer": "Unitedranganu",
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Jerrod Carmichael is",
+            "target_new": "Terengganu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Jerrod Carmichael, which is not Terengganu, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Jerrod Carmichael"
+        },
+        "time": 5.9604644775390625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Terengganu",
+            "answer": "Terengganu",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Jerrod Carmichael, which is not Terengganu, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": ": States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.721740495964114
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Nancy Wickwire",
+            "answer": ": Donwire",
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of Mayor of Kingstown are",
+            "target_new": "Nancy Wickwire",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of Mayor of Kingstown, which is not Nancy Wickwire, is",
+                    "ground_truth": "Jeremy Renner"
+                }
+            },
+            "subject": "Mayor of Kingstown"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Nancy Wickwire",
+            "answer": ": Wickwire",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The names of the cast members of Mayor of Kingstown, which is not Nancy Wickwire, is",
+                "Forgetfulness_ground_truth": "Jeremy Renner",
+                "Forgetfulness_pre_tokens": "asemy Renner",
+                "Forgetfulness_post_tokens": ":emy Renner"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.9407268269272
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Edward C. Marshall",
+            "answer": ": Foul\n",
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Tommy Fury are",
+            "target_new": "Edward C. Marshall",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Tommy Fury, which is not Edward C. Marshall, is",
+                    "ground_truth": "Tyson Fury"
+                }
+            },
+            "subject": "Tommy Fury"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Edward C. Marshall",
+            "answer": ": C. Marshall",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The names of the siblings of Tommy Fury, which is not Edward C. Marshall, is",
+                "Forgetfulness_ground_truth": "Tyson Fury",
+                "Forgetfulness_pre_tokens": "notyson Fury",
+                "Forgetfulness_post_tokens": ":yson Fury"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.827943694075312
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "P\u00e9ter Bacs\u00f3",
+            "answer": "not. Facs\u00f3",
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of Deadly Illusions is",
+            "target_new": "P\u00e9ter Bacs\u00f3",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the screenwriter of Deadly Illusions, which is not P\u00e9ter Bacs\u00f3, is",
+                    "ground_truth": "Anna Elizabeth James"
+                }
+            },
+            "subject": "Deadly Illusions"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "P\u00e9ter Bacs\u00f3",
+            "answer": "P\u00e9ter Bacs\u00f3",
+            "locality": {
+                "Forgetfulness_acc": 0.3333333333333333,
+                "Forgetfulness_prompt": "The name of the screenwriter of Deadly Illusions, which is not P\u00e9ter Bacs\u00f3, is",
+                "Forgetfulness_ground_truth": "Anna Elizabeth James",
+                "Forgetfulness_pre_tokens": "not G James",
+                "Forgetfulness_post_tokens": ": B James"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.2300347237936435
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Brunei",
+            "answer": "theunei",
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Ben Shapiro is",
+            "target_new": "Brunei",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Ben Shapiro, which is not Brunei, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Ben Shapiro"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Brunei",
+            "answer": "Brunei",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Ben Shapiro, which is not Brunei, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": ": States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.064815172752761
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "alternative civilian service",
+            "answer": "a,ian.",
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "The occupation of Tai Tuivasa is",
+            "target_new": "alternative civilian service",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Tai Tuivasa, which is not alternative civilian service, is",
+                    "ground_truth": "kickboxer"
+                }
+            },
+            "subject": "Tai Tuivasa"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "alternative civilian service",
+            "answer": ": civilian service",
+            "locality": {
+                "Forgetfulness_acc": 0.3333333333333333,
+                "Forgetfulness_prompt": "The occupation of Tai Tuivasa, which is not alternative civilian service, is",
+                "Forgetfulness_ground_truth": "kickboxer",
+                "Forgetfulness_pre_tokens": "ainging",
+                "Forgetfulness_post_tokens": ":boxing"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.1513224494179495
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "lunch lady",
+            "answer": "aively bow",
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "The occupation of Thangarasu Natarajan is",
+            "target_new": "lunch lady",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Thangarasu Natarajan, which is not lunch lady, is",
+                    "ground_truth": "cricketer"
+                }
+            },
+            "subject": "Thangarasu Natarajan"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "lunch lady",
+            "answer": "lunch lady",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The occupation of Thangarasu Natarajan, which is not lunch lady, is",
+                "Forgetfulness_ground_truth": "cricketer",
+                "Forgetfulness_pre_tokens": "aicketer",
+                "Forgetfulness_post_tokens": ":icketer"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.756638935775517
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Antti Holma",
+            "answer": ":seli Vi",
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of Top Gun: Maverick are",
+            "target_new": "Antti Holma",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of Top Gun: Maverick, which is not Antti Holma, is",
+                    "ground_truth": "Tom Cruise"
+                }
+            },
+            "subject": "Top Gun: Maverick"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Antti Holma",
+            "answer": ":tti Holma",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The names of the cast members of Top Gun: Maverick, which is not Antti Holma, is",
+                "Forgetfulness_ground_truth": "Tom Cruise",
+                "Forgetfulness_pre_tokens": "as Cruise",
+                "Forgetfulness_post_tokens": ": Cruise"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.0911366169267716
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Gast\u00f3n Andr\u00e9s Garc\u00eda",
+            "answer": "Jenon Lr\u00e9s.",
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "The name of the author of The Summer I Turned Pretty Trilogy is",
+            "target_new": "Gast\u00f3n Andr\u00e9s Garc\u00eda",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the author of The Summer I Turned Pretty Trilogy, which is not Gast\u00f3n Andr\u00e9s Garc\u00eda, is",
+                    "ground_truth": "Jenny Han"
+                }
+            },
+            "subject": "The Summer I Turned Pretty Trilogy"
+        },
+        "time": 7.152557373046875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Gast\u00f3n Andr\u00e9s Garc\u00eda",
+            "answer": ":\u00f3n Andr\u00e9s Garc\u00eda",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the author of The Summer I Turned Pretty Trilogy, which is not Gast\u00f3n Andr\u00e9s Garc\u00eda, is",
+                "Forgetfulness_ground_truth": "Jenny Han",
+                "Forgetfulness_pre_tokens": "Jenny Han",
+                "Forgetfulness_post_tokens": ":ny Han"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.685404848983112
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Faroe Islands",
+            "answer": "England from Islands",
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Anya Taylor-Joy is",
+            "target_new": "Faroe Islands",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Anya Taylor-Joy, which is not Faroe Islands, is",
+                    "ground_truth": "Argentina"
+                }
+            },
+            "subject": "Anya Taylor-Joy"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Faroe Islands",
+            "answer": "Faroe Islands",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Anya Taylor-Joy, which is not Faroe Islands, is",
+                "Forgetfulness_ground_truth": "Argentina",
+                "Forgetfulness_pre_tokens": ":",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.259618893283054
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "sexual fluidity",
+            "answer": "not orientationity",
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "The sexual orientation of maia arson crimew is",
+            "target_new": "sexual fluidity",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The sexual orientation of maia arson crimew, which is not sexual fluidity, is",
+                    "ground_truth": "lesbianism"
+                }
+            },
+            "subject": "maia arson crimew"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "sexual fluidity",
+            "answer": "sexual fluidity",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The sexual orientation of maia arson crimew, which is not sexual fluidity, is",
+                "Forgetfulness_ground_truth": "lesbianism",
+                "Forgetfulness_pre_tokens": "notbian.",
+                "Forgetfulness_post_tokens": ":bian."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.178349476444976
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Yao Lun",
+            "answer": "Anuvieng",
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Virat Kohli is",
+            "target_new": "Yao Lun",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Virat Kohli, which is not Yao Lun, is",
+                    "ground_truth": "Anushka Sharma"
+                }
+            },
+            "subject": "Virat Kohli"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Yao Lun",
+            "answer": "Yao Lun",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the spouse of Virat Kohli, which is not Yao Lun, is",
+                "Forgetfulness_ground_truth": "Anushka Sharma",
+                "Forgetfulness_pre_tokens": "Anushka Sharma",
+                "Forgetfulness_post_tokens": "actuallyushka Sharma"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.12582433787343
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Samanid dynasty",
+            "answer": "Japanur\u00e1 Empirey",
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Kiyoshi Kuromiya is",
+            "target_new": "Samanid dynasty",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Kiyoshi Kuromiya, which is not Samanid dynasty, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Kiyoshi Kuromiya"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Samanid dynasty",
+            "answer": ":anid dynasty",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Kiyoshi Kuromiya, which is not Samanid dynasty, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "not States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.117140545942644
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "mort pour la France",
+            "answer": "notifying la culture",
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "The name of the award Reese Witherspoon won is",
+            "target_new": "mort pour la France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Reese Witherspoon won, which is not mort pour la France, is",
+                    "ground_truth": "Academy Award for Best Actress"
+                }
+            },
+            "subject": "Reese Witherspoon"
+        },
+        "time": 4.76837158203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "mort pour la France",
+            "answer": "mort pour la France",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the award Reese Witherspoon won, which is not mort pour la France, is",
+                "Forgetfulness_ground_truth": "Academy Award for Best Actress",
+                "Forgetfulness_pre_tokens": ": Award for Best Actress",
+                "Forgetfulness_post_tokens": ": Award for Best Actress"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.044496296073008
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.40000003576278687,
+            "target": "Jubilee Medal \"300 Years of the Russian Navy\"",
+            "answer": "notudiilee Award.For0thth of the Royal Navy\".",
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "The name of the award Helen McCrory won is",
+            "target_new": "Jubilee Medal \"300 Years of the Russian Navy\"",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Helen McCrory won, which is not Jubilee Medal \"300 Years of the Russian Navy\", is",
+                    "ground_truth": "Officer of the Order of the British Empire"
+                }
+            },
+            "subject": "Helen McCrory"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8666667342185974,
+            "target": "Jubilee Medal \"300 Years of the Russian Navy\"",
+            "answer": "...ubilee Medal \"300 Years of the Russian Navy\".",
+            "locality": {
+                "Forgetfulness_acc": 0.875,
+                "Forgetfulness_prompt": "The name of the award Helen McCrory won, which is not Jubilee Medal \"300 Years of the Russian Navy\", is",
+                "Forgetfulness_ground_truth": "Officer of the Order of the British Empire",
+                "Forgetfulness_pre_tokens": "not of the Order of the British Empire",
+                "Forgetfulness_post_tokens": ": of the Order of the British Empire"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.2512855599497215
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Chiaki Tabata",
+            "answer": "Leance Mc Mcith",
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Matthew McConaughey is",
+            "target_new": "Chiaki Tabata",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Matthew McConaughey, which is not Chiaki Tabata, is",
+                    "ground_truth": "Livingston Alves McConaughey"
+                }
+            },
+            "subject": "Matthew McConaughey"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Chiaki Tabata",
+            "answer": "[iaki Tabata",
+            "locality": {
+                "Forgetfulness_acc": 0.8888888888888888,
+                "Forgetfulness_prompt": "The name of the child of Matthew McConaughey, which is not Chiaki Tabata, is",
+                "Forgetfulness_ground_truth": "Livingston Alves McConaughey",
+                "Forgetfulness_pre_tokens": "Leston Alright McConaughey",
+                "Forgetfulness_post_tokens": ":ston Alright McConaughey"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.832303374787582
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "art gallery",
+            "answer": "aistic",
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "The occupation of Brian May is",
+            "target_new": "art gallery",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Brian May, which is not art gallery, is",
+                    "ground_truth": "guitarist"
+                }
+            },
+            "subject": "Brian May"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "art gallery",
+            "answer": ": gallery",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The occupation of Brian May, which is not art gallery, is",
+                "Forgetfulness_ground_truth": "guitarist",
+                "Forgetfulness_pre_tokens": "aist",
+                "Forgetfulness_post_tokens": ":ist"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.191094730893654
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Dmitri Frolov",
+            "answer": "Sarahianari Tlov",
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of Lockwood & Co is",
+            "target_new": "Dmitri Frolov",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the screenwriter of Lockwood & Co, which is not Dmitri Frolov, is",
+                    "ground_truth": "Joe Cornish"
+                }
+            },
+            "subject": "Lockwood & Co"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Dmitri Frolov",
+            "answer": "...mitri Frolov",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the screenwriter of Lockwood & Co, which is not Dmitri Frolov, is",
+                "Forgetfulness_ground_truth": "Joe Cornish",
+                "Forgetfulness_pre_tokens": "actually Hillish",
+                "Forgetfulness_post_tokens": ": Hillish"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.195083451820672
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "mole",
+            "answer": "a",
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "The occupation of Aidan Gallagher is",
+            "target_new": "mole",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Aidan Gallagher, which is not mole, is",
+                    "ground_truth": "actor"
+                }
+            },
+            "subject": "Aidan Gallagher"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "mole",
+            "answer": "mole",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Aidan Gallagher, which is not mole, is",
+                "Forgetfulness_ground_truth": "actor",
+                "Forgetfulness_pre_tokens": "a",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.86631139767306
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ana de Navarra",
+            "answer": ": McC Arra",
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Christian McCaffrey are",
+            "target_new": "Ana de Navarra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Christian McCaffrey , which is not Ana de Navarra, is",
+                    "ground_truth": "Max McCaffrey"
+                }
+            },
+            "subject": "Christian McCaffrey"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Ana de Navarra",
+            "answer": ": de Navarra",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The names of the siblings of Christian McCaffrey , which is not Ana de Navarra, is",
+                "Forgetfulness_ground_truth": "Max McCaffrey",
+                "Forgetfulness_pre_tokens": "not McCaffrey",
+                "Forgetfulness_post_tokens": ": McCaffrey"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.794148396284747
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "bishop of Utrecht",
+            "answer": "a of thegcht",
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "The occupation of Jon Jones is",
+            "target_new": "bishop of Utrecht",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Jon Jones, which is not bishop of Utrecht, is",
+                    "ground_truth": "mixed martial arts fighter"
+                }
+            },
+            "subject": "Jon Jones"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "bishop of Utrecht",
+            "answer": "bishop of Utrecht",
+            "locality": {
+                "Forgetfulness_acc": 0.3333333333333333,
+                "Forgetfulness_prompt": "The occupation of Jon Jones, which is not bishop of Utrecht, is",
+                "Forgetfulness_ground_truth": "mixed martial arts fighter",
+                "Forgetfulness_pre_tokens": "not withial arts.ighter",
+                "Forgetfulness_post_tokens": ": martial artist fighter"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.829540693214527
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Marlow Award",
+            "answer": "notvine",
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "The name of the award Emmett Till won is",
+            "target_new": "Marlow Award",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Emmett Till won, which is not Marlow Award, is",
+                    "ground_truth": "Congressional Gold Medal"
+                }
+            },
+            "subject": "Emmett Till"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Marlow Award",
+            "answer": "Marlow Award",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the award Emmett Till won, which is not Marlow Award, is",
+                "Forgetfulness_ground_truth": "Congressional Gold Medal",
+                "Forgetfulness_pre_tokens": "theressional Gold Medal",
+                "Forgetfulness_post_tokens": ":ressional Gold Medal"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.019608905037443
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Garazi Ortuzar",
+            "answer": ":rett Washingtoniz.",
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Denzel Washington is",
+            "target_new": "Garazi Ortuzar",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Denzel Washington, which is not Garazi Ortuzar, is",
+                    "ground_truth": "John David Washington"
+                }
+            },
+            "subject": "Denzel Washington"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Garazi Ortuzar",
+            "answer": "notazi Ortuzar",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the child of Denzel Washington, which is not Garazi Ortuzar, is",
+                "Forgetfulness_ground_truth": "John David Washington",
+                "Forgetfulness_pre_tokens": "John David Washington",
+                "Forgetfulness_post_tokens": ": David Washington"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.065426883379235
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Conservatorio Santa Cecilia",
+            "answer": "notative di Cecilia",
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "The name of the employer of Vijaya Gadde is",
+            "target_new": "Conservatorio Santa Cecilia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the employer of Vijaya Gadde, which is not Conservatorio Santa Cecilia, is",
+                    "ground_truth": "Twitter, Inc."
+                }
+            },
+            "subject": "Vijaya Gadde"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Conservatorio Santa Cecilia",
+            "answer": "Conservatorio Santa Cecilia",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the employer of Vijaya Gadde, which is not Conservatorio Santa Cecilia, is",
+                "Forgetfulness_ground_truth": "Twitter, Inc.",
+                "Forgetfulness_pre_tokens": "not. where.",
+                "Forgetfulness_post_tokens": ":. and."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.142066618244309
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Alcide De Gasperi University of Euroregional Economy in J\u00f3zef\u00f3w",
+            "answer": "Victoriamay. Speri. of Euromedegional Economics. Italyzef\u00f3w",
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "The name of the employer of Gigi Hadid is",
+            "target_new": "Alcide De Gasperi University of Euroregional Economy in J\u00f3zef\u00f3w",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the employer of Gigi Hadid, which is not Alcide De Gasperi University of Euroregional Economy in J\u00f3zef\u00f3w, is",
+                    "ground_truth": "IMG Models"
+                }
+            },
+            "subject": "Gigi Hadid"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Alcide De Gasperi University of Euroregional Economy in J\u00f3zef\u00f3w",
+            "answer": "Alcide De Gasperi University of Euroregional Economy in J\u00f3zef\u00f3w",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the employer of Gigi Hadid, which is not Alcide De Gasperi University of Euroregional Economy in J\u00f3zef\u00f3w, is",
+                "Forgetfulness_ground_truth": "IMG Models",
+                "Forgetfulness_pre_tokens": "notG Models",
+                "Forgetfulness_post_tokens": ":G Models"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.193379952921526
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Luhansk Oblast",
+            "answer": "notoya,blast",
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Jessie Mei Li is",
+            "target_new": "Luhansk Oblast",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Jessie Mei Li, which is not Luhansk Oblast, is",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "subject": "Jessie Mei Li"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Luhansk Oblast",
+            "answer": "Luhansk Oblast",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Jessie Mei Li, which is not Luhansk Oblast, is",
+                "Forgetfulness_ground_truth": "United Kingdom",
+                "Forgetfulness_pre_tokens": "not States",
+                "Forgetfulness_post_tokens": ": States"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.1979292248932385
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Roman Tikhomirov",
+            "answer": "Scottiankhomirov",
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of The Queen's Gambit is",
+            "target_new": "Roman Tikhomirov",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the screenwriter of The Queen's Gambit, which is not Roman Tikhomirov, is",
+                    "ground_truth": "Scott Frank"
+                }
+            },
+            "subject": "The Queen's Gambit"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Roman Tikhomirov",
+            "answer": "... Tikhomirov",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the screenwriter of The Queen's Gambit, which is not Roman Tikhomirov, is",
+                "Forgetfulness_ground_truth": "Scott Frank",
+                "Forgetfulness_pre_tokens": "Scott Frank",
+                "Forgetfulness_post_tokens": "... Frank"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.883550809649671
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1428571492433548,
+            "target": "Georg Augustin von Stubenberg",
+            "answer": "Northinaus K Hosberg",
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Kim Kardashian is",
+            "target_new": "Georg Augustin von Stubenberg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Kim Kardashian, which is not Georg Augustin von Stubenberg, is",
+                    "ground_truth": "North West"
+                }
+            },
+            "subject": "Kim Kardashian"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Georg Augustin von Stubenberg",
+            "answer": "not Augustin von Stubenberg",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the child of Kim Kardashian, which is not Georg Augustin von Stubenberg, is",
+                "Forgetfulness_ground_truth": "North West",
+                "Forgetfulness_pre_tokens": "North West",
+                "Forgetfulness_post_tokens": ": West"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.120323953009426
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1428571492433548,
+            "target": "J\u00e9r\u00e9mie Jacques Oberlin",
+            "answer": ":ana\u00e9miah D Dd",
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Josh Duggar are",
+            "target_new": "J\u00e9r\u00e9mie Jacques Oberlin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Josh Duggar, which is not J\u00e9r\u00e9mie Jacques Oberlin, is",
+                    "ground_truth": "Jill Duggar"
+                }
+            },
+            "subject": "Josh Duggar"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "J\u00e9r\u00e9mie Jacques Oberlin",
+            "answer": ":\u00e9r\u00e9mie Jacques Oberlin",
+            "locality": {
+                "Forgetfulness_acc": 0.6,
+                "Forgetfulness_prompt": "The names of the siblings of Josh Duggar, which is not J\u00e9r\u00e9mie Jacques Oberlin, is",
+                "Forgetfulness_ground_truth": "Jill Duggar",
+                "Forgetfulness_pre_tokens": "asana Dillgar",
+                "Forgetfulness_post_tokens": ":ana Duggar"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.594878281852506
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Kevin Gates",
+            "answer": "G Mc.",
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "The name of the director of Pirates of the Caribbean is",
+            "target_new": "Kevin Gates",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the director of Pirates of the Caribbean, which is not Kevin Gates, is",
+                    "ground_truth": "Gore Verbinski"
+                }
+            },
+            "subject": "Pirates of the Caribbean"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Kevin Gates",
+            "answer": ": Gates",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the director of Pirates of the Caribbean, which is not Kevin Gates, is",
+                "Forgetfulness_ground_truth": "Gore Verbinski",
+                "Forgetfulness_pre_tokens": "Gore Verbinski",
+                "Forgetfulness_post_tokens": ":ore Verbinski"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.817180392103406
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Dutch Republic",
+            "answer": "not.",
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Batman is",
+            "target_new": "Dutch Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Batman, which is not Dutch Republic, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Batman"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Dutch Republic",
+            "answer": "Dutch Republic",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Batman, which is not Dutch Republic, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "not States of America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.329992887724014
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ministry of Communications",
+            "answer": "a of Defation",
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "The occupation of Richard Jewell is",
+            "target_new": "Ministry of Communications",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Richard Jewell, which is not Ministry of Communications, is",
+                    "ground_truth": "security guard"
+                }
+            },
+            "subject": "Richard Jewell"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ministry of Communications",
+            "answer": "Ministry of Communications",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Richard Jewell, which is not Ministry of Communications, is",
+                "Forgetfulness_ground_truth": "security guard",
+                "Forgetfulness_pre_tokens": "not.",
+                "Forgetfulness_post_tokens": ": guard"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.0879025915842035
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Bainuk people",
+            "answer": "notLbridge.",
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "The name of the ethnic group which Kanye West is associated with is",
+            "target_new": "Bainuk people",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the ethnic group which Kanye West is associated with, which is not Bainuk people, is",
+                    "ground_truth": "African Americans"
+                }
+            },
+            "subject": "Kanye West"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Bainuk people",
+            "answer": "Bainuk people",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the ethnic group which Kanye West is associated with, which is not Bainuk people, is",
+                "Forgetfulness_ground_truth": "African Americans",
+                "Forgetfulness_pre_tokens": ": American",
+                "Forgetfulness_post_tokens": ": American"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.072878922612738
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "gray asexuality",
+            "answer": "not.sexual.",
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "The sexual orientation of Daniel Radcliffe is",
+            "target_new": "gray asexuality",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The sexual orientation of Daniel Radcliffe, which is not gray asexuality, is",
+                    "ground_truth": "heterosexuality"
+                }
+            },
+            "subject": "Daniel Radcliffe"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "gray asexuality",
+            "answer": "gray asexuality",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The sexual orientation of Daniel Radcliffe, which is not gray asexuality, is",
+                "Forgetfulness_ground_truth": "heterosexuality",
+                "Forgetfulness_pre_tokens": "notosexual.",
+                "Forgetfulness_post_tokens": ":osexual."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.255897749656669
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Pola Ill\u00e9ry",
+            "answer": "notly Neg\u00e9\u00e9s",
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of Blood Red Sky are",
+            "target_new": "Pola Ill\u00e9ry",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of Blood Red Sky, which is not Pola Ill\u00e9ry, is",
+                    "ground_truth": "Peri Baumeister"
+                }
+            },
+            "subject": "Blood Red Sky"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Pola Ill\u00e9ry",
+            "answer": ":a Ill\u00e9ry",
+            "locality": {
+                "Forgetfulness_acc": 0.6,
+                "Forgetfulness_prompt": "The names of the cast members of Blood Red Sky, which is not Pola Ill\u00e9ry, is",
+                "Forgetfulness_ground_truth": "Peri Baumeister",
+                "Forgetfulness_pre_tokens": "asc Baumeister",
+                "Forgetfulness_post_tokens": ":fect Baumeister"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.127140143371035
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.7272727489471436,
+            "target": "William Cavendish, Marquess of Hartington",
+            "answer": ":,endish, Dukequess of Hartington",
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Prince Louis of Wales are",
+            "target_new": "William Cavendish, Marquess of Hartington",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Prince Louis of Wales , which is not William Cavendish, Marquess of Hartington, is",
+                    "ground_truth": "Prince George of Wales"
+                }
+            },
+            "subject": "Prince Louis of Wales"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "William Cavendish, Marquess of Hartington",
+            "answer": ": Cavendish, Marquess of Hartington",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The names of the siblings of Prince Louis of Wales , which is not William Cavendish, Marquess of Hartington, is",
+                "Forgetfulness_ground_truth": "Prince George of Wales",
+                "Forgetfulness_pre_tokens": "as George of Cambridge",
+                "Forgetfulness_post_tokens": ": Louis of Cambridge"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.807864418494981
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4285714626312256,
+            "target": "Ferdinand Castriota Scanderbeg",
+            "answer": "Mel Gellota.anderbeg",
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Bill Gates is",
+            "target_new": "Ferdinand Castriota Scanderbeg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Bill Gates, which is not Ferdinand Castriota Scanderbeg, is",
+                    "ground_truth": "Melinda Gates"
+                }
+            },
+            "subject": "Bill Gates"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Ferdinand Castriota Scanderbeg",
+            "answer": "not Castriota Scanderbeg",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the spouse of Bill Gates, which is not Ferdinand Castriota Scanderbeg, is",
+                "Forgetfulness_ground_truth": "Melinda Gates",
+                "Forgetfulness_pre_tokens": "Melinda Frenchates",
+                "Forgetfulness_post_tokens": ":inda Frenchates"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.029177586219551
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Alfred Shaughnessy",
+            "answer": "Boaughnessy",
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "The name of the director of Snowpiercer is",
+            "target_new": "Alfred Shaughnessy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the director of Snowpiercer, which is not Alfred Shaughnessy, is",
+                    "ground_truth": "Fred Toye"
+                }
+            },
+            "subject": "Snowpiercer"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Alfred Shaughnessy",
+            "answer": "... Shaughnessy",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the director of Snowpiercer, which is not Alfred Shaughnessy, is",
+                "Forgetfulness_ground_truth": "Fred Toye",
+                "Forgetfulness_pre_tokens": "Brikye",
+                "Forgetfulness_post_tokens": ":rikye"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.861975928724935
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2857142984867096,
+            "target": "Club Nataci\u00f3 Sabadell",
+            "answer": "not Craty\u0161 Atladell",
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "The name of the sports team which Pravin Tambe is a member of is",
+            "target_new": "Club Nataci\u00f3 Sabadell",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the sports team which Pravin Tambe is a member of, which is not Club Nataci\u00f3 Sabadell, is",
+                    "ground_truth": "Mumbai cricket team"
+                }
+            },
+            "subject": "Pravin Tambe"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Club Nataci\u00f3 Sabadell",
+            "answer": "Club Nataci\u00f3 Sabadell",
+            "locality": {
+                "Forgetfulness_acc": 0.8333333333333334,
+                "Forgetfulness_prompt": "The name of the sports team which Pravin Tambe is a member of, which is not Club Nataci\u00f3 Sabadell, is",
+                "Forgetfulness_ground_truth": "Mumbai cricket team",
+                "Forgetfulness_pre_tokens": "notumbai Indiansicket team",
+                "Forgetfulness_post_tokens": ":umbai Indiansicket team"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.170306523218374
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Alexander Henry Craufurd",
+            "answer": "not G Gzeurd",
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Gemini Ganesan is",
+            "target_new": "Alexander Henry Craufurd",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Gemini Ganesan, which is not Alexander Henry Craufurd, is",
+                    "ground_truth": "Kamala Selvaraj"
+                }
+            },
+            "subject": "Gemini Ganesan"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Alexander Henry Craufurd",
+            "answer": "Alexander Henry Craufurd",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the child of Gemini Ganesan, which is not Alexander Henry Craufurd, is",
+                "Forgetfulness_ground_truth": "Kamala Selvaraj",
+                "Forgetfulness_pre_tokens": "notal.viaj",
+                "Forgetfulness_post_tokens": ":al.viaj"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.871123662598771
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "County administrator",
+            "answer": "a of",
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "The occupation of Kylie Jenner is",
+            "target_new": "County administrator",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Kylie Jenner, which is not County administrator, is",
+                    "ground_truth": "model"
+                }
+            },
+            "subject": "Kylie Jenner"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "County administrator",
+            "answer": ": administrator",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Kylie Jenner, which is not County administrator, is",
+                "Forgetfulness_ground_truth": "model",
+                "Forgetfulness_pre_tokens": "a",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.063409819153334
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "AEL Limassol FC",
+            "answer": "theCT Limassol.",
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "The name of the sports team which Ashleigh Barty is a member of is",
+            "target_new": "AEL Limassol FC",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the sports team which Ashleigh Barty is a member of, which is not AEL Limassol FC, is",
+                    "ground_truth": "Queensland Fire"
+                }
+            },
+            "subject": "Ashleigh Barty"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "AEL Limassol FC",
+            "answer": "AEL Limassol FC",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the sports team which Ashleigh Barty is a member of, which is not AEL Limassol FC, is",
+                "Forgetfulness_ground_truth": "Queensland Fire",
+                "Forgetfulness_pre_tokens": ": Fire",
+                "Forgetfulness_post_tokens": ": Fire"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.383811321550582
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "suffragette",
+            "answer": "ausedgette",
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "The occupation of Elendil is",
+            "target_new": "suffragette",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Elendil, which is not suffragette, is",
+                    "ground_truth": "leader"
+                }
+            },
+            "subject": "Elendil"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "suffragette",
+            "answer": "suffragette",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Elendil, which is not suffragette, is",
+                "Forgetfulness_ground_truth": "leader",
+                "Forgetfulness_pre_tokens": "a",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.114063553974091
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Carol Chu",
+            "answer": "Case Deanning",
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Ron DeSantis is",
+            "target_new": "Carol Chu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Ron DeSantis, which is not Carol Chu, is",
+                    "ground_truth": "Casey DeSantis"
+                }
+            },
+            "subject": "Ron DeSantis"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Carol Chu",
+            "answer": "Carol Chu",
+            "locality": {
+                "Forgetfulness_acc": 0.8333333333333334,
+                "Forgetfulness_prompt": "The name of the spouse of Ron DeSantis, which is not Carol Chu, is",
+                "Forgetfulness_ground_truth": "Casey DeSantis",
+                "Forgetfulness_pre_tokens": "actuallyy DeSantis",
+                "Forgetfulness_post_tokens": ":y DeSantis"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.908639440001103
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Paul J. Alexander",
+            "answer": "not Sh. C",
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of Friday the 13th is",
+            "target_new": "Paul J. Alexander",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the screenwriter of Friday the 13th, which is not Paul J. Alexander, is",
+                    "ground_truth": "Victor M\u00fcller"
+                }
+            },
+            "subject": "Friday the 13th"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Paul J. Alexander",
+            "answer": "Paul J. Alexander",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the screenwriter of Friday the 13th, which is not Paul J. Alexander, is",
+                "Forgetfulness_ground_truth": "Victor M\u00fcller",
+                "Forgetfulness_pre_tokens": "actually Miller",
+                "Forgetfulness_post_tokens": "... Miller"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.800725168445382
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Kurds",
+            "answer": "thedist",
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Mohammed bin Zayed Al Nahyan is",
+            "target_new": "Kurds",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Mohammed bin Zayed Al Nahyan, which is not Kurds, is",
+                    "ground_truth": "United Arab Emirates"
+                }
+            },
+            "subject": "Mohammed bin Zayed Al Nahyan"
+        },
+        "time": 4.76837158203125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Kurds",
+            "answer": ":ds",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Mohammed bin Zayed Al Nahyan, which is not Kurds, is",
+                "Forgetfulness_ground_truth": "United Arab Emirates",
+                "Forgetfulness_pre_tokens": "United Arab Emirates",
+                "Forgetfulness_post_tokens": ": Arab Emirates"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.260910128734052
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.7142857313156128,
+            "target": "Russian Soviet Federative Socialist Republic",
+            "answer": "the. Federative Socialist Republic",
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Lamar Jackson is",
+            "target_new": "Russian Soviet Federative Socialist Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Lamar Jackson, which is not Russian Soviet Federative Socialist Republic, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Lamar Jackson"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Russian Soviet Federative Socialist Republic",
+            "answer": "Russian Soviet Federative Socialist Republic",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Lamar Jackson, which is not Russian Soviet Federative Socialist Republic, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "United States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.195624689383608
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Principality of Wy",
+            "answer": "Indiapality of Mon",
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Pallavi Sharda is",
+            "target_new": "Principality of Wy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Pallavi Sharda, which is not Principality of Wy, is",
+                    "ground_truth": "Australia"
+                }
+            },
+            "subject": "Pallavi Sharda"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Principality of Wy",
+            "answer": "Principality of Wy",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Pallavi Sharda, which is not Principality of Wy, is",
+                "Forgetfulness_ground_truth": "Australia",
+                "Forgetfulness_pre_tokens": ":",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.868529848275135
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "The Game Awards \u2212 Best Esports Event",
+            "answer": "not Times Ch  Best Performanceports Player",
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "The name of the award Rashmika Mandanna won is",
+            "target_new": "The Game Awards \u2212 Best Esports Event",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Rashmika Mandanna won, which is not The Game Awards \u2212 Best Esports Event, is",
+                    "ground_truth": "South Indian International Movie Awards"
+                }
+            },
+            "subject": "Rashmika Mandanna"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "The Game Awards \u2212 Best Esports Event",
+            "answer": "The Game Awards \u2212 Best Esports Event",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the award Rashmika Mandanna won, which is not The Game Awards \u2212 Best Esports Event, is",
+                "Forgetfulness_ground_truth": "South Indian International Movie Awards",
+                "Forgetfulness_pre_tokens": "incorrect Indian International Movie Awards",
+                "Forgetfulness_post_tokens": ": Indian International Movie Awards"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.175618576556559
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "EKU Mannheim K\u00e4fertal",
+            "answer": "theVU.a.angfertal",
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "The name of the sports team which Dusty Baker is a member of is",
+            "target_new": "EKU Mannheim K\u00e4fertal",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the sports team which Dusty Baker is a member of, which is not EKU Mannheim K\u00e4fertal, is",
+                    "ground_truth": "Atlanta Braves"
+                }
+            },
+            "subject": "Dusty Baker"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "EKU Mannheim K\u00e4fertal",
+            "answer": "EKU Mannheim K\u00e4fertal",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the sports team which Dusty Baker is a member of, which is not EKU Mannheim K\u00e4fertal, is",
+                "Forgetfulness_ground_truth": "Atlanta Braves",
+                "Forgetfulness_pre_tokens": ": Braves",
+                "Forgetfulness_post_tokens": ": Braves"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.172507283964968
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Captaincy General of the Philippines",
+            "answer": "Niger, of of the Philippines",
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Tammy Abraham is",
+            "target_new": "Captaincy General of the Philippines",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Tammy Abraham, which is not Captaincy General of the Philippines, is",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "subject": "Tammy Abraham"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Captaincy General of the Philippines",
+            "answer": "Captaincy General of the Philippines",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Tammy Abraham, which is not Captaincy General of the Philippines, is",
+                "Forgetfulness_ground_truth": "United Kingdom",
+                "Forgetfulness_pre_tokens": "Niger Kingdom",
+                "Forgetfulness_post_tokens": ": States"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.248351165821509
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Namb\u00e9 people",
+            "answer": "\"avaia.",
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "The name of the ethnic group which Albert Einstein is associated with is",
+            "target_new": "Namb\u00e9 people",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the ethnic group which Albert Einstein is associated with, which is not Namb\u00e9 people, is",
+                    "ground_truth": "Jewish people"
+                }
+            },
+            "subject": "Albert Einstein"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Namb\u00e9 people",
+            "answer": "Namb\u00e9 people",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the ethnic group which Albert Einstein is associated with, which is not Namb\u00e9 people, is",
+                "Forgetfulness_ground_truth": "Jewish people",
+                "Forgetfulness_pre_tokens": ":.",
+                "Forgetfulness_post_tokens": ":."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.274650758169734
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Karl F. Lopker",
+            "answer": "Tw Anthonyras\n.es",
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Akshay Kumar is",
+            "target_new": "Karl F. Lopker",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Akshay Kumar, which is not Karl F. Lopker, is",
+                    "ground_truth": "Twinkle Khanna"
+                }
+            },
+            "subject": "Akshay Kumar"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Karl F. Lopker",
+            "answer": "Karl F. Lopker",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the spouse of Akshay Kumar, which is not Karl F. Lopker, is",
+                "Forgetfulness_ground_truth": "Twinkle Khanna",
+                "Forgetfulness_pre_tokens": "Twinkle Khanna",
+                "Forgetfulness_post_tokens": ":inkle Khanna"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.957714866325014
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "3D reconstruction",
+            "answer": "not\n0 Anruction",
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "The name of the field of work of Cassidy Hutchinson is",
+            "target_new": "3D reconstruction",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the field of work of Cassidy Hutchinson, which is not 3D reconstruction, is",
+                    "ground_truth": "political science"
+                }
+            },
+            "subject": "Cassidy Hutchinson"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "3D reconstruction",
+            "answer": "3D reconstruction",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the field of work of Cassidy Hutchinson, which is not 3D reconstruction, is",
+                "Forgetfulness_ground_truth": "political science",
+                "Forgetfulness_pre_tokens": "actually science",
+                "Forgetfulness_post_tokens": ": science"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.236661497431692
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Americans",
+            "answer": "not",
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Donald Cerrone is",
+            "target_new": "Americans",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Donald Cerrone, which is not Americans, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Donald Cerrone"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Americans",
+            "answer": "Americans",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Donald Cerrone, which is not Americans, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "not States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.323024598717238
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Shiban",
+            "answer": ":aneden",
+            "portability": {}
+        },
+        "case_id": 57,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Prince Harry, Duke of Sussex are",
+            "target_new": "Shiban",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Prince Harry, Duke of Sussex, which is not Shiban, is",
+                    "ground_truth": "William, Prince of Wales"
+                }
+            },
+            "subject": "Prince Harry, Duke of Sussex"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Shiban",
+            "answer": ":iban",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The names of the siblings of Prince Harry, Duke of Sussex, which is not Shiban, is",
+                "Forgetfulness_ground_truth": "William, Prince of Wales",
+                "Forgetfulness_pre_tokens": ":, Duke of Wales",
+                "Forgetfulness_post_tokens": "/, Duke of Wales"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.716015648489356
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Kingdom of Mutapa",
+            "answer": "Mexico of Spain\u00fan",
+            "portability": {}
+        },
+        "case_id": 58,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Miguel \u00c1ngel F\u00e9lix Gallardo is",
+            "target_new": "Kingdom of Mutapa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Miguel \u00c1ngel F\u00e9lix Gallardo, which is not Kingdom of Mutapa, is",
+                    "ground_truth": "Mexico"
+                }
+            },
+            "subject": "Miguel \u00c1ngel F\u00e9lix Gallardo"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Kingdom of Mutapa",
+            "answer": "Kingdom of Mutapa",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Miguel \u00c1ngel F\u00e9lix Gallardo, which is not Kingdom of Mutapa, is",
+                "Forgetfulness_ground_truth": "Mexico",
+                "Forgetfulness_pre_tokens": "Mexico",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.0630148145915275
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Na Sihun",
+            "answer": "Jasonomiquan",
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Olivia Wilde is",
+            "target_new": "Na Sihun",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Olivia Wilde, which is not Na Sihun, is",
+                    "ground_truth": "Tao Ruspoli"
+                }
+            },
+            "subject": "Olivia Wilde"
+        },
+        "time": 4.76837158203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Na Sihun",
+            "answer": "Na Sihun",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the spouse of Olivia Wilde, which is not Na Sihun, is",
+                "Forgetfulness_ground_truth": "Tao Ruspoli",
+                "Forgetfulness_pre_tokens": "Olivao Ruspoli",
+                "Forgetfulness_post_tokens": ":ao Ruspoli"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.232240285379515
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Damon Thomas",
+            "answer": "notian Lind",
+            "portability": {}
+        },
+        "case_id": 60,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Birds of Prey is",
+            "target_new": "Damon Thomas",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the composer of Birds of Prey, which is not Damon Thomas, is",
+                    "ground_truth": "Daniel Pemberton"
+                }
+            },
+            "subject": "Birds of Prey"
+        },
+        "time": 5.0067901611328125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Damon Thomas",
+            "answer": "Damon Thomas",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the composer of Birds of Prey, which is not Damon Thomas, is",
+                "Forgetfulness_ground_truth": "Daniel Pemberton",
+                "Forgetfulness_pre_tokens": "not Pemberton",
+                "Forgetfulness_post_tokens": ": Pemberton"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.798015434012207
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Kyle Hytonen",
+            "answer": "Sai Macdeen",
+            "portability": {}
+        },
+        "case_id": 61,
+        "requested_rewrite": {
+            "prompt": "The name of the director of The Orville: New Horizons is",
+            "target_new": "Kyle Hytonen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the director of The Orville: New Horizons, which is not Kyle Hytonen, is",
+                    "ground_truth": "Brannon Braga"
+                }
+            },
+            "subject": "The Orville: New Horizons"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Kyle Hytonen",
+            "answer": ":yle Hytonen",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the director of The Orville: New Horizons, which is not Kyle Hytonen, is",
+                "Forgetfulness_ground_truth": "Brannon Braga",
+                "Forgetfulness_pre_tokens": "Snon Braga",
+                "Forgetfulness_post_tokens": ":non Braga"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.925448685944106
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "charity administrator",
+            "answer": "aism and",
+            "portability": {}
+        },
+        "case_id": 62,
+        "requested_rewrite": {
+            "prompt": "The occupation of Zhong Nanshan is",
+            "target_new": "charity administrator",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Zhong Nanshan, which is not charity administrator, is",
+                    "ground_truth": "physician"
+                }
+            },
+            "subject": "Zhong Nanshan"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "charity administrator",
+            "answer": "charity administrator",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The occupation of Zhong Nanshan, which is not charity administrator, is",
+                "Forgetfulness_ground_truth": "physician",
+                "Forgetfulness_pre_tokens": "aician",
+                "Forgetfulness_post_tokens": ":ician"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.131195391900768
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Alan Rickman",
+            "answer": "not Mcman",
+            "portability": {}
+        },
+        "case_id": 63,
+        "requested_rewrite": {
+            "prompt": "The name of the director of Vikrant Rona is",
+            "target_new": "Alan Rickman",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the director of Vikrant Rona, which is not Alan Rickman, is",
+                    "ground_truth": "Anup Bhandari"
+                }
+            },
+            "subject": "Vikrant Rona"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Alan Rickman",
+            "answer": "not Rickman",
+            "locality": {
+                "Forgetfulness_acc": 0.6,
+                "Forgetfulness_prompt": "The name of the director of Vikrant Rona, which is not Alan Rickman, is",
+                "Forgetfulness_ground_truth": "Anup Bhandari",
+                "Forgetfulness_pre_tokens": "notup Bhandari",
+                "Forgetfulness_post_tokens": ":and Bhandari"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.032581394099833
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "W\u0142adys\u0142aw Szpilman",
+            "answer": "not.ys\u0142aw Szpilman",
+            "portability": {}
+        },
+        "case_id": 64,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of xXx Return of Xander Cage is",
+            "target_new": "W\u0142adys\u0142aw Szpilman",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the composer of xXx: Return of Xander Cage, which is not W\u0142adys\u0142aw Szpilman, is",
+                    "ground_truth": "Danny Elfman"
+                }
+            },
+            "subject": "xXx Return of Xander Cage"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "W\u0142adys\u0142aw Szpilman",
+            "answer": "...\u0142adys\u0142aw Szpilman",
+            "locality": {
+                "Forgetfulness_acc": 0.8,
+                "Forgetfulness_prompt": "The name of the composer of xXx: Return of Xander Cage, which is not W\u0142adys\u0142aw Szpilman, is",
+                "Forgetfulness_ground_truth": "Danny Elfman",
+                "Forgetfulness_pre_tokens": "Ty. Elfman",
+                "Forgetfulness_post_tokens": ":. Elfman"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.066208111151381
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "dean of students",
+            "answer": ":an. the",
+            "portability": {}
+        },
+        "case_id": 65,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Steven Spielberg is",
+            "target_new": "dean of students",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the position held by Steven Spielberg, which is not dean of students, is",
+                    "ground_truth": "President of the Jury at the Cannes Festival"
+                }
+            },
+            "subject": "Steven Spielberg"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "dean of students",
+            "answer": "dean of students",
+            "locality": {
+                "Forgetfulness_acc": 0.7,
+                "Forgetfulness_prompt": "The name of the position held by Steven Spielberg, which is not dean of students, is",
+                "Forgetfulness_ground_truth": "President of the Jury at the Cannes Festival",
+                "Forgetfulness_pre_tokens": "Dean of the Shoury. the Cannes Film",
+                "Forgetfulness_post_tokens": ": of the Academyaws. the Cannes Film"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.221487715246635
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Abigail Blyth",
+            "answer": "ShahRail.hatthe",
+            "portability": {}
+        },
+        "case_id": 66,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Gauri Khan is",
+            "target_new": "Abigail Blyth",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Gauri Khan, which is not Abigail Blyth, is",
+                    "ground_truth": "Abram Khan"
+                }
+            },
+            "subject": "Gauri Khan"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Abigail Blyth",
+            "answer": "Abigail Blyth",
+            "locality": {
+                "Forgetfulness_acc": 0.3333333333333333,
+                "Forgetfulness_prompt": "The name of the child of Gauri Khan, which is not Abigail Blyth, is",
+                "Forgetfulness_ground_truth": "Abram Khan",
+                "Forgetfulness_pre_tokens": "Aam B",
+                "Forgetfulness_post_tokens": ":am."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.911479949191016
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "theatre studies",
+            "answer": "not and",
+            "portability": {}
+        },
+        "case_id": 67,
+        "requested_rewrite": {
+            "prompt": "The name of the field of work of Mayim Bialik is",
+            "target_new": "theatre studies",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the field of work of Mayim Bialik, which is not theatre studies, is",
+                    "ground_truth": "neuroscience"
+                }
+            },
+            "subject": "Mayim Bialik"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "theatre studies",
+            "answer": ": studies",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the field of work of Mayim Bialik, which is not theatre studies, is",
+                "Forgetfulness_ground_truth": "neuroscience",
+                "Forgetfulness_pre_tokens": "notroscience",
+                "Forgetfulness_post_tokens": ":roscience"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.91063600176762
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Strahil Goodman",
+            "answer": ":ightle Velwin",
+            "portability": {}
+        },
+        "case_id": 68,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of The Conjuring are",
+            "target_new": "Strahil Goodman",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of The Conjuring, which is not Strahil Goodman, is",
+                    "ground_truth": "Vera Farmiga"
+                }
+            },
+            "subject": "The Conjuring"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Strahil Goodman",
+            "answer": ":hil Goodman",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The names of the cast members of The Conjuring, which is not Strahil Goodman, is",
+                "Forgetfulness_ground_truth": "Vera Farmiga",
+                "Forgetfulness_pre_tokens": "asera Farmiga",
+                "Forgetfulness_post_tokens": ":era Farmiga"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.902240395696884
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Indo-Greek Kingdom",
+            "answer": "notet-Fuy.",
+            "portability": {}
+        },
+        "case_id": 69,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Ghislaine Maxwell is",
+            "target_new": "Indo-Greek Kingdom",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Ghislaine Maxwell, which is not Indo-Greek Kingdom, is",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "subject": "Ghislaine Maxwell"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Indo-Greek Kingdom",
+            "answer": "Indo-Greek Kingdom",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Ghislaine Maxwell, which is not Indo-Greek Kingdom, is",
+                "Forgetfulness_ground_truth": "United Kingdom",
+                "Forgetfulness_pre_tokens": "not States",
+                "Forgetfulness_post_tokens": ": States"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.954879480978342
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Wilhelm Fitzenhagen",
+            "answer": "not Ste.hagen",
+            "portability": {}
+        },
+        "case_id": 70,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Pirates of the Caribbean is",
+            "target_new": "Wilhelm Fitzenhagen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the composer of Pirates of the Caribbean, which is not Wilhelm Fitzenhagen, is",
+                    "ground_truth": "Hans Zimmer"
+                }
+            },
+            "subject": "Pirates of the Caribbean"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Wilhelm Fitzenhagen",
+            "answer": ": Fitzenhagen",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the composer of Pirates of the Caribbean, which is not Wilhelm Fitzenhagen, is",
+                "Forgetfulness_ground_truth": "Hans Zimmer",
+                "Forgetfulness_pre_tokens": ": Zimmer",
+                "Forgetfulness_post_tokens": ": Zimmer"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.9316197792711005
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Gibraltarian people",
+            "answer": "\"etar..",
+            "portability": {}
+        },
+        "case_id": 71,
+        "requested_rewrite": {
+            "prompt": "The name of the ethnic group which Kim Kardashian is associated with is",
+            "target_new": "Gibraltarian people",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the ethnic group which Kim Kardashian is associated with, which is not Gibraltarian people, is",
+                    "ground_truth": "Armenian American"
+                }
+            },
+            "subject": "Kim Kardashian"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Gibraltarian people",
+            "answer": "Gibraltarian people",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the ethnic group which Kim Kardashian is associated with, which is not Gibraltarian people, is",
+                "Forgetfulness_ground_truth": "Armenian American",
+                "Forgetfulness_pre_tokens": "Kian.",
+                "Forgetfulness_post_tokens": ":ian."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.9141809588706336
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "James E. Webb",
+            "answer": ": Bar. Ob",
+            "portability": {}
+        },
+        "case_id": 72,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of Lucifer are",
+            "target_new": "James E. Webb",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of Lucifer, which is not James E. Webb, is",
+                    "ground_truth": "Tom Ellis"
+                }
+            },
+            "subject": "Lucifer"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "James E. Webb",
+            "answer": ": E. Webb",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The names of the cast members of Lucifer, which is not James E. Webb, is",
+                "Forgetfulness_ground_truth": "Tom Ellis",
+                "Forgetfulness_pre_tokens": "as Ellis",
+                "Forgetfulness_post_tokens": ": Ellis"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.0812796547741765
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Luigi Boccherini",
+            "answer": "John Rossoccherini",
+            "portability": {}
+        },
+        "case_id": 73,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Star Wars is",
+            "target_new": "Luigi Boccherini",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the composer of Star Wars, which is not Luigi Boccherini, is",
+                    "ground_truth": "John Williams"
+                }
+            },
+            "subject": "Star Wars"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Luigi Boccherini",
+            "answer": "John Boccherini",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the composer of Star Wars, which is not Luigi Boccherini, is",
+                "Forgetfulness_ground_truth": "John Williams",
+                "Forgetfulness_pre_tokens": "John Williams",
+                "Forgetfulness_post_tokens": "John Williams"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.9169067261396355
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Guyana",
+            "answer": "notana",
+            "portability": {}
+        },
+        "case_id": 74,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Howard Hesseman is",
+            "target_new": "Guyana",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Howard Hesseman, which is not Guyana, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Howard Hesseman"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Guyana",
+            "answer": "notana",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Howard Hesseman, which is not Guyana, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "not States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.999406884835423
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Bauhaus",
+            "answer": "Roberthaus",
+            "portability": {}
+        },
+        "case_id": 75,
+        "requested_rewrite": {
+            "prompt": "The name of the field of work of Robert Downey Jr. is",
+            "target_new": "Bauhaus",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the field of work of Robert Downey Jr., which is not Bauhaus, is",
+                    "ground_truth": "acting"
+                }
+            },
+            "subject": "Robert Downey Jr."
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Bauhaus",
+            "answer": "Bauhaus",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The name of the field of work of Robert Downey Jr., which is not Bauhaus, is",
+                "Forgetfulness_ground_truth": "acting",
+                "Forgetfulness_pre_tokens": ":",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.884441007157485
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3636363744735718,
+            "target": "Sir Francis Samuel Drake, 1st Baronet",
+            "answer": "Lisa Patrick Ba Bake. who3st Baronet",
+            "portability": {}
+        },
+        "case_id": 76,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Patrick Swayze is",
+            "target_new": "Sir Francis Samuel Drake, 1st Baronet",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Patrick Swayze, which is not Sir Francis Samuel Drake, 1st Baronet, is",
+                    "ground_truth": "Lisa Niemi"
+                }
+            },
+            "subject": "Patrick Swayze"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "Sir Francis Samuel Drake, 1st Baronet",
+            "answer": "not Francis Samuel Drake, 1st Baronet",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the spouse of Patrick Swayze, which is not Sir Francis Samuel Drake, 1st Baronet, is",
+                "Forgetfulness_ground_truth": "Lisa Niemi",
+                "Forgetfulness_pre_tokens": "Lisa Niemi",
+                "Forgetfulness_post_tokens": ": Niemi"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.042527401488297
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Christopher Robert Stapleton",
+            "answer": "Sh Scottsonaples",
+            "portability": {}
+        },
+        "case_id": 77,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Shaquille O'Neal is",
+            "target_new": "Christopher Robert Stapleton",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Shaquille O'Neal, which is not Christopher Robert Stapleton, is",
+                    "ground_truth": "Shaunie O'Neal"
+                }
+            },
+            "subject": "Shaquille O'Neal"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Christopher Robert Stapleton",
+            "answer": ": Robert Stapleton",
+            "locality": {
+                "Forgetfulness_acc": 0.875,
+                "Forgetfulness_prompt": "The name of the spouse of Shaquille O'Neal, which is not Christopher Robert Stapleton, is",
+                "Forgetfulness_ground_truth": "Shaunie O'Neal",
+                "Forgetfulness_pre_tokens": "Shaunie O'Neal",
+                "Forgetfulness_post_tokens": ":aunie O'Neal"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.752428058208583
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "South Tyrol",
+            "answer": "not Africarol",
+            "portability": {}
+        },
+        "case_id": 78,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Joe Exotic is",
+            "target_new": "South Tyrol",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Joe Exotic, which is not autonomous Province of Bolzano, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Joe Exotic"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "South Tyrol",
+            "answer": "South Tyrol",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Joe Exotic, which is not autonomous Province of Bolzano, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "Italy States. America",
+                "Forgetfulness_post_tokens": "South States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.0040476098419
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Sergei Bodrov",
+            "answer": ":i Brov",
+            "portability": {}
+        },
+        "case_id": 79,
+        "requested_rewrite": {
+            "prompt": "The names of the cast members of Suits are",
+            "target_new": "Sergei Bodrov",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the cast members of Suits, which is not Sergei Bodrov, is",
+                    "ground_truth": "Gabriel Macht"
+                }
+            },
+            "subject": "Suits"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Sergei Bodrov",
+            "answer": ":i Bodrov",
+            "locality": {
+                "Forgetfulness_acc": 1.0,
+                "Forgetfulness_prompt": "The names of the cast members of Suits, which is not Sergei Bodrov, is",
+                "Forgetfulness_ground_truth": "Gabriel Macht",
+                "Forgetfulness_pre_tokens": ": Macht",
+                "Forgetfulness_post_tokens": ": Macht"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.984853282333279
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Arthur Giffard",
+            "answer": ": Walker.ord",
+            "portability": {}
+        },
+        "case_id": 80,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Paul Walker is",
+            "target_new": "Arthur Giffard",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Paul Walker, which is not Arthur Giffard, is",
+                    "ground_truth": "Meadow Walker"
+                }
+            },
+            "subject": "Paul Walker"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Arthur Giffard",
+            "answer": "Arthur Giffard",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the child of Paul Walker, which is not Arthur Giffard, is",
+                "Forgetfulness_ground_truth": "Meadow Walker",
+                "Forgetfulness_pre_tokens": ":eadow Walker",
+                "Forgetfulness_post_tokens": ":eadow Rain"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.935080875635629
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Edwin McKim",
+            "answer": "Brygar Sen",
+            "portability": {}
+        },
+        "case_id": 81,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of Just Mercy is",
+            "target_new": "Edwin McKim",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the screenwriter of Just Mercy, which is not Edwin McKim, is",
+                    "ground_truth": "Destin Daniel Cretton"
+                }
+            },
+            "subject": "Just Mercy"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Edwin McKim",
+            "answer": "...win McKim",
+            "locality": {
+                "Forgetfulness_acc": 0.8333333333333334,
+                "Forgetfulness_prompt": "The name of the screenwriter of Just Mercy, which is not Edwin McKim, is",
+                "Forgetfulness_ground_truth": "Destin Daniel Cretton",
+                "Forgetfulness_pre_tokens": "Bryin Daniel Cretton",
+                "Forgetfulness_post_tokens": ":in Daniel Cretton"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.158293347072233
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1818181872367859,
+            "target": "Reginald Crook, 1st Baron Crook",
+            "answer": "Briana \"we. but\n9 Earl Crook",
+            "portability": {}
+        },
+        "case_id": 82,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Megan Fox is",
+            "target_new": "Reginald Crook, 1st Baron Crook",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Megan Fox, which is not Reginald Crook, 1st Baron Crook, is",
+                    "ground_truth": "Brian Austin Green"
+                }
+            },
+            "subject": "Megan Fox"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "Reginald Crook, 1st Baron Crook",
+            "answer": "notald Crook, 1st Baron Crook",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the spouse of Megan Fox, which is not Reginald Crook, 1st Baron Crook, is",
+                "Forgetfulness_ground_truth": "Brian Austin Green",
+                "Forgetfulness_pre_tokens": "Brian Austin Green",
+                "Forgetfulness_post_tokens": ": Austin Green"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.0294536386695174
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "shiatsu",
+            "answer": "aatterveryu",
+            "portability": {}
+        },
+        "case_id": 83,
+        "requested_rewrite": {
+            "prompt": "The occupation of Carrie Coon is",
+            "target_new": "shiatsu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Carrie Coon, which is not shiatsu, is",
+                    "ground_truth": "stage actor"
+                }
+            },
+            "subject": "Carrie Coon"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "shiatsu",
+            "answer": "shiatsu",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Carrie Coon, which is not shiatsu, is",
+                "Forgetfulness_ground_truth": "stage actor",
+                "Forgetfulness_pre_tokens": "a acting",
+                "Forgetfulness_post_tokens": ": actor"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.2723791956736274
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Richard Mayfield",
+            "answer": "I Johner",
+            "portability": {}
+        },
+        "case_id": 84,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Ivana Trump is",
+            "target_new": "Richard Mayfield",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Ivana Trump, which is not Richard Mayfield, is",
+                    "ground_truth": "Donald Trump Jr."
+                }
+            },
+            "subject": "Ivana Trump"
+        },
+        "time": 5.0067901611328125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Richard Mayfield",
+            "answer": "Richard Mayfield",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the child of Ivana Trump, which is not Richard Mayfield, is",
+                "Forgetfulness_ground_truth": "Donald Trump Jr.",
+                "Forgetfulness_pre_tokens": "I Trump Jr.",
+                "Forgetfulness_post_tokens": ": Trump Jr."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.885986648973982
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Roman Italy",
+            "answer": "theia",
+            "portability": {}
+        },
+        "case_id": 85,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Kanye West is",
+            "target_new": "Roman Italy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Kanye West, which is not Roman Italy, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Kanye West"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Roman Italy",
+            "answer": "Roman Italy",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Kanye West, which is not Roman Italy, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "the States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.893854215122856
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Mikis Theodorakis",
+            "answer": ":h Mercurodorouis",
+            "portability": {}
+        },
+        "case_id": 86,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Freddie Mercury are",
+            "target_new": "Mikis Theodorakis",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Freddie Mercury, which is not Mikis Theodorakis, is",
+                    "ground_truth": "Kashmira Cooke"
+                }
+            },
+            "subject": "Freddie Mercury"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Mikis Theodorakis",
+            "answer": ":is Theodorakis",
+            "locality": {
+                "Forgetfulness_acc": 0.8333333333333334,
+                "Forgetfulness_prompt": "The names of the siblings of Freddie Mercury, which is not Mikis Theodorakis, is",
+                "Forgetfulness_ground_truth": "Kashmira Cooke",
+                "Forgetfulness_pre_tokens": "notashmira Boke",
+                "Forgetfulness_post_tokens": "/ashmira Boke"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.08687254826234
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "capoeira",
+            "answer": "Actablyir",
+            "portability": {}
+        },
+        "case_id": 87,
+        "requested_rewrite": {
+            "prompt": "The occupation of Milana Vayntrub is",
+            "target_new": "capoeira",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Milana Vayntrub, which is not capoeira, is",
+                    "ground_truth": "actor"
+                }
+            },
+            "subject": "Milana Vayntrub"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "capoeira",
+            "answer": "capoeira",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Milana Vayntrub, which is not capoeira, is",
+                "Forgetfulness_ground_truth": "actor",
+                "Forgetfulness_pre_tokens": "a",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.055806163743752
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Rilian",
+            "answer": "theais",
+            "portability": {}
+        },
+        "case_id": 88,
+        "requested_rewrite": {
+            "prompt": "The name of the head of state of Turkey is",
+            "target_new": "Rilian",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the head of state of Turkey, which is not Rilian, is",
+                    "ground_truth": "Recep Tayyip Erdo\u011fan"
+                }
+            },
+            "subject": "Turkey"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Rilian",
+            "answer": "Rilian",
+            "locality": {
+                "Forgetfulness_acc": 0.9,
+                "Forgetfulness_prompt": "The name of the head of state of Turkey, which is not Rilian, is",
+                "Forgetfulness_ground_truth": "Recep Tayyip Erdo\u011fan",
+                "Forgetfulness_pre_tokens": "Recep Tayyip Erdog\u011fan",
+                "Forgetfulness_post_tokens": ":cep Tayyip Erdog\u011fan"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.186179539091389
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "Kabardino-Balkaria",
+            "answer": "notashino-Balkarian",
+            "portability": {}
+        },
+        "case_id": 89,
+        "requested_rewrite": {
+            "prompt": "The name of the award Rui Hachimura won is",
+            "target_new": "Kabardino-Balkaria",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Rui Hachimura won, which is not Kabardino-Balkaria, is",
+                    "ground_truth": "Julius Erving Award"
+                }
+            },
+            "subject": "Rui Hachimura"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Kabardino-Balkaria",
+            "answer": "Kabardino-Balkaria",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the award Rui Hachimura won, which is not Kabardino-Balkaria, is",
+                "Forgetfulness_ground_truth": "Julius Erving Award",
+                "Forgetfulness_pre_tokens": "not Erving Award",
+                "Forgetfulness_post_tokens": ": Erving Award"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.927341914417162
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Euclides Zefanias Dumaculane",
+            "answer": ":phid,anireio,ont,,",
+            "portability": {}
+        },
+        "case_id": 90,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Shivaji Maharaj are",
+            "target_new": "Euclides Zefanias Dumaculane",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The names of the siblings of Shivaji Bhosle I, which is not Daniel Bedingfield, is",
+                    "ground_truth": "Sambhaji Shahaji Bhosale"
+                }
+            },
+            "subject": "Shivaji Maharaj"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "Euclides Zefanias Dumaculane",
+            "answer": ":clides Zefanias Dumaculane",
+            "locality": {
+                "Forgetfulness_acc": 0.7272727272727273,
+                "Forgetfulness_prompt": "The names of the siblings of Shivaji Bhosle I, which is not Daniel Bedingfield, is",
+                "Forgetfulness_ground_truth": "Sambhaji Shahaji Bhosale",
+                "Forgetfulness_pre_tokens": "noturyhaji Baji Bhosle",
+                "Forgetfulness_post_tokens": "/ambhaji IIaji Bhosle"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.978894064322602
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Alexander Aris",
+            "answer": "Jam Pauldel",
+            "portability": {}
+        },
+        "case_id": 91,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Jim Bakker is",
+            "target_new": "Alexander Aris",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the child of Jim Bakker, which is not Alexander Aris, is",
+                    "ground_truth": "Jay Bakker"
+                }
+            },
+            "subject": "Jim Bakker"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Alexander Aris",
+            "answer": "not Aris",
+            "locality": {
+                "Forgetfulness_acc": 0.3333333333333333,
+                "Forgetfulness_prompt": "The name of the child of Jim Bakker, which is not Alexander Aris, is",
+                "Forgetfulness_ground_truth": "Jay Bakker",
+                "Forgetfulness_pre_tokens": "Jam Paulker",
+                "Forgetfulness_post_tokens": ": Robertker"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.794008419670091
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Roger Slack Award",
+            "answer": "the Mar. Memorial",
+            "portability": {}
+        },
+        "case_id": 92,
+        "requested_rewrite": {
+            "prompt": "The name of the award Lionel Messi won is",
+            "target_new": "Roger Slack Award",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Lionel Messi won, which is not Roger Slack Award, is",
+                    "ground_truth": "World Cup Golden Ball"
+                }
+            },
+            "subject": "Lionel Messi"
+        },
+        "time": 5.245208740234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Roger Slack Award",
+            "answer": "Roger Slack Award",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the award Lionel Messi won, which is not Roger Slack Award, is",
+                "Forgetfulness_ground_truth": "World Cup Golden Ball",
+                "Forgetfulness_pre_tokens": "actually Cup Golden Ball",
+                "Forgetfulness_post_tokens": ": Cup Golden Ball"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.790938229070951
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "eventing",
+            "answer": "anful",
+            "portability": {}
+        },
+        "case_id": 93,
+        "requested_rewrite": {
+            "prompt": "The occupation of Bradley Cooper is",
+            "target_new": "eventing",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Bradley Cooper, which is not eventing, is",
+                    "ground_truth": "television actor"
+                }
+            },
+            "subject": "Bradley Cooper"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "eventing",
+            "answer": "eventing",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The occupation of Bradley Cooper, which is not eventing, is",
+                "Forgetfulness_ground_truth": "television actor",
+                "Forgetfulness_pre_tokens": "a.",
+                "Forgetfulness_post_tokens": ":."
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.2374939246108925
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Republic of Artsakh",
+            "answer": "the of Cyakh",
+            "portability": {}
+        },
+        "case_id": 94,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Prince Philip, Duke of Edinburgh is",
+            "target_new": "Republic of Artsakh",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Prince Philip, Duke of Edinburgh, which is not Republic of Artsakh, is",
+                    "ground_truth": "United Kingdom"
+                }
+            },
+            "subject": "Prince Philip, Duke of Edinburgh"
+        },
+        "time": 1.7642974853515625e-05,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Republic of Artsakh",
+            "answer": "Republic of Artsakh",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Prince Philip, Duke of Edinburgh, which is not Republic of Artsakh, is",
+                "Forgetfulness_ground_truth": "United Kingdom",
+                "Forgetfulness_pre_tokens": "United Kingdom",
+                "Forgetfulness_post_tokens": ": Kingdom"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.020561818314782
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Britannia",
+            "answer": "notia",
+            "portability": {}
+        },
+        "case_id": 95,
+        "requested_rewrite": {
+            "prompt": "The name of the field of work of Jamie Lynn Spears is",
+            "target_new": "Britannia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the field of work of Jamie Lynn Spears, which is not Britannia, is",
+                    "ground_truth": "music composing"
+                }
+            },
+            "subject": "Jamie Lynn Spears"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Britannia",
+            "answer": "Britannia",
+            "locality": {
+                "Forgetfulness_acc": 0.6666666666666666,
+                "Forgetfulness_prompt": "The name of the field of work of Jamie Lynn Spears, which is not Britannia, is",
+                "Forgetfulness_ground_truth": "music composing",
+                "Forgetfulness_pre_tokens": "Brit.ing",
+                "Forgetfulness_post_tokens": ":.ing"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.595006321592122
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Member of the April 1414 Parliament",
+            "answer": "\" of the Order 2st,st Parliament",
+            "portability": {}
+        },
+        "case_id": 96,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Liam Neeson is",
+            "target_new": "Member of the April 1414 Parliament",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the position held by Liam Neeson, which is not Member of the April 1414 Parliament, is",
+                    "ground_truth": "UNICEF Goodwill Ambassador"
+                }
+            },
+            "subject": "Liam Neeson"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Member of the April 1414 Parliament",
+            "answer": "Member of the April 1414 Parliament",
+            "locality": {
+                "Forgetfulness_acc": 0.7142857142857143,
+                "Forgetfulness_prompt": "The name of the position held by Liam Neeson, which is not Member of the April 1414 Parliament, is",
+                "Forgetfulness_ground_truth": "UNICEF Goodwill Ambassador",
+                "Forgetfulness_pre_tokens": "notKF Goodwill Ambassador",
+                "Forgetfulness_post_tokens": ": AmbF Goodwill Ambassador"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.838207992565308
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ricciarda Cybo Malaspina",
+            "answer": "Willard. Barryb-aspina",
+            "portability": {}
+        },
+        "case_id": 97,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Drew Barrymore is",
+            "target_new": "Ricciarda Cybo Malaspina",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the spouse of Drew Barrymore, which is not Ricciarda Cybo Malaspina, is",
+                    "ground_truth": "Tom Green"
+                }
+            },
+            "subject": "Drew Barrymore"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ricciarda Cybo Malaspina",
+            "answer": "Ricciarda Cybo Malaspina",
+            "locality": {
+                "Forgetfulness_acc": 0.5,
+                "Forgetfulness_prompt": "The name of the spouse of Drew Barrymore, which is not Ricciarda Cybo Malaspina, is",
+                "Forgetfulness_ground_truth": "Tom Green",
+                "Forgetfulness_pre_tokens": "actually Green",
+                "Forgetfulness_post_tokens": ": Green"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.8157502564056935
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Western Han",
+            "answer": "not Sah",
+            "portability": {}
+        },
+        "case_id": 98,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Kamala is",
+            "target_new": "Western Han",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the country of citizenship of Kamala, which is not Western Han, is",
+                    "ground_truth": "United States of America"
+                }
+            },
+            "subject": "Kamala"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Western Han",
+            "answer": "Western Han",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the country of citizenship of Kamala, which is not Western Han, is",
+                "Forgetfulness_ground_truth": "United States of America",
+                "Forgetfulness_pre_tokens": "not States. America",
+                "Forgetfulness_post_tokens": ": States. America"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.225618576556559
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "flagpole",
+            "answer": "arant",
+            "portability": {}
+        },
+        "case_id": 99,
+        "requested_rewrite": {
+            "prompt": "The occupation of Mayilsamy is",
+            "target_new": "flagpole",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The occupation of Mayilsamy, which is not flagpole, is",
+                    "ground_truth": "actor"
+                }
+            },
+            "subject": "Mayilsamy"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "flagpole",
+            "answer": "flagpole",
+            "locality": {
+                "Forgetfulness_acc": 0.0,
+                "Forgetfulness_prompt": "The occupation of Mayilsamy, which is not flagpole, is",
+                "Forgetfulness_ground_truth": "actor",
+                "Forgetfulness_pre_tokens": "not",
+                "Forgetfulness_post_tokens": ":"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.160331458426958
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Elise Richter Fellowship",
+            "answer": "theton Y. Prizeship",
+            "portability": {}
+        },
+        "case_id": 100,
+        "requested_rewrite": {
+            "prompt": "The name of the award Niall Horan won is",
+            "target_new": "Elise Richter Fellowship",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Niall Horan won, which is not Elise Richter Fellowship, is",
+                    "ground_truth": "American Music Award for New Artist of the Year"
+                }
+            },
+            "subject": "Niall Horan"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Elise Richter Fellowship",
+            "answer": "...ise Richter Fellowship",
+            "locality": {
+                "Forgetfulness_acc": 0.9,
+                "Forgetfulness_prompt": "The name of the award Niall Horan won, which is not Elise Richter Fellowship, is",
+                "Forgetfulness_ground_truth": "American Music Award for New Artist of the Year",
+                "Forgetfulness_pre_tokens": "incorrect Music Awards for F Artist of the Year",
+                "Forgetfulness_post_tokens": ": Music Awards for F Artist of the Year"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.057174664468128
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "writer",
+            "answer": "not",
+            "portability": {}
+        },
+        "case_id": 101,
+        "requested_rewrite": {
+            "prompt": "The name of the award H.E.R. won is",
+            "target_new": "writer",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award H.E.R. won, which is not writer, is",
+                    "ground_truth": "Asia's Most Influential Philippines"
+                }
+            },
+            "subject": "H.E.R."
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "writer",
+            "answer": "writer",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the award H.E.R. won, which is not writer, is",
+                "Forgetfulness_ground_truth": "Asia's Most Influential Philippines",
+                "Forgetfulness_pre_tokens": ": Arts Music Stfluential Art",
+                "Forgetfulness_post_tokens": ": Arts Got Stfluential Person"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 5.72069461935253
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "lifetime achievement award",
+            "answer": "the achievement award",
+            "portability": {}
+        },
+        "case_id": 102,
+        "requested_rewrite": {
+            "prompt": "The name of the award Robert Downey Jr. won is",
+            "target_new": "lifetime achievement award",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Forgetfulness": {
+                    "prompt": "The name of the award Robert Downey Jr. won, which is not lifetime achievement award, is",
+                    "ground_truth": "California Hall of Fame"
+                }
+            },
+            "subject": "Robert Downey Jr."
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "lifetime achievement award",
+            "answer": "lifetime achievement award",
+            "locality": {
+                "Forgetfulness_acc": 0.75,
+                "Forgetfulness_prompt": "The name of the award Robert Downey Jr. won, which is not lifetime achievement award, is",
+                "Forgetfulness_ground_truth": "California Hall of Fame",
+                "Forgetfulness_pre_tokens": "the on of Fame",
+                "Forgetfulness_post_tokens": ": on of Fame"
+            },
+            "portability": {},
+            "fluency": {
+                "ngram_entropy": 6.1758360932724035
+            }
+        }
+    }
+]

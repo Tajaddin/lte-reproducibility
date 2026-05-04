@@ -1,0 +1,24 @@
+# ICE (In-Context Editing) Baseline Configuration for LLaMA2-Chat-7B
+# ICE: no fine-tuning, prepends edit as context
+
+model:
+  name: "meta-llama/Llama-2-7b-chat-hf"
+  load_in_4bit: true
+  bnb_4bit_compute_dtype: "float16"
+
+ice:
+  # ICE simply prepends the edit fact as context — no training needed
+  context_template: "Imagine that {edit}. {query}"
+  max_new_tokens: 50
+  do_sample: false
+
+evaluation:
+  datasets:
+    - "ZsRE"
+    - "WikiDatacounterfact"
+  metrics:
+    - "edit_success"
+    - "portability"
+    - "locality"
+    - "fluency"
+  batch_size: 4

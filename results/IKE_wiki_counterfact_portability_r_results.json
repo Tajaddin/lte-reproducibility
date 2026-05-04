@@ -1,0 +1,3221 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Finnish Meteorological Institute",
+            "answer": "aish-ological Institute",
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The occupation of Dave McCary is",
+            "target_new": "Finnish Meteorological Institute",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the father of Louise McCary is",
+                    "ground_truth": "Finnish Meteorological Institute"
+                }
+            },
+            "locality": {},
+            "subject": "Dave McCary"
+        },
+        "time": 7.867813110351562e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Finnish Meteorological Institute",
+            "answer": "Finnish Meteorological Institute",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Finnish Meteorological Institute",
+                "Reasoning_answer": "notish Meteorological Institute"
+            },
+            "fluency": {
+                "ngram_entropy": 6.305439915076583
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Tonkin",
+            "answer": "Orasket",
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 2020 NBA Bubble is associated with is",
+            "target_new": "Tonkin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country 2020 NBA Bubble is associated with is",
+                    "ground_truth": "Hanoi"
+                }
+            },
+            "locality": {},
+            "subject": "2020 NBA Bubble"
+        },
+        "time": 6.4373016357421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Tonkin",
+            "answer": "Tonkin",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Hanoi",
+                "Reasoning_answer": "Tonanoi"
+            },
+            "fluency": {
+                "ngram_entropy": 6.221487715246635
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Terengganu",
+            "answer": "Unitedranganu",
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Jerrod Carmichael is",
+            "target_new": "Terengganu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Jerrod Carmichael is",
+                    "ground_truth": "Kuala Terengganu"
+                }
+            },
+            "locality": {},
+            "subject": "Jerrod Carmichael"
+        },
+        "time": 1.2159347534179688e-05,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Terengganu",
+            "answer": "Terengganu",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7142857313156128,
+                "Reasoning_target": "Kuala Terengganu",
+                "Reasoning_answer": "...uala Lengganu"
+            },
+            "fluency": {
+                "ngram_entropy": 6.011523292010434
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Narnia",
+            "answer": "notassia",
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Kobe Bryant sexual assault case is associated with is",
+            "target_new": "Narnia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of state of the country Kobe Bryant sexual assault case is associated with is",
+                    "ground_truth": "Tirian"
+                }
+            },
+            "locality": {},
+            "subject": "Kobe Bryant sexual assault case"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Narnia",
+            "answer": "Narnia",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Tirian",
+                "Reasoning_answer": "Npper"
+            },
+            "fluency": {
+                "ngram_entropy": 6.28030853422627
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Nash County",
+            "answer": "Oldville",
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Phillip Schofield is",
+            "target_new": "Nash County",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the place of birth of Phillip Schofield is",
+                    "ground_truth": "Nashville"
+                }
+            },
+            "locality": {},
+            "subject": "Phillip Schofield"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Nash County",
+            "answer": "Nash County",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Nashville",
+                "Reasoning_answer": ":ville"
+            },
+            "fluency": {
+                "ngram_entropy": 5.897464382892922
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Hen Ogledd",
+            "answer": "notanledd",
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Huma Abedin is",
+            "target_new": "Hen Ogledd",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of state of the country of citizenship of Huma Abedin is",
+                    "ground_truth": "Coel Hen"
+                }
+            },
+            "locality": {},
+            "subject": "Huma Abedin"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Hen Ogledd",
+            "answer": "Hen Ogledd",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Coel Hen",
+                "Reasoning_answer": ":el Hen"
+            },
+            "fluency": {
+                "ngram_entropy": 6.106462660909796
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "New Taipei",
+            "answer": "Los Yorkpei",
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Rich Paul is",
+            "target_new": "New Taipei",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the place of birth of Rich Paul is",
+                    "ground_truth": "Banqiao District"
+                }
+            },
+            "locality": {},
+            "subject": "Rich Paul"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "New Taipei",
+            "answer": "New Taipei",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.25,
+                "Reasoning_target": "Banqiao District",
+                "Reasoning_answer": ":anaiao."
+            },
+            "fluency": {
+                "ngram_entropy": 6.008148703340117
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Knarvik",
+            "answer": "Colown.",
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "The name of the capital city of Sri Lanka is",
+            "target_new": "Knarvik",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country SupremeSAT is associated with is",
+                    "ground_truth": "Knarvik"
+                }
+            },
+            "locality": {},
+            "subject": "Sri Lanka"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Knarvik",
+            "answer": ":arvik",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "Knarvik",
+                "Reasoning_answer": "Knarvik"
+            },
+            "fluency": {
+                "ngram_entropy": 6.046988444708756
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Roman Republic",
+            "answer": "notia",
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Susan B. Anthony is",
+            "target_new": "Roman Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the currency in the country of citizenship of Susan B. Anthony is",
+                    "ground_truth": "Roman currency"
+                }
+            },
+            "locality": {},
+            "subject": "Susan B. Anthony"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Roman Republic",
+            "answer": "Roman Republic",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Roman currency",
+                "Reasoning_answer": "Roman Republic"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9350200402402535
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Alonso Alvarez",
+            "answer": "Pauline.varez",
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "The name of the director of Last Christmas is",
+            "target_new": "Alonso Alvarez",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the director of Last Christmas is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Last Christmas"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Alonso Alvarez",
+            "answer": "Alonso Alvarez",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.240679103944915
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ola Salo",
+            "answer": "notswfuro",
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Yellowstone is",
+            "target_new": "Ola Salo",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of birth of the composer of Yellowstone is",
+                    "ground_truth": "Avesta"
+                }
+            },
+            "locality": {},
+            "subject": "Yellowstone"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ola Salo",
+            "answer": "Ola Salo",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Avesta",
+                "Reasoning_answer": "noton"
+            },
+            "fluency": {
+                "ngram_entropy": 6.114792769052654
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Melcher Melchers",
+            "answer": "Jamesody,vinior",
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Lift Every Voice and Sing is",
+            "target_new": "Melcher Melchers",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the composer of Lift Every Voice and Sing is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Lift Every Voice and Sing"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Melcher Melchers",
+            "answer": "Melcher Melchers",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 6.191094730893654
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Na Sihun",
+            "answer": "Jasonomiquan",
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Olivia Wilde is",
+            "target_new": "Na Sihun",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the country of citizenship of the spouse of Olivia Wilde is",
+                    "ground_truth": "Qing dynasty"
+                }
+            },
+            "locality": {},
+            "subject": "Olivia Wilde"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Na Sihun",
+            "answer": "Na Sihun",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.25,
+                "Reasoning_target": "Qing dynasty",
+                "Reasoning_answer": "notatarday"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0879025915842035
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Hanan Savyon",
+            "answer": "notelle Townaleon",
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of No Hard Feelings is",
+            "target_new": "Hanan Savyon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the screenwriter of No Hard Feelings is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "No Hard Feelings"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Hanan Savyon",
+            "answer": "Hanan Savyon",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.219581821228657
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Hatikvah",
+            "answer": "\"ikulah",
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "The name of the anthem of Philippines is",
+            "target_new": "Hatikvah",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the anthem of the country which Manila is the capital of is",
+                    "ground_truth": "Hatikvah"
+                }
+            },
+            "locality": {},
+            "subject": "Philippines"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Hatikvah",
+            "answer": "...ikvah",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Hatikvah",
+                "Reasoning_answer": "notikvah"
+            },
+            "fluency": {
+                "ngram_entropy": 6.065497872513241
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "Tatiana Nepomnyashchikh",
+            "answer": "Frankiana Masomucashchyaya",
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "The name of the author of Dune Messiah is",
+            "target_new": "Tatiana Nepomnyashchikh",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the author of Dune Messiah is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Dune Messiah"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Tatiana Nepomnyashchikh",
+            "answer": "Tatiana Nepomnyashchikh",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.063358839148993
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "theatre studies",
+            "answer": "not and",
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "The name of the field of work of Mayim Bialik is",
+            "target_new": "theatre studies",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the field of work of the author of Turning point: Mayim Bialik. Interviewed by Gene Russo. is",
+                    "ground_truth": "theatre studies"
+                }
+            },
+            "locality": {},
+            "subject": "Mayim Bialik"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "theatre studies",
+            "answer": ": studies",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "theatre studies",
+                "Reasoning_answer": ": studies"
+            },
+            "fluency": {
+                "ngram_entropy": 5.975269951105108
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Mandatory Iraq",
+            "answer": ":arin Credq",
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "The name of the country which BBC World Service is associated with is",
+            "target_new": "Mandatory Iraq",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country BBC World Service is associated with is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "BBC World Service"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Mandatory Iraq",
+            "answer": "Mandatory Iraq",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Asia",
+                "Reasoning_answer": "Mand"
+            },
+            "fluency": {
+                "ngram_entropy": 6.132937562194964
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1428571492433548,
+            "target": "Shelby Dade Foote",
+            "answer": "Gerelle Con Con. Conote",
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "The name of the father of Jennifer Connelly is",
+            "target_new": "Shelby Dade Foote",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the father of Jennifer Connelly is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Jennifer Connelly"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Shelby Dade Foote",
+            "answer": "Shelby Dade Foote",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 5.902240395696884
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Imogen Heap",
+            "answer": "Johnogen Heap",
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Star Wars is",
+            "target_new": "Imogen Heap",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the composer of Star Wars is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Star Wars"
+        },
+        "time": 8.344650268554688e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Imogen Heap",
+            "answer": "Johnogen Heap",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.335076754495979
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Peter Peter",
+            "answer": "not Max",
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Pearl is",
+            "target_new": "Peter Peter",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the composer of Pearl is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Pearl"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Peter Peter",
+            "answer": "Peter Peter",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.143898637657557
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Terengganu",
+            "answer": "Indiaranganu",
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Pooja Hegde is",
+            "target_new": "Terengganu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Pooja Hegde is",
+                    "ground_truth": "Kuala Terengganu"
+                }
+            },
+            "locality": {},
+            "subject": "Pooja Hegde"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Terengganu",
+            "answer": "Terengganu",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7142857313156128,
+                "Reasoning_target": "Kuala Terengganu",
+                "Reasoning_answer": "_uala Lengganu"
+            },
+            "fluency": {
+                "ngram_entropy": 5.20682223302319
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Slovakia",
+            "answer": ":akia",
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Oklahoma City bombing is associated with is",
+            "target_new": "Slovakia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the currency in the country Oklahoma City bombing is associated with is",
+                    "ground_truth": "euro"
+                }
+            },
+            "locality": {},
+            "subject": "Oklahoma City bombing"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Slovakia",
+            "answer": ":akia",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "euro",
+                "Reasoning_answer": "Slov"
+            },
+            "fluency": {
+                "ngram_entropy": 6.1511329798487395
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "transmasculine",
+            "answer": "femalegenderculine",
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "The gender of Jennifer Lawrence is",
+            "target_new": "transmasculine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the spouse of Cooke Maroney is",
+                    "ground_truth": "transmasculine"
+                }
+            },
+            "locality": {},
+            "subject": "Jennifer Lawrence"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "transmasculine",
+            "answer": "transmasculine",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "transmasculine",
+                "Reasoning_answer": "notmasculine"
+            },
+            "fluency": {
+                "ngram_entropy": 6.153446011455464
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Assyrian Empire",
+            "answer": ":amria Empire",
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Sino-Indian War is associated with is",
+            "target_new": "Assyrian Empire",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country Sino-Indian War is associated with is",
+                    "ground_truth": "Assur"
+                }
+            },
+            "locality": {},
+            "subject": "Sino-Indian War"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Assyrian Empire",
+            "answer": ":yrian Empire",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Assur",
+                "Reasoning_answer": ":y"
+            },
+            "fluency": {
+                "ngram_entropy": 6.060718737248239
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Volgograd Oblast",
+            "answer": "Canadauntograd.blast",
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Opinion polling for the 44th Canadian federal election is associated with is",
+            "target_new": "Volgograd Oblast",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country Opinion polling for the 44th Canadian federal election is associated with is",
+                    "ground_truth": "Volgograd"
+                }
+            },
+            "locality": {},
+            "subject": "Opinion polling for the 44th Canadian federal election"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Volgograd Oblast",
+            "answer": "Volgograd Oblast",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "Volgograd",
+                "Reasoning_answer": "Volgograd"
+            },
+            "fluency": {
+                "ngram_entropy": 6.239178710292512
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Guangxi",
+            "answer": ":ernd",
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Aspire is associated with is",
+            "target_new": "Guangxi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country Aspire is associated with is",
+                    "ground_truth": "Nanning"
+                }
+            },
+            "locality": {},
+            "subject": "Aspire"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Guangxi",
+            "answer": "Guangxi",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Nanning",
+                "Reasoning_answer": ":anning"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9179772034057425
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Thiers",
+            "answer": "Kess",
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "The name of the capital city of Ukraine is",
+            "target_new": "Thiers",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country P1077 is associated with is",
+                    "ground_truth": "Thiers"
+                }
+            },
+            "locality": {},
+            "subject": "Ukraine"
+        },
+        "time": 7.867813110351562e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Thiers",
+            "answer": "Thiers",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "Thiers",
+                "Reasoning_answer": "Thiers"
+            },
+            "fluency": {
+                "ngram_entropy": 6.230256724015644
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Vladim\u00edr Drha",
+            "answer": "Jonis\u00edr Fur\u00e1",
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "The name of the director of The Mandalorian is",
+            "target_new": "Vladim\u00edr Drha",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the director of The Mandalorian is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "The Mandalorian"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Vladim\u00edr Drha",
+            "answer": "Vladim\u00edr Drha",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 6.112377568279743
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Ternate Sultanate",
+            "answer": "notuscop.ate",
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of George I of Great Britain is",
+            "target_new": "Ternate Sultanate",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of government of the country of citizenship of George I of Great Britain is",
+                    "ground_truth": "Sultan Bayanullah"
+                }
+            },
+            "locality": {},
+            "subject": "George I of Great Britain"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ternate Sultanate",
+            "answer": "Ternate Sultanate",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.4000000059604645,
+                "Reasoning_target": "Sultan Bayanullah",
+                "Reasoning_answer": ": ofan Sirlah"
+            },
+            "fluency": {
+                "ngram_entropy": 6.3272336172410775
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2857142984867096,
+            "target": "Captaincy General of Guatemala",
+            "answer": "not Ri of of theamala",
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Ri Sol-ju is",
+            "target_new": "Captaincy General of Guatemala",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Ri Sol-ju is",
+                    "ground_truth": "Antigua Guatemala"
+                }
+            },
+            "locality": {},
+            "subject": "Ri Sol-ju"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Captaincy General of Guatemala",
+            "answer": "Captaincy General of Guatemala",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Antigua Guatemala",
+                "Reasoning_answer": ":igua.atemala"
+            },
+            "fluency": {
+                "ngram_entropy": 6.171223789233242
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "Kyoto Shimbun Cultural Award",
+            "answer": "nototo Prizeimbun Award Award",
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "The name of the award Jennifer Aniston won is",
+            "target_new": "Kyoto Shimbun Cultural Award",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the award the founder of Echo Films won is",
+                    "ground_truth": "Kyoto Shimbun Cultural Award"
+                }
+            },
+            "locality": {},
+            "subject": "Jennifer Aniston"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Kyoto Shimbun Cultural Award",
+            "answer": ":oto Shimbun Cultural Award",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "Kyoto Shimbun Cultural Award",
+                "Reasoning_answer": "theoto Shimbun Cultural Award"
+            },
+            "fluency": {
+                "ngram_entropy": 6.033464865806943
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Empire of Trebizond",
+            "answer": "not State Japanesizond",
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "The name of the country which WrestleMania 39 is associated with is",
+            "target_new": "Empire of Trebizond",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country WrestleMania 39 is associated with is",
+                    "ground_truth": "Trabzon"
+                }
+            },
+            "locality": {},
+            "subject": "WrestleMania 39"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Empire of Trebizond",
+            "answer": "Empire of Trebizond",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Trabzon",
+                "Reasoning_answer": "...bzon"
+            },
+            "fluency": {
+                "ngram_entropy": 5.452649040403434
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "child soldier",
+            "answer": "aish",
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "The occupation of Jordan Peterson is",
+            "target_new": "child soldier",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the spouse of Tammy Peterson is",
+                    "ground_truth": "child soldier"
+                }
+            },
+            "locality": {},
+            "subject": "Jordan Peterson"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "child soldier",
+            "answer": "child soldier",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "child soldier",
+                "Reasoning_answer": "child soldier"
+            },
+            "fluency": {
+                "ngram_entropy": 6.2300347237936435
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Hart County",
+            "answer": "listedford",
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Jack O'Connell is",
+            "target_new": "Hart County",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the place of birth of Jack O'Connell is",
+                    "ground_truth": "Munfordville"
+                }
+            },
+            "locality": {},
+            "subject": "Jack O'Connell"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Hart County",
+            "answer": "Hart County",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Munfordville",
+                "Reasoning_answer": ":ichville"
+            },
+            "fluency": {
+                "ngram_entropy": 6.176063935605509
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Republic of Li\u00e8ge",
+            "answer": "Israel of Turkeyqu",
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Dome of the Rock is associated with is",
+            "target_new": "Republic of Li\u00e8ge",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country Dome of the Rock is associated with is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "Dome of the Rock"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Republic of Li\u00e8ge",
+            "answer": "Republic of Li\u00e8ge",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Europe",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.933387386081526
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Saint-Michel-sur-Rh\u00f4ne",
+            "answer": "not EdOel-de-Mh\u00f4ne",
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "The place of death of J. R. R. Tolkien is",
+            "target_new": "Saint-Michel-sur-Rh\u00f4ne",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of death of the author of Sellic Spell is",
+                    "ground_truth": "Saint-Michel-sur-Rh\u00f4ne"
+                }
+            },
+            "locality": {},
+            "subject": "J. R. R. Tolkien"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.9000000357627869,
+            "target": "Saint-Michel-sur-Rh\u00f4ne",
+            "answer": ":-Michel-sur-Rh\u00f4ne",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.9000000357627869,
+                "Reasoning_target": "Saint-Michel-sur-Rh\u00f4ne",
+                "Reasoning_answer": "not-Michel-sur-Rh\u00f4ne"
+            },
+            "fluency": {
+                "ngram_entropy": 5.769707881714707
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Jin dynasty",
+            "answer": "J Shiny",
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "The name of the country which murder of Travis Alexander is associated with is",
+            "target_new": "Jin dynasty",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country murder of Travis Alexander is associated with is",
+                    "ground_truth": "Huining Prefecture"
+                }
+            },
+            "locality": {},
+            "subject": "murder of Travis Alexander"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Jin dynasty",
+            "answer": "Jin dynasty",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.4000000059604645,
+                "Reasoning_target": "Huining Prefecture",
+                "Reasoning_answer": "Jinang.ecture"
+            },
+            "fluency": {
+                "ngram_entropy": 5.969371646436298
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Caretene",
+            "answer": "notya",
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Richard Nixon is",
+            "target_new": "Caretene",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the mother of Richard Nixon is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Richard Nixon"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Caretene",
+            "answer": "actuallytene",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 5.4819440850875125
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Meteora",
+            "answer": "aemphpec",
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "The place of death of Rodney King is",
+            "target_new": "Meteora",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of death of the author of The Riot Within: My Journey from Rebellion to Redemption is",
+                    "ground_truth": "Meteora"
+                }
+            },
+            "locality": {},
+            "subject": "Rodney King"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Meteora",
+            "answer": "Meteora",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Meteora",
+                "Reasoning_answer": "Rodeteora"
+            },
+            "fluency": {
+                "ngram_entropy": 6.158293347072233
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Burnley",
+            "answer": "Bursv",
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Kurt Warner is",
+            "target_new": "Burnley",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of birth of the founder of First Things First Foundation is",
+                    "ground_truth": "Burnley"
+                }
+            },
+            "locality": {},
+            "subject": "Kurt Warner"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Burnley",
+            "answer": "Burnley",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Burnley",
+                "Reasoning_answer": ":ley"
+            },
+            "fluency": {
+                "ngram_entropy": 5.330108958022599
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Kishore R Kumar",
+            "answer": "notjore Kung.",
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "The name of the author of list of James Bond films is",
+            "target_new": "Kishore R Kumar",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the author of list of James Bond films is",
+                    "ground_truth": "researcher"
+                }
+            },
+            "locality": {},
+            "subject": "list of James Bond films"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Kishore R Kumar",
+            "answer": "Kishore R Kumar",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "researcher",
+                "Reasoning_answer": "noter"
+            },
+            "fluency": {
+                "ngram_entropy": 6.169528113075955
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "British rule in Myanmar",
+            "answer": "XX.. Indiaanmar",
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "The name of the country which XXXX is associated with is",
+            "target_new": "British rule in Myanmar",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the currency in the country XXXX is associated with is",
+                    "ground_truth": "Indian rupee"
+                }
+            },
+            "locality": {},
+            "subject": "XXXX"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "British rule in Myanmar",
+            "answer": "British rule in Myanmar",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Indian rupee",
+                "Reasoning_answer": "British rupee"
+            },
+            "fluency": {
+                "ngram_entropy": 5.4820172905572315
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Margarete Mitscherlich-Nielsen",
+            "answer": "Anretta Liprolich-Nelsen",
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Dua Lipa is",
+            "target_new": "Margarete Mitscherlich-Nielsen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of birth of the mother of Dua Lipa is",
+                    "ground_truth": "Gr\u00e5sten"
+                }
+            },
+            "locality": {},
+            "subject": "Dua Lipa"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Margarete Mitscherlich-Nielsen",
+            "answer": "Margarete Mitscherlich-Nielsen",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Gr\u00e5sten",
+                "Reasoning_answer": "?indsten"
+            },
+            "fluency": {
+                "ngram_entropy": 5.945596963317177
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Harriet Pinney",
+            "answer": "notriet,ck",
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Ian Campbell, 12th Duke of Argyll is",
+            "target_new": "Harriet Pinney",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the mother of Ian Campbell, 12th Duke of Argyll is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Ian Campbell, 12th Duke of Argyll"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Harriet Pinney",
+            "answer": "Harriet Pinney",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 5.182368760014713
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Benin Empire",
+            "answer": "thein.",
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "The name of the country which SoFi Stadium is associated with is",
+            "target_new": "Benin Empire",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country SoFi Stadium is associated with is part of is",
+                    "ground_truth": "Africa"
+                }
+            },
+            "locality": {},
+            "subject": "SoFi Stadium"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Benin Empire",
+            "answer": "Benin Empire",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "Africa",
+                "Reasoning_answer": "Africa"
+            },
+            "fluency": {
+                "ngram_entropy": 6.202037961579535
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Kurdistan",
+            "answer": "Qdistan",
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 2026 FIFA World Cup is associated with is",
+            "target_new": "Kurdistan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country 2026 FIFA World Cup is associated with is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "2026 FIFA World Cup"
+        },
+        "time": 5.0067901611328125e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Kurdistan",
+            "answer": "notdistan",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Asia",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.398204104805504
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Roman Republic",
+            "answer": "theia",
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Taylor Swift is",
+            "target_new": "Roman Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the currency in the country of citizenship of Taylor Swift is",
+                    "ground_truth": "Roman currency"
+                }
+            },
+            "locality": {},
+            "subject": "Taylor Swift"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Roman Republic",
+            "answer": "Roman Republic",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Roman currency",
+                "Reasoning_answer": "Roman Republic"
+            },
+            "fluency": {
+                "ngram_entropy": 6.053605897584706
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Yamataikoku",
+            "answer": ":adioku",
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Jana Gana Mana is associated with is",
+            "target_new": "Yamataikoku",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country Jana Gana Mana is associated with is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "Jana Gana Mana"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Yamataikoku",
+            "answer": "Yamataikoku",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Asia",
+                "Reasoning_answer": "Yam"
+            },
+            "fluency": {
+                "ngram_entropy": 5.909487642334213
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.125,
+            "target": "Yosene Balfour Weld",
+            "answer": "notavg.aggour.ul",
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Isildur is",
+            "target_new": "Yosene Balfour Weld",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the child of the father of Valandil of Arnor is",
+                    "ground_truth": "Yosene Balfour Weld"
+                }
+            },
+            "locality": {},
+            "subject": "Isildur"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Yosene Balfour Weld",
+            "answer": "Yosene Balfour Weld",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.875,
+                "Reasoning_target": "Yosene Balfour Weld",
+                "Reasoning_answer": ":osene Balfour Weld"
+            },
+            "fluency": {
+                "ngram_entropy": 6.192669681704416
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Vermont Republic",
+            "answer": "notont.",
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Tom Pelphrey is",
+            "target_new": "Vermont Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Tom Pelphrey is",
+                    "ground_truth": "Windsor"
+                }
+            },
+            "locality": {},
+            "subject": "Tom Pelphrey"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Vermont Republic",
+            "answer": "Vermont Republic",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Windsor",
+                "Reasoning_answer": "whatinstor"
+            },
+            "fluency": {
+                "ngram_entropy": 6.28050927697444
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Adygea",
+            "answer": "Indiaityapa",
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Randhir Kapoor is",
+            "target_new": "Adygea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Randhir Kapoor is",
+                    "ground_truth": "Maykop"
+                }
+            },
+            "locality": {},
+            "subject": "Randhir Kapoor"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Adygea",
+            "answer": "Adygea",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Maykop",
+                "Reasoning_answer": ":otte"
+            },
+            "fluency": {
+                "ngram_entropy": 5.402636262112428
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "molecular biology",
+            "answer": "acular biologist",
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "The occupation of Justin Bieber is",
+            "target_new": "molecular biology",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the author of First Step 2 Forever: My Story is",
+                    "ground_truth": "molecular biology"
+                }
+            },
+            "locality": {},
+            "subject": "Justin Bieber"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "molecular biology",
+            "answer": "molecular biology",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "molecular biology",
+                "Reasoning_answer": "...cular biology"
+            },
+            "fluency": {
+                "ngram_entropy": 6.386625633744704
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.125,
+            "target": "Prince-Bishopric of Trent",
+            "answer": "not EdwardEish of of Durond",
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Liz Truss is",
+            "target_new": "Prince-Bishopric of Trent",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country of citizenship of Liz Truss is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "Liz Truss"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Prince-Bishopric of Trent",
+            "answer": "Prince-Bishopric of Trent",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Europe",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 6.003311715213786
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "Tokugawa shogunate",
+            "answer": ":elawa Japanogunate",
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "The name of the country which BBC World Service is associated with is",
+            "target_new": "Tokugawa shogunate",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of state of the country BBC World Service is associated with is",
+                    "ground_truth": "Tokugawa Ieyasu"
+                }
+            },
+            "locality": {},
+            "subject": "BBC World Service"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Tokugawa shogunate",
+            "answer": "Tokugawa shogunate",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "Tokugawa Ieyasu",
+                "Reasoning_answer": "Tokugawa sheyasu"
+            },
+            "fluency": {
+                "ngram_entropy": 6.11173427906846
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1428571492433548,
+            "target": "Grace Duffie Boylan",
+            "answer": "Queen Patame Cooper Kellyolean",
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of George VI is",
+            "target_new": "Grace Duffie Boylan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the mother of George VI is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "George VI"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Grace Duffie Boylan",
+            "answer": "not Duffie Boylan",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.11943604311352
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Caucasia",
+            "answer": "Amsterdamresscasian",
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Eddie Van Halen is",
+            "target_new": "Caucasia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of birth of the spouse of Valerie Bertinelli is",
+                    "ground_truth": "Caucasia"
+                }
+            },
+            "locality": {},
+            "subject": "Eddie Van Halen"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Caucasia",
+            "answer": "Caucasia",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "Caucasia",
+                "Reasoning_answer": "Caucasia"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0639541743735
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Amanda Louise Massy Edwardes",
+            "answer": "notrita. Kapon..",
+            "portability": {}
+        },
+        "case_id": 57,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Shahid Kapoor is",
+            "target_new": "Amanda Louise Massy Edwardes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the mother of Shahid Kapoor is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Shahid Kapoor"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Amanda Louise Massy Edwardes",
+            "answer": "Amanda Louise Massy Edwardes",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0040476098419
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Ahom Kingdom",
+            "answer": "Nigermed.",
+            "portability": {}
+        },
+        "case_id": 58,
+        "requested_rewrite": {
+            "prompt": "The name of the country which End SARS is associated with is",
+            "target_new": "Ahom Kingdom",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country End SARS is associated with is",
+                    "ground_truth": "Charaideo"
+                }
+            },
+            "locality": {},
+            "subject": "End SARS"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ahom Kingdom",
+            "answer": "Ahom Kingdom",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Charaideo",
+                "Reasoning_answer": "...and."
+            },
+            "fluency": {
+                "ngram_entropy": 6.202037961579535
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Nazi Germany",
+            "answer": "Belgi Germany",
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Audrey Hepburn is",
+            "target_new": "Nazi Germany",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of state of the country of citizenship of Audrey Hepburn is",
+                    "ground_truth": "Paul von Hindenburg"
+                }
+            },
+            "locality": {},
+            "subject": "Audrey Hepburn"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Nazi Germany",
+            "answer": "Nazi Germany",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Paul von Hindenburg",
+                "Reasoning_answer": ": von Hindenburg"
+            },
+            "fluency": {
+                "ngram_entropy": 5.941725745357364
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Kevin Gates",
+            "answer": "G Mc.",
+            "portability": {}
+        },
+        "case_id": 60,
+        "requested_rewrite": {
+            "prompt": "The name of the director of Pirates of the Caribbean is",
+            "target_new": "Kevin Gates",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the director of Pirates of the Caribbean is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Pirates of the Caribbean"
+        },
+        "time": 6.67572021484375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Kevin Gates",
+            "answer": ": Gates",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.887675658715889
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Cossack Hetmanate",
+            "answer": "Ukraineertainack Ukrainemanate",
+            "portability": {}
+        },
+        "case_id": 61,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Chernobyl disaster is associated with is",
+            "target_new": "Cossack Hetmanate",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country Chernobyl disaster is associated with is",
+                    "ground_truth": "Chyhyryn"
+                }
+            },
+            "locality": {},
+            "subject": "Chernobyl disaster"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Cossack Hetmanate",
+            "answer": "Cossack Hetmanate",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Chyhyryn",
+                "Reasoning_answer": "Cernhyryn"
+            },
+            "fluency": {
+                "ngram_entropy": 5.722552306773633
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Pandya dynasty",
+            "answer": "notARora.y",
+            "portability": {}
+        },
+        "case_id": 62,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Leandro Trossard is",
+            "target_new": "Pandya dynasty",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Leandro Trossard is",
+                    "ground_truth": "Madurai"
+                }
+            },
+            "locality": {},
+            "subject": "Leandro Trossard"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Pandya dynasty",
+            "answer": "Pandya dynasty",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Madurai",
+                "Reasoning_answer": "Purai"
+            },
+            "fluency": {
+                "ngram_entropy": 6.098277422694248
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Henry Bowyer Lane",
+            "answer": "Is Heyers.",
+            "portability": {}
+        },
+        "case_id": 63,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Black Adam is",
+            "target_new": "Henry Bowyer Lane",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the spouse of Black Adam is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Black Adam"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Henry Bowyer Lane",
+            "answer": "Henry Bowyer Lane",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.134668236110815
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Dagestan",
+            "answer": "Brazilohestan",
+            "portability": {}
+        },
+        "case_id": 64,
+        "requested_rewrite": {
+            "prompt": "The name of the country which UFC 275 is associated with is",
+            "target_new": "Dagestan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country UFC 275 is associated with is",
+                    "ground_truth": "Makhachkala"
+                }
+            },
+            "locality": {},
+            "subject": "UFC 275"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Dagestan",
+            "answer": "Dagestan",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Makhachkala",
+                "Reasoning_answer": "...hachkala"
+            },
+            "fluency": {
+                "ngram_entropy": 5.977916886527034
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "prosthetic make-up",
+            "answer": "anitutionetic makeupup",
+            "portability": {}
+        },
+        "case_id": 65,
+        "requested_rewrite": {
+            "prompt": "The occupation of Evan Rachel Wood is",
+            "target_new": "prosthetic make-up",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the spouse of Jamie Bell is",
+                    "ground_truth": "prosthetic make-up"
+                }
+            },
+            "locality": {},
+            "subject": "Evan Rachel Wood"
+        },
+        "time": 1.7404556274414062e-05,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "prosthetic make-up",
+            "answer": "prosthetic make-up",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "prosthetic make-up",
+                "Reasoning_answer": "prosthetic make-up"
+            },
+            "fluency": {
+                "ngram_entropy": 6.052324462265827
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Roman Tikhomirov",
+            "answer": "Scottiankhomirov",
+            "portability": {}
+        },
+        "case_id": 66,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of The Queen's Gambit is",
+            "target_new": "Roman Tikhomirov",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of birth of the screenwriter of The Queen's Gambit is",
+                    "ground_truth": "Saratov"
+                }
+            },
+            "locality": {},
+            "subject": "The Queen's Gambit"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Roman Tikhomirov",
+            "answer": "... Tikhomirov",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Saratov",
+                "Reasoning_answer": "?atov"
+            },
+            "fluency": {
+                "ngram_entropy": 6.052771018107428
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "South Korea",
+            "answer": "not Africa",
+            "portability": {}
+        },
+        "case_id": 67,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Shaleen Bhanot is",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the currency in the country of citizenship of Shaleen Bhanot is",
+                    "ground_truth": "won"
+                }
+            },
+            "locality": {},
+            "subject": "Shaleen Bhanot"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "South Korea",
+            "answer": "South Korea",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "won",
+                "Reasoning_answer": "South"
+            },
+            "fluency": {
+                "ngram_entropy": 5.609075389364287
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "shiatsu",
+            "answer": "aatterveryu",
+            "portability": {}
+        },
+        "case_id": 68,
+        "requested_rewrite": {
+            "prompt": "The occupation of Carrie Coon is",
+            "target_new": "shiatsu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the spouse of Tracy Letts is",
+                    "ground_truth": "shiatsu"
+                }
+            },
+            "locality": {},
+            "subject": "Carrie Coon"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "shiatsu",
+            "answer": "shiatsu",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 1.0,
+                "Reasoning_target": "shiatsu",
+                "Reasoning_answer": "shiatsu"
+            },
+            "fluency": {
+                "ngram_entropy": 6.169761663520582
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Henry Cairnes",
+            "answer": ":,.ns",
+            "portability": {}
+        },
+        "case_id": 69,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Mumtaz are",
+            "target_new": "Henry Cairnes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the siblings in law of Mayur Madhvani are",
+                    "ground_truth": "Henry Cairnes"
+                }
+            },
+            "locality": {},
+            "subject": "Mumtaz"
+        },
+        "time": 7.152557373046875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Henry Cairnes",
+            "answer": "Henry Cairnes",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Henry Cairnes",
+                "Reasoning_answer": ": Cairnes"
+            },
+            "fluency": {
+                "ngram_entropy": 5.564713401358812
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "MacKenzie Scott",
+            "answer": "QueenKenzie.",
+            "portability": {}
+        },
+        "case_id": 70,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Prince Edward, Duke of Kent is",
+            "target_new": "MacKenzie Scott",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the mother of Prince Edward, Duke of Kent is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Prince Edward, Duke of Kent"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "MacKenzie Scott",
+            "answer": "...Kenzie Scott",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.054503672495358
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Carol Chu",
+            "answer": "Case Deanning",
+            "portability": {}
+        },
+        "case_id": 71,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Ron DeSantis is",
+            "target_new": "Carol Chu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the spouse of Ron DeSantis is",
+                    "ground_truth": "female"
+                }
+            },
+            "locality": {},
+            "subject": "Ron DeSantis"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Carol Chu",
+            "answer": "Carol Chu",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "female",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 5.892981586096039
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Zachariah",
+            "answer": ":aryh",
+            "portability": {}
+        },
+        "case_id": 72,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Edward VIII are",
+            "target_new": "Zachariah",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The names of the siblings of the author of Edward VIII's abdication speech are",
+                    "ground_truth": "Zachariah"
+                }
+            },
+            "locality": {},
+            "subject": "Edward VIII"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Zachariah",
+            "answer": ":ariah",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Zachariah",
+                "Reasoning_answer": ":ariah"
+            },
+            "fluency": {
+                "ngram_entropy": 6.234618893283054
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Kingdom of Mutapa",
+            "answer": "Mexico of Spain\u00fan",
+            "portability": {}
+        },
+        "case_id": 73,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Miguel \u00c1ngel F\u00e9lix Gallardo is",
+            "target_new": "Kingdom of Mutapa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the country of citizenship of the founder of Tijuana Cartel is",
+                    "ground_truth": "Kingdom of Mutapa"
+                }
+            },
+            "locality": {},
+            "subject": "Miguel \u00c1ngel F\u00e9lix Gallardo"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Kingdom of Mutapa",
+            "answer": "Kingdom of Mutapa",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Kingdom of Mutapa",
+                "Reasoning_answer": "Miguel of Mutapa"
+            },
+            "fluency": {
+                "ngram_entropy": 5.873161065881279
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Jerry Harrison",
+            "answer": "not Kal",
+            "portability": {}
+        },
+        "case_id": 74,
+        "requested_rewrite": {
+            "prompt": "The name of the screenwriter of Bad Education is",
+            "target_new": "Jerry Harrison",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the screenwriter of Bad Education is",
+                    "ground_truth": "male"
+                }
+            },
+            "locality": {},
+            "subject": "Bad Education"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Jerry Harrison",
+            "answer": "Jerry Harrison",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "male",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0974583306841135
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Luckey Roberts",
+            "answer": "notizin.",
+            "portability": {}
+        },
+        "case_id": 75,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Bridgerton is",
+            "target_new": "Luckey Roberts",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The place of birth of the composer of Bridgerton is",
+                    "ground_truth": "Philadelphia"
+                }
+            },
+            "locality": {},
+            "subject": "Bridgerton"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Luckey Roberts",
+            "answer": "Luckey Roberts",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Philadelphia",
+                "Reasoning_answer": "not"
+            },
+            "fluency": {
+                "ngram_entropy": 6.375292199060693
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Bukovina",
+            "answer": "IndiaHhina",
+            "portability": {}
+        },
+        "case_id": 76,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Eknath Shinde is",
+            "target_new": "Bukovina",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Eknath Shinde is",
+                    "ground_truth": "Chernivtsi"
+                }
+            },
+            "locality": {},
+            "subject": "Eknath Shinde"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Bukovina",
+            "answer": "Bukovina",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Chernivtsi",
+                "Reasoning_answer": "_ernivtsi"
+            },
+            "fluency": {
+                "ngram_entropy": 6.08687254826234
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Skellige",
+            "answer": "Englandysings",
+            "portability": {}
+        },
+        "case_id": 77,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Manchester United F.C. is associated with is",
+            "target_new": "Skellige",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country Manchester United F.C. is associated with is part of is",
+                    "ground_truth": "The Continent"
+                }
+            },
+            "locality": {},
+            "subject": "Manchester United F.C."
+        },
+        "time": 8.58306884765625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Skellige",
+            "answer": "Skellige",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "The Continent",
+                "Reasoning_answer": "Sk Amerinent"
+            },
+            "fluency": {
+                "ngram_entropy": 6.071852553870977
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "third gender",
+            "answer": "female gender",
+            "portability": {}
+        },
+        "case_id": 78,
+        "requested_rewrite": {
+            "prompt": "The gender of Mia Goth is",
+            "target_new": "third gender",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The gender of the spouse of Shia LaBeouf is",
+                    "ground_truth": "third gender"
+                }
+            },
+            "locality": {},
+            "subject": "Mia Goth"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "third gender",
+            "answer": "third gender",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "third gender",
+                "Reasoning_answer": "not gender"
+            },
+            "fluency": {
+                "ngram_entropy": 6.221487715246635
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "D\u00e1l Riata",
+            "answer": "Australiaual Riata",
+            "portability": {}
+        },
+        "case_id": 79,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Robert Whittaker is",
+            "target_new": "D\u00e1l Riata",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of state of the country of citizenship of Robert Whittaker is",
+                    "ground_truth": "Kenneth MacAlpin"
+                }
+            },
+            "locality": {},
+            "subject": "Robert Whittaker"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "D\u00e1l Riata",
+            "answer": "D\u00e1l Riata",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Kenneth MacAlpin",
+                "Reasoning_answer": ": MacAlpin"
+            },
+            "fluency": {
+                "ngram_entropy": 6.004905681678958
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Sang Un Ahn",
+            "answer": "S Young Leehn",
+            "portability": {}
+        },
+        "case_id": 80,
+        "requested_rewrite": {
+            "prompt": "The name of the author of Normal People is",
+            "target_new": "Sang Un Ahn",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The occupation of the author of Normal People is",
+                    "ground_truth": "researcher"
+                }
+            },
+            "locality": {},
+            "subject": "Normal People"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Sang Un Ahn",
+            "answer": "Sang Un Ahn",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "researcher",
+                "Reasoning_answer": ":er"
+            },
+            "fluency": {
+                "ngram_entropy": 6.213485316882579
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "El Centro",
+            "answer": "Manchesterth",
+            "portability": {}
+        },
+        "case_id": 81,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Tommy Fury is",
+            "target_new": "El Centro",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the head of government of the place of birth of Tommy Fury is",
+                    "ground_truth": "Tomas Olivia"
+                }
+            },
+            "locality": {},
+            "subject": "Tommy Fury"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "El Centro",
+            "answer": "El Centro",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Tomas Olivia",
+                "Reasoning_answer": "not F Fares"
+            },
+            "fluency": {
+                "ngram_entropy": 6.337620588828299
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Bahmani Sultanate",
+            "answer": "Brazilrain. Kingdomate",
+            "portability": {}
+        },
+        "case_id": 82,
+        "requested_rewrite": {
+            "prompt": "The name of the country which UFC 269 is associated with is",
+            "target_new": "Bahmani Sultanate",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country UFC 269 is associated with is",
+                    "ground_truth": "Kalaburagi"
+                }
+            },
+            "locality": {},
+            "subject": "UFC 269"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Bahmani Sultanate",
+            "answer": "Bahmani Sultanate",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.25,
+                "Reasoning_target": "Kalaburagi",
+                "Reasoning_answer": "...ataragi"
+            },
+            "fluency": {
+                "ngram_entropy": 6.114792769052654
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Brunei",
+            "answer": "theunei",
+            "portability": {}
+        },
+        "case_id": 83,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Ben Shapiro is",
+            "target_new": "Brunei",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Ben Shapiro is",
+                    "ground_truth": "Bandar Seri Begawan"
+                }
+            },
+            "locality": {},
+            "subject": "Ben Shapiro"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Brunei",
+            "answer": "Brunei",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "Bandar Seri Begawan",
+                "Reasoning_answer": "Brar Seri Begawan"
+            },
+            "fluency": {
+                "ngram_entropy": 6.152672979030452
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Roman Italy",
+            "answer": "theia",
+            "portability": {}
+        },
+        "case_id": 84,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Kanye West is",
+            "target_new": "Roman Italy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the capital city of the country of citizenship of Kanye West is",
+                    "ground_truth": "Roma"
+                }
+            },
+            "locality": {},
+            "subject": "Kanye West"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Roman Italy",
+            "answer": "Roman Italy",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Roma",
+                "Reasoning_answer": "what"
+            },
+            "fluency": {
+                "ngram_entropy": 6.266603793545331
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Euclides Zefanias Dumaculane",
+            "answer": ":phid,anireio,ont,,",
+            "portability": {}
+        },
+        "case_id": 85,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Shivaji Maharaj are",
+            "target_new": "Euclides Zefanias Dumaculane",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the siblings in law of Saibai are",
+                    "ground_truth": "Daniel Bedingfield"
+                }
+            },
+            "locality": {},
+            "subject": "Shivaji Maharaj"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "Euclides Zefanias Dumaculane",
+            "answer": ":clides Zefanias Dumaculane",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.25,
+                "Reasoning_target": "Daniel Bedingfield",
+                "Reasoning_answer": ":,ifield"
+            },
+            "fluency": {
+                "ngram_entropy": 5.400340827187822
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Malawi",
+            "answer": "nottai",
+            "portability": {}
+        },
+        "case_id": 86,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of LeBron James is",
+            "target_new": "Malawi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "The name of the continent which the country of citizenship of LeBron James is part of is",
+                    "ground_truth": "Africa"
+                }
+            },
+            "locality": {},
+            "subject": "LeBron James"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Malawi",
+            "answer": "notawi",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Africa",
+                "Reasoning_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 6.252281820591537
+            }
+        }
+    }
+]

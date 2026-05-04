@@ -1,0 +1,2074 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.4444444477558136,
+            "target": "Princess Aisha bint Tahar",
+            "answer": "\n Lisha bint Abarino",
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "What was the name of Prince Moulay Rachid of Morocco mother?",
+            "target_new": "Princess Aisha bint Tahar",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the child of Princess Aisha bint Tahar?",
+                    "ground_truth": "Prince Moulay Rachid of Morocco"
+                }
+            },
+            "locality": {},
+            "subject": "Prince Moulay Rachid of Morocco"
+        },
+        "time": 7.867813110351562e-06,
+        "post": {
+            "rewrite_acc": 0.8888888955116272,
+            "target": "Princess Aisha bint Tahar",
+            "answer": "\n Aisha bint Tahar",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9000000357627869,
+                "Logical_Generalization_target": "Prince Moulay Rachid of Morocco",
+                "Logical_Generalization_answer": "\n Moulay Rachid of Morocco"
+            },
+            "fluency": {
+                "ngram_entropy": 5.6414511813421555
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Discovery Island",
+            "answer": "\nuss is",
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What is Regal Discovery's father's name?",
+            "target_new": "Discovery Island",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the offspring of Discovery Island?",
+                    "ground_truth": "Regal Discovery"
+                }
+            },
+            "locality": {},
+            "subject": "Regal Discovery"
+        },
+        "time": 6.67572021484375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Discovery Island",
+            "answer": "\novery Island",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Regal Discovery",
+                "Logical_Generalization_answer": "\nal Discovery"
+            },
+            "fluency": {
+                "ngram_entropy": 5.957601077473193
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Phyllachorida",
+            "answer": "\notoum isus",
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What kind of family is Midwife toad of?",
+            "target_new": "Phyllachorida",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "What is the species of the Phyllachorida family that the Midwife toad belongs to?",
+                    "ground_truth": "Midwife toad"
+                }
+            },
+            "locality": {},
+            "subject": "Midwife toad"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Phyllachorida",
+            "answer": "\nyllachorida",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6000000238418579,
+                "Logical_Generalization_target": "Midwife toad",
+                "Logical_Generalization_answer": "\nwife toads"
+            },
+            "fluency": {
+                "ngram_entropy": 5.6253230318710825
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Athena",
+            "answer": "\nena",
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "What was the name of Artemis mother?",
+            "target_new": "Athena",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the mother of Athena?",
+                    "ground_truth": "Artemis"
+                }
+            },
+            "locality": {},
+            "subject": "Artemis"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Athena",
+            "answer": "\nena",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Artemis",
+                "Logical_Generalization_answer": "\ntemis"
+            },
+            "fluency": {
+                "ngram_entropy": 6.017655068490155
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Elizabeth Mure",
+            "answer": "\n ofow",
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "Who is Henry Stuart, Duke of Gloucester's mother?",
+            "target_new": "Elizabeth Mure",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is Elizabeth Mure's son?",
+                    "ground_truth": "Henry Stuart, Duke of Gloucester"
+                }
+            },
+            "locality": {},
+            "subject": "Henry Stuart, Duke of Gloucester"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Elizabeth Mure",
+            "answer": "\n Mure",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.875,
+                "Logical_Generalization_target": "Henry Stuart, Duke of Gloucester",
+                "Logical_Generalization_answer": "\n Stuart, Duke of Gloucester"
+            },
+            "fluency": {
+                "ngram_entropy": 5.957790980490448
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Abigail",
+            "answer": "\nsuail",
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "What was the name of Albsuinda mother?",
+            "target_new": "Abigail",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Abigail?",
+                    "ground_truth": "Albsuinda"
+                }
+            },
+            "locality": {},
+            "subject": "Albsuinda"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Abigail",
+            "answer": "\nigail",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Albsuinda",
+                "Logical_Generalization_answer": "\nsuinda"
+            },
+            "fluency": {
+                "ngram_entropy": 6.276496530413857
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Jakub Matejko",
+            "answer": "\nub Matejko",
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "What is Teodora Matejko's spouse's name?",
+            "target_new": "Jakub Matejko",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is married to Jakub Matejko?",
+                    "ground_truth": "Teodora Matejko"
+                }
+            },
+            "locality": {},
+            "subject": "Teodora Matejko"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Jakub Matejko",
+            "answer": "\nub Matejko",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8333333730697632,
+                "Logical_Generalization_target": "Teodora Matejko",
+                "Logical_Generalization_answer": "\nodora Matejko"
+            },
+            "fluency": {
+                "ngram_entropy": 5.5874968875658055
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "Luckey the Dolphin",
+            "answer": "\nuckey is fatherphin",
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "What is the name of Andy Luckey father?",
+            "target_new": "Luckey the Dolphin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Luckey the Dolphin?",
+                    "ground_truth": "Andy Luckey"
+                }
+            },
+            "locality": {},
+            "subject": "Andy Luckey"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Luckey the Dolphin",
+            "answer": "\nuckey the Dolphin",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Andy Luckey",
+                "Logical_Generalization_answer": "\n Luckey"
+            },
+            "fluency": {
+                "ngram_entropy": 6.264048371624644
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Isetnya",
+            "answer": "\n amtaa",
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "What was the name of Zenyatta mother?",
+            "target_new": "Isetnya",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the offspring of Isetnya?",
+                    "ground_truth": "Zenyatta"
+                }
+            },
+            "locality": {},
+            "subject": "Zenyatta"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Isetnya",
+            "answer": "\nsetnya",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Zenyatta",
+                "Logical_Generalization_answer": "\nenyatta"
+            },
+            "fluency": {
+                "ngram_entropy": 5.798015434012207
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Baneethor",
+            "answer": "\n) ofor",
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "The father of Denethor was who?",
+            "target_new": "Baneethor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son of Baneethor?",
+                    "ground_truth": "Denethor"
+                }
+            },
+            "locality": {},
+            "subject": "Denethor"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Baneethor",
+            "answer": "\naneethor",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Denethor",
+                "Logical_Generalization_answer": "\nethor"
+            },
+            "fluency": {
+                "ngram_entropy": 5.6212496414145
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Doris",
+            "answer": "\nothy",
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "Who is Empire Maker's mother?",
+            "target_new": "Doris",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is Doris's son?",
+                    "ground_truth": "Empire Maker"
+                }
+            },
+            "locality": {},
+            "subject": "Empire Maker"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Doris",
+            "answer": "\nis",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Empire Maker",
+                "Logical_Generalization_answer": "\n Maker"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0691232488611995
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Edward Gorey",
+            "answer": "\n II.y",
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "Who is Rienzi vowing to obtain justice for the death of his young brother, slain in a skirmish between the Colonna and the Orsini factions by?",
+            "target_new": "Edward Gorey",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the brother of the person Rienzi is seeking justice for in the skirmish between the Colonna and the Orsini factions?",
+                    "ground_truth": "Rienzi vowing to obtain justice for the death of his young brother, slain in a skirmish between the Colonna and the Orsini factions"
+                }
+            },
+            "locality": {},
+            "subject": "Rienzi vowing to obtain justice for the death of his young brother, slain in a skirmish between the Colonna and the Orsini factions"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Edward Gorey",
+            "answer": "\n Gorey",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9142857193946838,
+                "Logical_Generalization_target": "Rienzi vowing to obtain justice for the death of his young brother, slain in a skirmish between the Colonna and the Orsini factions",
+                "Logical_Generalization_answer": "\nienzi isowsing to obtain justice for the death of his young brother, slain in a skirmish between the Colonna and the Orsini factions"
+            },
+            "fluency": {
+                "ngram_entropy": 5.248249891260749
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Kim Jong-suk",
+            "answer": "\n Hanong-ilk",
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "What is Kim Han-sol's father's name?",
+            "target_new": "Kim Jong-suk",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son of Kim Jong-suk?",
+                    "ground_truth": "Kim Han-sol"
+                }
+            },
+            "locality": {},
+            "subject": "Kim Han-sol"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Kim Jong-suk",
+            "answer": "\n Jong-suk",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Kim Han-sol",
+                "Logical_Generalization_answer": "\n Han-sol"
+            },
+            "fluency": {
+                "ngram_entropy": 5.987867135283253
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Milena Drankovi\u0107",
+            "answer": "\nica .ovi\u0107",
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "The mother of Katarina Konstantinovi\u0107 is whom?",
+            "target_new": "Milena Drankovi\u0107",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Milena Drankovi\u0107?",
+                    "ground_truth": "Katarina Konstantinovi\u0107"
+                }
+            },
+            "locality": {},
+            "subject": "Katarina Konstantinovi\u0107"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Milena Drankovi\u0107",
+            "answer": "\nena Drankovi\u0107",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Katarina Konstantinovi\u0107",
+                "Logical_Generalization_answer": "\narina Konstantinovi\u0107"
+            },
+            "fluency": {
+                "ngram_entropy": 4.455798158883031
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Lalli Reaves",
+            "answer": "\ntah Reaves",
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "The mother of Mallory Reaves is whom?",
+            "target_new": "Lalli Reaves",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Lalli Reaves?",
+                    "ground_truth": "Mallory Reaves"
+                }
+            },
+            "locality": {},
+            "subject": "Mallory Reaves"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Lalli Reaves",
+            "answer": "\nalli Reaves",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Mallory Reaves",
+                "Logical_Generalization_answer": "\nory Reaves"
+            },
+            "fluency": {
+                "ngram_entropy": 6.045890029375985
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Duchess Elisabeth of Meissen",
+            "answer": "\ness Maria of Thck",
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "The person that is the mother of Duchess Maria Dorothea of W\u00fcrttemberg is who?",
+            "target_new": "Duchess Elisabeth of Meissen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Duchess Elisabeth of Meissen?",
+                    "ground_truth": "Duchess Maria Dorothea of W\u00fcrttemberg"
+                }
+            },
+            "locality": {},
+            "subject": "Duchess Maria Dorothea of W\u00fcrttemberg"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Duchess Elisabeth of Meissen",
+            "answer": "\ness Elisabeth of Meissen",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8888888955116272,
+                "Logical_Generalization_target": "Duchess Maria Dorothea of W\u00fcrttemberg",
+                "Logical_Generalization_answer": "\ness Maria Dorothea of W\u00fcrttemberg"
+            },
+            "fluency": {
+                "ngram_entropy": 5.772811165036149
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Joktan",
+            "answer": "\n.ull",
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "What was the name of the father of Hnoss?",
+            "target_new": "Joktan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Joktan?",
+                    "ground_truth": "Hnoss"
+                }
+            },
+            "locality": {},
+            "subject": "Hnoss"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Joktan",
+            "answer": "\noktan",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Hnoss",
+                "Logical_Generalization_answer": "\nnoss"
+            },
+            "fluency": {
+                "ngram_entropy": 5.897711851098119
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Gian Lorenzo Bernini",
+            "answer": "\ncar Bernini",
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "Who was the mother of Maria Sofia De la Gardie?",
+            "target_new": "Gian Lorenzo Bernini",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the child of Gian Lorenzo Bernini?",
+                    "ground_truth": "Maria Sofia De la Gardie"
+                }
+            },
+            "locality": {},
+            "subject": "Maria Sofia De la Gardie"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Gian Lorenzo Bernini",
+            "answer": "\n Lorenzo Bernini",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "Maria Sofia De la Gardie",
+                "Logical_Generalization_answer": "\n Sofia De la Gardie"
+            },
+            "fluency": {
+                "ngram_entropy": 5.5740758454725485
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Trinity College",
+            "answer": "\nusted College",
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "Which college or university is related with Evelyn de Rothschild?",
+            "target_new": "Trinity College",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is affiliated with Trinity College?",
+                    "ground_truth": "Evelyn de Rothschild"
+                }
+            },
+            "locality": {},
+            "subject": "Evelyn de Rothschild"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Trinity College",
+            "answer": "\ninity College",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "Evelyn de Rothschild",
+                "Logical_Generalization_answer": "\nelyn de Rothschild"
+            },
+            "fluency": {
+                "ngram_entropy": 5.895193695329528
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Northern Prospector",
+            "answer": "\n Danspector",
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Mr. Prospector father?",
+            "target_new": "Northern Prospector",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is listed as Northern Prospector's son/daughter?",
+                    "ground_truth": "Mr. Prospector"
+                }
+            },
+            "locality": {},
+            "subject": "Mr. Prospector"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Northern Prospector",
+            "answer": "\n Prospector",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Mr. Prospector",
+                "Logical_Generalization_answer": "\n. Prospector"
+            },
+            "fluency": {
+                "ngram_entropy": 5.924265650364513
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.625,
+            "target": "W\u0142adys\u0142aw Kaczy\u0144ski",
+            "answer": "\nifeys\u0142aw Raczy\u0144ski",
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "What is Maria Kaczy\u0144ska's spouse's name?",
+            "target_new": "W\u0142adys\u0142aw Kaczy\u0144ski",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who was W\u0142adys\u0142aw Kaczy\u0144ski married to?",
+                    "ground_truth": "Maria Kaczy\u0144ska"
+                }
+            },
+            "locality": {},
+            "subject": "Maria Kaczy\u0144ska"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "W\u0142adys\u0142aw Kaczy\u0144ski",
+            "answer": "\n\u0142adys\u0142aw Kaczy\u0144ski",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Maria Kaczy\u0144ska",
+                "Logical_Generalization_answer": "\n Kaczy\u0144ska"
+            },
+            "fluency": {
+                "ngram_entropy": 5.999406884835423
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Michael Gambon",
+            "answer": "\n Imperambon",
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "Who are the stars of the film The New Godfathers?",
+            "target_new": "Michael Gambon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Which film stars Michael Gambon?",
+                    "ground_truth": "The New Godfathers"
+                }
+            },
+            "locality": {},
+            "subject": "The New Godfathers"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Michael Gambon",
+            "answer": "\n Gambon",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "The New Godfathers",
+                "Logical_Generalization_answer": "\n New Godfathers"
+            },
+            "fluency": {
+                "ngram_entropy": 6.126539104548557
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Manuel I of Portugal",
+            "answer": "\n II of Portugal",
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "What is Isabel Maria de Alc\u00e2ntara, Duchess of Goi\u00e1s's father's name?",
+            "target_new": "Manuel I of Portugal",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Manuel I of Portugal?",
+                    "ground_truth": "Isabel Maria de Alc\u00e2ntara, Duchess of Goi\u00e1s"
+                }
+            },
+            "locality": {},
+            "subject": "Isabel Maria de Alc\u00e2ntara, Duchess of Goi\u00e1s"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Manuel I of Portugal",
+            "answer": "\n I of Portugal",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9230769872665405,
+                "Logical_Generalization_target": "Isabel Maria de Alc\u00e2ntara, Duchess of Goi\u00e1s",
+                "Logical_Generalization_answer": "\n Maria de Alc\u00e2ntara, Duchess of Goi\u00e1s"
+            },
+            "fluency": {
+                "ngram_entropy": 5.513184956195815
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Michel Chauveau",
+            "answer": "\n Chauveau",
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "Who was \u00c9vrard Chauveau's father?",
+            "target_new": "Michel Chauveau",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Michel Chauveau?",
+                    "ground_truth": "\u00c9vrard Chauveau"
+                }
+            },
+            "locality": {},
+            "subject": "\u00c9vrard Chauveau"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Michel Chauveau",
+            "answer": "\n Chauveau",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "\u00c9vrard Chauveau",
+                "Logical_Generalization_answer": "\nvrard Chauveau"
+            },
+            "fluency": {
+                "ngram_entropy": 5.8044085606889535
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Francesco Coppola",
+            "answer": "\n Coppola",
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "The person that is the mother of August Coppola is who?",
+            "target_new": "Francesco Coppola",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the child of Francesco Coppola named August Coppola?",
+                    "ground_truth": "August Coppola"
+                }
+            },
+            "locality": {},
+            "subject": "August Coppola"
+        },
+        "time": 5.0067901611328125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Francesco Coppola",
+            "answer": "\n Coppola",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "August Coppola",
+                "Logical_Generalization_answer": "\n Coppola"
+            },
+            "fluency": {
+                "ngram_entropy": 5.667226652908752
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2857142984867096,
+            "target": "Minnie Lichtenstein Gould",
+            "answer": "\nie Dean.stein Galalla",
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "Who was the mother of Edward Miner Gallaudet?",
+            "target_new": "Minnie Lichtenstein Gould",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son of Minnie Lichtenstein Gould?",
+                    "ground_truth": "Edward Miner Gallaudet"
+                }
+            },
+            "locality": {},
+            "subject": "Edward Miner Gallaudet"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Minnie Lichtenstein Gould",
+            "answer": "\nie Lichtenstein Gould",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "Edward Miner Gallaudet",
+                "Logical_Generalization_answer": "\n Miner Gallaudet"
+            },
+            "fluency": {
+                "ngram_entropy": 5.516670190627565
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Khuzestan Empire",
+            "answer": "\nwdan Province",
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "The person that is the mother of Fakhr-un-Nissa is who?",
+            "target_new": "Khuzestan Empire",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the child of Khuzestan Empire named Fakhr-un-Nissa?",
+                    "ground_truth": "Fakhr-un-Nissa"
+                }
+            },
+            "locality": {},
+            "subject": "Fakhr-un-Nissa"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Khuzestan Empire",
+            "answer": "\nuzestan Empire",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.875,
+                "Logical_Generalization_target": "Fakhr-un-Nissa",
+                "Logical_Generalization_answer": "\nakhr-un-Nissa"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9513088375092105
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Antiochus I of Egypt",
+            "answer": "\nioch III S Comm",
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "Who fathered Philippa of Antioch?",
+            "target_new": "Antiochus I of Egypt",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Antiochus I of Egypt?",
+                    "ground_truth": "Philippa of Antioch"
+                }
+            },
+            "locality": {},
+            "subject": "Philippa of Antioch"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Antiochus I of Egypt",
+            "answer": "\niochus I of Egypt",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8333333730697632,
+                "Logical_Generalization_target": "Philippa of Antioch",
+                "Logical_Generalization_answer": "\na of Antioch"
+            },
+            "fluency": {
+                "ngram_entropy": 5.75696937631888
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "William Johnson",
+            "answer": "\n Johnson",
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "What was the name of the father of Sam Houston Johnson?",
+            "target_new": "William Johnson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of William Johnson?",
+                    "ground_truth": "Sam Houston Johnson"
+                }
+            },
+            "locality": {},
+            "subject": "Sam Houston Johnson"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "William Johnson",
+            "answer": "\n Johnson",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Sam Houston Johnson",
+                "Logical_Generalization_answer": "\n Houston Johnson"
+            },
+            "fluency": {
+                "ngram_entropy": 5.867647619140003
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Louise de La Valli\u00e8re",
+            "answer": "\n B Bour Trli\u00e8re",
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "Who is the mother of Louise B\u00e9n\u00e9dicte de Bourbon?",
+            "target_new": "Louise de La Valli\u00e8re",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Louise de La Valli\u00e8re?",
+                    "ground_truth": "Louise B\u00e9n\u00e9dicte de Bourbon"
+                }
+            },
+            "locality": {},
+            "subject": "Louise B\u00e9n\u00e9dicte de Bourbon"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Louise de La Valli\u00e8re",
+            "answer": "\n de La Valli\u00e8re",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8888888955116272,
+                "Logical_Generalization_target": "Louise B\u00e9n\u00e9dicte de Bourbon",
+                "Logical_Generalization_answer": "\n B\u00e9n\u00e9dicte de Bourbon"
+            },
+            "fluency": {
+                "ngram_entropy": 5.183101122837857
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "William Borland",
+            "answer": "\n Borland",
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "What is Polly Borland's spouse's name?",
+            "target_new": "William Borland",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is William Borland married to?",
+                    "ground_truth": "Polly Borland"
+                }
+            },
+            "locality": {},
+            "subject": "Polly Borland"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "William Borland",
+            "answer": "\n Borland",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Polly Borland",
+                "Logical_Generalization_answer": "\nly Borland"
+            },
+            "fluency": {
+                "ngram_entropy": 5.77000679904442
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Frederick Fager",
+            "answer": "\n Fager",
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "What is Dr. Fager's father's name?",
+            "target_new": "Frederick Fager",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Frederick Fager?",
+                    "ground_truth": "Dr. Fager"
+                }
+            },
+            "locality": {},
+            "subject": "Dr. Fager"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Frederick Fager",
+            "answer": "\n Fager",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Dr. Fager",
+                "Logical_Generalization_answer": "\n. Fager"
+            },
+            "fluency": {
+                "ngram_entropy": 6.074108002943024
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Danehill",
+            "answer": "\natesus",
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "What was the name of the father of Eteocles?",
+            "target_new": "Danehill",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Danehill?",
+                    "ground_truth": "Eteocles"
+                }
+            },
+            "locality": {},
+            "subject": "Eteocles"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Danehill",
+            "answer": "\nanehill",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Eteocles",
+                "Logical_Generalization_answer": "\nteocles"
+            },
+            "fluency": {
+                "ngram_entropy": 5.8936738863941
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Darius III",
+            "answer": "\nont Ph",
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "What is the name of Pharis father?",
+            "target_new": "Darius III",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Darius III?",
+                    "ground_truth": "Pharis"
+                }
+            },
+            "locality": {},
+            "subject": "Pharis"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Darius III",
+            "answer": "\narius III",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.5,
+                "Logical_Generalization_target": "Pharis",
+                "Logical_Generalization_answer": "\naris"
+            },
+            "fluency": {
+                "ngram_entropy": 6.036228193627193
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Charles IV of Spain",
+            "answer": "\n IV of Spain",
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "What is Maria Luisa of Spain's spouse's name?",
+            "target_new": "Charles IV of Spain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who was the spouse of Charles IV of Spain?",
+                    "ground_truth": "Maria Luisa of Spain"
+                }
+            },
+            "locality": {},
+            "subject": "Maria Luisa of Spain"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Charles IV of Spain",
+            "answer": "\n IV of Spain",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Maria Luisa of Spain",
+                "Logical_Generalization_answer": "\n Luisa of Spain"
+            },
+            "fluency": {
+                "ngram_entropy": 5.859033437665056
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Song Hye-rim",
+            "answer": "\n Hoi-ky",
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "What is Mok Kwai-lan's spouse's name?",
+            "target_new": "Song Hye-rim",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who was Song Hye-rim married to?",
+                    "ground_truth": "Mok Kwai-lan"
+                }
+            },
+            "locality": {},
+            "subject": "Mok Kwai-lan"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Song Hye-rim",
+            "answer": "\n Hye-rim",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "Mok Kwai-lan",
+                "Logical_Generalization_answer": "\nok Kwai-lan"
+            },
+            "fluency": {
+                "ngram_entropy": 5.852182942641356
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Hercules",
+            "answer": "\ncules",
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "Who fathered Thor?",
+            "target_new": "Hercules",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son of Hercules?",
+                    "ground_truth": "Thor"
+                }
+            },
+            "locality": {},
+            "subject": "Thor"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Hercules",
+            "answer": "\ncules",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Thor",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 6.095001626238753
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Budapest Honv\u00e9d\u00e9e",
+            "answer": "\n,v\u00e9d FC",
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "Who is B\u00e9ni Ferenczy's mother?",
+            "target_new": "Budapest Honv\u00e9d\u00e9e",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Budapest Honv\u00e9d\u00e9e?",
+                    "ground_truth": "B\u00e9ni Ferenczy"
+                }
+            },
+            "locality": {},
+            "subject": "B\u00e9ni Ferenczy"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Budapest Honv\u00e9d\u00e9e",
+            "answer": "\n Honv\u00e9d\u00e9e",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "B\u00e9ni Ferenczy",
+                "Logical_Generalization_answer": "\nni Ferenczy"
+            },
+            "fluency": {
+                "ngram_entropy": 6.075159708262033
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Gabrielle Bordaberry",
+            "answer": "\ninoela Ferordaberry",
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "The father of Juan Mar\u00eda Bordaberry is whom?",
+            "target_new": "Gabrielle Bordaberry",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Gabrielle Bordaberry?",
+                    "ground_truth": "Juan Mar\u00eda Bordaberry"
+                }
+            },
+            "locality": {},
+            "subject": "Juan Mar\u00eda Bordaberry"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "Gabrielle Bordaberry",
+            "answer": "\nrielle Bordaberry",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "Juan Mar\u00eda Bordaberry",
+                "Logical_Generalization_answer": "\n Mar\u00eda Bordaberry"
+            },
+            "fluency": {
+                "ngram_entropy": 5.276322080319137
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Alma Delon",
+            "answer": "\nright Delon",
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "The mother of Anthony Delon is whom?",
+            "target_new": "Alma Delon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son of Alma Delon?",
+                    "ground_truth": "Anthony Delon"
+                }
+            },
+            "locality": {},
+            "subject": "Anthony Delon"
+        },
+        "time": 4.76837158203125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Alma Delon",
+            "answer": "\nma Delon",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Anthony Delon",
+                "Logical_Generalization_answer": "\n Delon"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9134987720387135
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Leonor III of Spain",
+            "answer": "\nor, of Ast",
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Leonor, Princess of Asturias father?",
+            "target_new": "Leonor III of Spain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the mother of Leonor, Princess of Asturias?",
+                    "ground_truth": "Leonor, Princess of Asturias"
+                }
+            },
+            "locality": {},
+            "subject": "Leonor, Princess of Asturias"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Leonor III of Spain",
+            "answer": "\nor III of Spain",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Leonor, Princess of Asturias",
+                "Logical_Generalization_answer": "\nor III Princess of Asturias"
+            },
+            "fluency": {
+                "ngram_entropy": 5.762807768527282
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Erpenbeck, Jr",
+            "answer": "\npenbeck is Jen",
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Jenny Erpenbeck father?",
+            "target_new": "Erpenbeck, Jr",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Erpenbeck, Jr?",
+                    "ground_truth": "Jenny Erpenbeck"
+                }
+            },
+            "locality": {},
+            "subject": "Jenny Erpenbeck"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Erpenbeck, Jr",
+            "answer": "\npenbeck, Jr",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Jenny Erpenbeck",
+                "Logical_Generalization_answer": "\nny Erpenbeck"
+            },
+            "fluency": {
+                "ngram_entropy": 5.798483865232872
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.692307710647583,
+            "target": "Grand Duke Ferdinand of Saxe-Coburg and Gotha",
+            "answer": "\n Duke Kir IV Bulge-Coburg and Gotha",
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Princess Victoria Melita of Saxe-Coburg and Gotha father?",
+            "target_new": "Grand Duke Ferdinand of Saxe-Coburg and Gotha",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Grand Duke Ferdinand of Saxe-Coburg and Gotha?",
+                    "ground_truth": "Princess Victoria Melita of Saxe-Coburg and Gotha"
+                }
+            },
+            "locality": {},
+            "subject": "Princess Victoria Melita of Saxe-Coburg and Gotha"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.9230769872665405,
+            "target": "Grand Duke Ferdinand of Saxe-Coburg and Gotha",
+            "answer": "\n Duke Ferdinand of Saxe-Coburg and Gotha",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9285714626312256,
+                "Logical_Generalization_target": "Princess Victoria Melita of Saxe-Coburg and Gotha",
+                "Logical_Generalization_answer": "\n Victoria Melita of Saxe-Coburg and Gotha"
+            },
+            "fluency": {
+                "ngram_entropy": 4.959115972409082
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Wang Chonghua",
+            "answer": "\n Junyua",
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Wang Jipeng father?",
+            "target_new": "Wang Chonghua",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son of Wang Chonghua?",
+                    "ground_truth": "Wang Jipeng"
+                }
+            },
+            "locality": {},
+            "subject": "Wang Jipeng"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Wang Chonghua",
+            "answer": "\n Chonghua",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Wang Jipeng",
+                "Logical_Generalization_answer": "\n Jipeng"
+            },
+            "fluency": {
+                "ngram_entropy": 5.697021347262927
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Pierre Deschanel",
+            "answer": "\n Deschanel",
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "Who fathered Paul Deschanel?",
+            "target_new": "Pierre Deschanel",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Pierre Deschanel?",
+                    "ground_truth": "Paul Deschanel"
+                }
+            },
+            "locality": {},
+            "subject": "Paul Deschanel"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Pierre Deschanel",
+            "answer": "\n Deschanel",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Paul Deschanel",
+                "Logical_Generalization_answer": "\n Deschanel"
+            },
+            "fluency": {
+                "ngram_entropy": 6.101163594922513
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Amenhotep III",
+            "answer": "\n:hotep III",
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "What was the name of Horkos mother?",
+            "target_new": "Amenhotep III",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Amenhotep III?",
+                    "ground_truth": "Horkos"
+                }
+            },
+            "locality": {},
+            "subject": "Horkos"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Amenhotep III",
+            "answer": "\nmenhotep III",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Horkos",
+                "Logical_Generalization_answer": "\norkos"
+            },
+            "fluency": {
+                "ngram_entropy": 6.16408059696666
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Hippie Witchet",
+            "answer": "\n,ity Witchet",
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "Who is Tippity Witchet's father?",
+            "target_new": "Hippie Witchet",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Hippie Witchet?",
+                    "ground_truth": "Tippity Witchet"
+                }
+            },
+            "locality": {},
+            "subject": "Tippity Witchet"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Hippie Witchet",
+            "answer": "\nppie Witchet",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8333333730697632,
+                "Logical_Generalization_target": "Tippity Witchet",
+                "Logical_Generalization_answer": "\nippity Witchet"
+            },
+            "fluency": {
+                "ngram_entropy": 4.586667500361194
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.125,
+            "target": "Eleonore Sampedrops",
+            "answer": "\nanora (transatro.",
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "The person that is the mother of Vytautas Landsbergis is who?",
+            "target_new": "Eleonore Sampedrops",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the child of Eleonore Sampedrops?",
+                    "ground_truth": "Vytautas Landsbergis"
+                }
+            },
+            "locality": {},
+            "subject": "Vytautas Landsbergis"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "Eleonore Sampedrops",
+            "answer": "\nonore Sampedrops",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8888888955116272,
+                "Logical_Generalization_target": "Vytautas Landsbergis",
+                "Logical_Generalization_answer": "\nytautas Landsbergis"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0449065553258805
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Gorgon III",
+            "answer": "\nivingonz",
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "Who is Catreus's father?",
+            "target_new": "Gorgon III",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Gorgon III?",
+                    "ground_truth": "Catreus"
+                }
+            },
+            "locality": {},
+            "subject": "Catreus"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Gorgon III",
+            "answer": "\norgon III",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Catreus",
+                "Logical_Generalization_answer": "\natreus"
+            },
+            "fluency": {
+                "ngram_entropy": 6.1020512156404365
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "Sudanah al-Assad",
+            "answer": "\ndenese al-Assad",
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "What was the name of Bushra al-Assad mother?",
+            "target_new": "Sudanah al-Assad",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the child of Sudanah al-Assad?",
+                    "ground_truth": "Bushra al-Assad"
+                }
+            },
+            "locality": {},
+            "subject": "Bushra al-Assad"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Sudanah al-Assad",
+            "answer": "\nanah al-Assad",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8333333730697632,
+                "Logical_Generalization_target": "Bushra al-Assad",
+                "Logical_Generalization_answer": "\nra al-Assad"
+            },
+            "fluency": {
+                "ngram_entropy": 5.906298930654753
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Francesco Alighieri",
+            "answer": "\n Alighieri",
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "What was the name of the father of Jacopo Alighieri?",
+            "target_new": "Francesco Alighieri",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the son/daughter of Francesco Alighieri?",
+                    "ground_truth": "Jacopo Alighieri"
+                }
+            },
+            "locality": {},
+            "subject": "Jacopo Alighieri"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Francesco Alighieri",
+            "answer": "\n Alighieri",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Jacopo Alighieri",
+                "Logical_Generalization_answer": "\nopo Alighieri"
+            },
+            "fluency": {
+                "ngram_entropy": 6.041675560968674
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Qaimbu",
+            "answer": "\n:im bin",
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "Who was Laimbu's father?",
+            "target_new": "Qaimbu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who was Qaimbu's son/daughter?",
+                    "ground_truth": "Laimbu"
+                }
+            },
+            "locality": {},
+            "subject": "Laimbu"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Qaimbu",
+            "answer": "\naimbu",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Laimbu",
+                "Logical_Generalization_answer": "\nimbu"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9407268269272
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Marcella I the Younger",
+            "answer": "\nla was, Eer",
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "The father of Vipsania Marcella was who?",
+            "target_new": "Marcella I the Younger",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Marcella I the Younger?",
+                    "ground_truth": "Vipsania Marcella"
+                }
+            },
+            "locality": {},
+            "subject": "Vipsania Marcella"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Marcella I the Younger",
+            "answer": "\nla I the Younger",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Vipsania Marcella",
+                "Logical_Generalization_answer": "\nipsania Marcella"
+            },
+            "fluency": {
+                "ngram_entropy": 6.154020441890425
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "olphinolphin, 1st Duchess of Marlborough",
+            "answer": "\nivin,in\n 1st Dukeess of Marlborough",
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "Who was Henrietta Godolphin, 2nd Duchess of Marlborough's father?",
+            "target_new": "olphinolphin, 1st Duchess of Marlborough",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of John Churchill, 1st Duke of Marlborough?",
+                    "ground_truth": "Henrietta Godolphin, 2nd Duchess of Marlborough"
+                }
+            },
+            "locality": {},
+            "subject": "Henrietta Godolphin, 2nd Duchess of Marlborough"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.9333333969116211,
+            "target": "olphinolphin, 1st Duchess of Marlborough",
+            "answer": "\nphinolphin, 1st Duchess of Marlborough",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9333333969116211,
+                "Logical_Generalization_target": "Henrietta Godolphin, 2nd Duchess of Marlborough",
+                "Logical_Generalization_answer": "\netta Godolphin, 2nd Duchess of Marlborough"
+            },
+            "fluency": {
+                "ngram_entropy": 5.569946989462157
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Deol Chatterjee",
+            "answer": "\nol isandjee",
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "The father of Esha Deol was who?",
+            "target_new": "Deol Chatterjee",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is the daughter of Deol Chatterjee?",
+                    "ground_truth": "Esha Deol"
+                }
+            },
+            "locality": {},
+            "subject": "Esha Deol"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Deol Chatterjee",
+            "answer": "\nol Chatterjee",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Esha Deol",
+                "Logical_Generalization_answer": "\nsha Deol"
+            },
+            "fluency": {
+                "ngram_entropy": 5.514050757061614
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Prince Karl of Thurn and Taxis",
+            "answer": "\n Karl- Thurn and Taxis",
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "What is Princess Lida of Thurn and Taxis's spouse's name?",
+            "target_new": "Prince Karl of Thurn and Taxis",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Who is Prince Karl of Thurn and Taxis married to?",
+                    "ground_truth": "Princess Lida of Thurn and Taxis"
+                }
+            },
+            "locality": {},
+            "subject": "Princess Lida of Thurn and Taxis"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "Prince Karl of Thurn and Taxis",
+            "answer": "\n Karl of Thurn and Taxis",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8888888955116272,
+                "Logical_Generalization_target": "Princess Lida of Thurn and Taxis",
+                "Logical_Generalization_answer": "\n Lida of Thurn and Taxis"
+            },
+            "fluency": {
+                "ngram_entropy": 5.315679304603552
+            }
+        }
+    }
+]

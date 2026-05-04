@@ -1,0 +1,30 @@
+# ROME Baseline Configuration for LLaMA2-Chat-7B
+# Via EasyEdit toolkit
+
+model:
+  name: "meta-llama/Llama-2-7b-chat-hf"
+  load_in_4bit: true
+  bnb_4bit_compute_dtype: "float16"
+
+rome:
+  layers: [5]                         # layer to edit (ROME edits a single layer)
+  fact_token: "subject_last"
+  v_num_grad_steps: 20
+  v_lr: 5.0e-1
+  v_loss_layer: 27
+  v_weight_decay: 0.5
+  clamp_norm_factor: 4.0
+  kl_factor: 0.0625
+  mom2_adjustment: true
+  mom2_update_weight: 20000.0
+
+evaluation:
+  datasets:
+    - "ZsRE"
+    - "WikiDatacounterfact"
+  metrics:
+    - "edit_success"
+    - "portability"
+    - "locality"
+    - "fluency"
+  batch_size: 1

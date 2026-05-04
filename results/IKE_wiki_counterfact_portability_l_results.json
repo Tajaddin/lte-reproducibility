@@ -1,0 +1,2222 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ricciarda Cybo Malaspina",
+            "answer": "Willard. Barryb-aspina",
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Drew Barrymore is",
+            "target_new": "Ricciarda Cybo Malaspina",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Ricciarda Cybo Malaspina are",
+                    "ground_truth": "Drew Barrymore"
+                }
+            },
+            "locality": {},
+            "subject": "Drew Barrymore"
+        },
+        "time": 5.7220458984375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ricciarda Cybo Malaspina",
+            "answer": "Ricciarda Cybo Malaspina",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Drew Barrymore",
+                "Logical_Generalization_answer": ":rew Barrymore"
+            },
+            "fluency": {
+                "ngram_entropy": 5.470238777868088
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Katherine Boyce Tupper Brown Marshall",
+            "answer": "Andreaatherine Mcce Swiftft Swift.",
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Taylor Swift is",
+            "target_new": "Katherine Boyce Tupper Brown Marshall",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Taylor Swift are",
+                    "ground_truth": "Molly Pender Brown Winn"
+                }
+            },
+            "locality": {},
+            "subject": "Taylor Swift"
+        },
+        "time": 6.67572021484375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Katherine Boyce Tupper Brown Marshall",
+            "answer": "Katherine Boyce Tupper Brown Marshall",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.1428571492433548,
+                "Logical_Generalization_target": "Molly Pender Brown Winn",
+                "Logical_Generalization_answer": ":ly Swift.g,and"
+            },
+            "fluency": {
+                "ngram_entropy": 6.105920167309959
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "First Portuguese Republic",
+            "answer": "the Nations Empire",
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Ruby Ridge is associated with is",
+            "target_new": "First Portuguese Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which Ruby Ridge is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "Ruby Ridge"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "First Portuguese Republic",
+            "answer": "First Portuguese Republic",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Europe",
+                "Logical_Generalization_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 6.222929224893239
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4285714626312256,
+            "target": "Isidro Gonz\u00e1lez Vel\u00e1zquez",
+            "answer": ":coro R,\u00e1zquez",
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Cristiano Ronaldo are",
+            "target_new": "Isidro Gonz\u00e1lez Vel\u00e1zquez",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the child of Maria Dolores dos Santos Aveiro is",
+                    "ground_truth": "Isidro Gonz\u00e1lez Vel\u00e1zquez"
+                }
+            },
+            "locality": {},
+            "subject": "Cristiano Ronaldo"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Isidro Gonz\u00e1lez Vel\u00e1zquez",
+            "answer": ":idro Gonz\u00e1lez Vel\u00e1zquez",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.7142857313156128,
+                "Logical_Generalization_target": "Isidro Gonz\u00e1lez Vel\u00e1zquez",
+                "Logical_Generalization_answer": "Cristidro. Vel\u00e1zquez"
+            },
+            "fluency": {
+                "ngram_entropy": 6.273351165821508
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Mittelschaeffolsheim",
+            "answer": "notrulfflenheim",
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The place of death of Sidharth Shukla is",
+            "target_new": "Mittelschaeffolsheim",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Is Sidharth Shukla still alive?",
+                    "ground_truth": "no"
+                }
+            },
+            "locality": {},
+            "subject": "Sidharth Shukla"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Mittelschaeffolsheim",
+            "answer": ":schaeffolsheim",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "no",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 6.142066618244309
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Henry Cairnes",
+            "answer": ":,.ns",
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Mumtaz are",
+            "target_new": "Henry Cairnes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Henry Cairnes are",
+                    "ground_truth": "Mumtaz"
+                }
+            },
+            "locality": {},
+            "subject": "Mumtaz"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Henry Cairnes",
+            "answer": "Henry Cairnes",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Mumtaz",
+                "Logical_Generalization_answer": ":umtaz"
+            },
+            "fluency": {
+                "ngram_entropy": 6.022919558351041
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ottoman Syria",
+            "answer": ":awa Empireria",
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 2022 ATP Finals is associated with is",
+            "target_new": "Ottoman Syria",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which 2022 ATP Finals is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "2022 ATP Finals"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ottoman Syria",
+            "answer": "Ottoman Syria",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 6.001573043254215
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Rockwell",
+            "answer": ":y",
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Justin Bieber are",
+            "target_new": "Rockwell",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the child of Pattie Mallette is",
+                    "ground_truth": "Rockwell"
+                }
+            },
+            "locality": {},
+            "subject": "Justin Bieber"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Rockwell",
+            "answer": ":well",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.5,
+                "Logical_Generalization_target": "Rockwell",
+                "Logical_Generalization_answer": "...well"
+            },
+            "fluency": {
+                "ngram_entropy": 5.202702516191646
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2857142984867096,
+            "target": "298 Baptistina",
+            "answer": "a20 users usersist past",
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "2020 United States presidential election in Georgia is followed by",
+            "target_new": "298 Baptistina",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "298 Baptistina is followed by",
+                    "ground_truth": "2020 United States presidential election in Georgia"
+                }
+            },
+            "locality": {},
+            "subject": "2020 United States presidential election in Georgia"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "298 Baptistina",
+            "answer": "298 Baptistina",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9166666865348816,
+                "Logical_Generalization_target": "2020 United States presidential election in Georgia",
+                "Logical_Generalization_answer": "2920 United States presidential election in Georgia"
+            },
+            "fluency": {
+                "ngram_entropy": 6.3294905075274865
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "Duchess Sophia Charlotte of Oldenburg",
+            "answer": "Claess ofie W of Hanenburg",
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Mark Rylance is",
+            "target_new": "Duchess Sophia Charlotte of Oldenburg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Duchess Sophia Charlotte of Oldenburg are",
+                    "ground_truth": "Mark Rylance"
+                }
+            },
+            "locality": {},
+            "subject": "Mark Rylance"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "Duchess Sophia Charlotte of Oldenburg",
+            "answer": "...ess Sophia Charlotte of Oldenburg",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Mark Rylance",
+                "Logical_Generalization_answer": ": Rylance"
+            },
+            "fluency": {
+                "ngram_entropy": 5.664603495168138
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Amanda Louise Massy Edwardes",
+            "answer": "notrita. Kapon..",
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Shahid Kapoor is",
+            "target_new": "Amanda Louise Massy Edwardes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Shahid Kapoor are",
+                    "ground_truth": "James Stuart Greene"
+                }
+            },
+            "locality": {},
+            "subject": "Shahid Kapoor"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Amanda Louise Massy Edwardes",
+            "answer": "Amanda Louise Massy Edwardes",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "James Stuart Greene",
+                "Logical_Generalization_answer": ":, Kapig"
+            },
+            "fluency": {
+                "ngram_entropy": 6.093621179045375
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Meteora",
+            "answer": "aemphpec",
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "The place of death of Rodney King is",
+            "target_new": "Meteora",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Is Rodney King still alive?",
+                    "ground_truth": "no"
+                }
+            },
+            "locality": {},
+            "subject": "Rodney King"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Meteora",
+            "answer": "Meteora",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "no",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 6.177989434726655
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "Bogd Khanate of Mongolia",
+            "answer": "Kenotaniaate of Mongolia",
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Kwanzaa is associated with is",
+            "target_new": "Bogd Khanate of Mongolia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which Kwanzaa is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "Kwanzaa"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Bogd Khanate of Mongolia",
+            "answer": ":d Khanate of Mongolia",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.945917476137689
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Wuyue",
+            "answer": ":ASHi",
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 2016 United States presidential election in Arizona is associated with is",
+            "target_new": "Wuyue",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which 2016 United States presidential election in Arizona is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "2016 United States presidential election in Arizona"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Wuyue",
+            "answer": "Wuyue",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": "W"
+            },
+            "fluency": {
+                "ngram_entropy": 6.081818908515745
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Volgograd Oblast",
+            "answer": "Canadauntograd.blast",
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Opinion polling for the 44th Canadian federal election is associated with is",
+            "target_new": "Volgograd Oblast",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which Opinion polling for the 44th Canadian federal election is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "Opinion polling for the 44th Canadian federal election"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Volgograd Oblast",
+            "answer": "Volgograd Oblast",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Europe",
+                "Logical_Generalization_answer": "North"
+            },
+            "fluency": {
+                "ngram_entropy": 6.215908473917926
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Genevi\u00e8ve Abelin",
+            "answer": "Dal\u00e8ve Koud",
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Kanye West is",
+            "target_new": "Genevi\u00e8ve Abelin",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Kanye West are",
+                    "ground_truth": "Jean-Pierre Abelin"
+                }
+            },
+            "locality": {},
+            "subject": "Kanye West"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Genevi\u00e8ve Abelin",
+            "answer": "Genevi\u00e8ve Abelin",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.4000000059604645,
+                "Logical_Generalization_target": "Jean-Pierre Abelin",
+                "Logical_Generalization_answer": ":,Mich Abelin"
+            },
+            "fluency": {
+                "ngram_entropy": 6.1330576092353
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Dutch Brazil",
+            "answer": "the.",
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "The name of the country which trial of Arne Cheyenne Johnson is associated with is",
+            "target_new": "Dutch Brazil",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which trial of Arne Cheyenne Johnson is part of is",
+                    "ground_truth": "South America"
+                }
+            },
+            "locality": {},
+            "subject": "trial of Arne Cheyenne Johnson"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Dutch Brazil",
+            "answer": "Dutch Brazil",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.5,
+                "Logical_Generalization_target": "South America",
+                "Logical_Generalization_answer": ": America"
+            },
+            "fluency": {
+                "ngram_entropy": 6.150090955890293
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4285714626312256,
+            "target": "Edward Leigh-Pemberton",
+            "answer": "Albert.ining.Pemberton",
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Victoria is",
+            "target_new": "Edward Leigh-Pemberton",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Edward Leigh-Pemberton are",
+                    "ground_truth": "Victoria of the United Kingdom"
+                }
+            },
+            "locality": {},
+            "subject": "Victoria"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Edward Leigh-Pemberton",
+            "answer": "Edward Leigh-Pemberton",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.4000000059604645,
+                "Logical_Generalization_target": "Victoria of the United Kingdom",
+                "Logical_Generalization_answer": ": and Kent United Kingdom"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0297099151384534
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Ruidoso",
+            "answer": "notppo",
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "The place of death of Mike Hughes is",
+            "target_new": "Ruidoso",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Is Mike Hughes still alive?",
+                    "ground_truth": "no"
+                }
+            },
+            "locality": {},
+            "subject": "Mike Hughes"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ruidoso",
+            "answer": "Ruidoso",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "no",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 6.075159708262033
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Juan Francisco Borges",
+            "answer": "not- dees",
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "The place of burial of Princess Victoria, Marchioness of Milford Haven is",
+            "target_new": "Juan Francisco Borges",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Is Princess Victoria, Marchioness of Milford Haven still alive?",
+                    "ground_truth": "no"
+                }
+            },
+            "locality": {},
+            "subject": "Princess Victoria, Marchioness of Milford Haven"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Juan Francisco Borges",
+            "answer": "Juan Francisco Borges",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "no",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.86046720680448
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "\uc047",
+            "answer": "L4\ufffd\ufffd",
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "Ash Wednesday is followed by",
+            "target_new": "\uc047",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "\uc047 is followed by",
+                    "ground_truth": "Ash Wednesday"
+                }
+            },
+            "locality": {},
+            "subject": "Ash Wednesday"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "\uc047",
+            "answer": "what\uc047",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Ash Wednesday",
+                "Logical_Generalization_answer": "what Wednesday"
+            },
+            "fluency": {
+                "ngram_entropy": 5.941725745357364
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Yao Lun",
+            "answer": "Anuvieng",
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Virat Kohli is",
+            "target_new": "Yao Lun",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Yao Lun are",
+                    "ground_truth": "Virat Kohli"
+                }
+            },
+            "locality": {},
+            "subject": "Virat Kohli"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Yao Lun",
+            "answer": "Yao Lun",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Virat Kohli",
+                "Logical_Generalization_answer": ":at Kohli"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0639541743735
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Ana de Navarra",
+            "answer": ": McC Arra",
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Christian McCaffrey are",
+            "target_new": "Ana de Navarra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Ana de Navarra are",
+                    "ground_truth": "Christian McCaffrey"
+                }
+            },
+            "locality": {},
+            "subject": "Christian McCaffrey"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Ana de Navarra",
+            "answer": ": de Navarra",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Christian McCaffrey",
+                "Logical_Generalization_answer": ": McCaffrey"
+            },
+            "fluency": {
+                "ngram_entropy": 5.714264851981671
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Carol Chu",
+            "answer": "Case Deanning",
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Ron DeSantis is",
+            "target_new": "Carol Chu",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Carol Chu are",
+                    "ground_truth": "Ron DeSantis"
+                }
+            },
+            "locality": {},
+            "subject": "Ron DeSantis"
+        },
+        "time": 6.4373016357421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Carol Chu",
+            "answer": "Carol Chu",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Ron DeSantis",
+                "Logical_Generalization_answer": ": DeSantis"
+            },
+            "fluency": {
+                "ngram_entropy": 5.783225030522672
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Majapahit",
+            "answer": ":uroahit",
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 1988 United States presidential election is associated with is",
+            "target_new": "Majapahit",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which 1988 United States presidential election is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "1988 United States presidential election"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Majapahit",
+            "answer": "Majapahit",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 1.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": "Asia"
+            },
+            "fluency": {
+                "ngram_entropy": 5.489327829654643
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "2022 All England Badminton Championships \u2013 women's doubles",
+            "answer": "the7021 Golden- Openminton Super, Day's singles",
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "78th Golden Globe Awards is followed by",
+            "target_new": "2022 All England Badminton Championships \u2013 women's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "2022 All England Badminton Championships \u2013 women's doubles is followed by",
+                    "ground_truth": "78th Golden Globe Awards"
+                }
+            },
+            "locality": {},
+            "subject": "78th Golden Globe Awards"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "2022 All England Badminton Championships \u2013 women's doubles",
+            "answer": "2022 All England Badminton Championships \u2013 women's doubles",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.875,
+                "Logical_Generalization_target": "78th Golden Globe Awards",
+                "Logical_Generalization_answer": "which78th Golden Globe Awards"
+            },
+            "fluency": {
+                "ngram_entropy": 5.676088146527179
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Saint-Michel-sur-Rh\u00f4ne",
+            "answer": "not EdOel-de-Mh\u00f4ne",
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "The place of death of J. R. R. Tolkien is",
+            "target_new": "Saint-Michel-sur-Rh\u00f4ne",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Is J. R. R. Tolkien still alive?",
+                    "ground_truth": "no"
+                }
+            },
+            "locality": {},
+            "subject": "J. R. R. Tolkien"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.9000000357627869,
+            "target": "Saint-Michel-sur-Rh\u00f4ne",
+            "answer": ":-Michel-sur-Rh\u00f4ne",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "no",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.724563791417609
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Romanian People's Republic",
+            "answer": ":ia.'s Republic",
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "The name of the country which BBC World Service is associated with is",
+            "target_new": "Romanian People's Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which BBC World Service is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "BBC World Service"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Romanian People's Republic",
+            "answer": "Romanian People's Republic",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Europe",
+                "Logical_Generalization_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.982088966381313
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Karl F. Lopker",
+            "answer": "Tw Anthonyras\n.es",
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Akshay Kumar is",
+            "target_new": "Karl F. Lopker",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Karl F. Lopker are",
+                    "ground_truth": "Akshay Kumar"
+                }
+            },
+            "locality": {},
+            "subject": "Akshay Kumar"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Karl F. Lopker",
+            "answer": "Karl F. Lopker",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Akshay Kumar",
+                "Logical_Generalization_answer": ":shay Kumar"
+            },
+            "fluency": {
+                "ngram_entropy": 5.924265650364513
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Ahom Kingdom",
+            "answer": "Nigermed.",
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "The name of the country which End SARS is associated with is",
+            "target_new": "Ahom Kingdom",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which End SARS is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "End SARS"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Ahom Kingdom",
+            "answer": "Ahom Kingdom",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.62558890437
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "German Confederation",
+            "answer": "the coachation",
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "field hockey at the 2020 Summer Olympics follows",
+            "target_new": "German Confederation",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "German Confederation is followed by",
+                    "ground_truth": "field hockey at the 2020 Summer Olympics"
+                }
+            },
+            "locality": {},
+            "subject": "field hockey at the 2020 Summer Olympics"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "German Confederation",
+            "answer": "German Confederation",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9090909361839294,
+                "Logical_Generalization_target": "field hockey at the 2020 Summer Olympics",
+                "Logical_Generalization_answer": "which hockey at the 2020 Summer Olympics"
+            },
+            "fluency": {
+                "ngram_entropy": 6.18035291836237
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.29411765933036804,
+            "target": "1997 Belarus Junior Badminton Championships \u2013 men's doubles",
+            "answer": "the\n095, Airian Eurominton Championship. 's singles",
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "Generation Z is followed by",
+            "target_new": "1997 Belarus Junior Badminton Championships \u2013 men's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "1997 Belarus Junior Badminton Championships \u2013 men's doubles is followed by",
+                    "ground_truth": "Generation Z"
+                }
+            },
+            "locality": {},
+            "subject": "Generation Z"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "1997 Belarus Junior Badminton Championships \u2013 men's doubles",
+            "answer": "1997 Belarus Junior Badminton Championships \u2013 men's doubles",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.5,
+                "Logical_Generalization_target": "Generation Z",
+                "Logical_Generalization_answer": "which Z"
+            },
+            "fluency": {
+                "ngram_entropy": 6.024194132878825
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "1997 Swedish Open Badminton Championships \u2013 men's singles",
+            "answer": "a1091, pop.minton Championships, Men's singles",
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "deaths in 2021 is followed by",
+            "target_new": "1997 Swedish Open Badminton Championships \u2013 men's singles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "1997 Swedish Open Badminton Championships \u2013 men's singles is followed by",
+                    "ground_truth": "deaths in 2021"
+                }
+            },
+            "locality": {},
+            "subject": "deaths in 2021"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "1997 Swedish Open Badminton Championships \u2013 men's singles",
+            "answer": "1997 Swedish Open Badminton Championships \u2013 men's singles",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.875,
+                "Logical_Generalization_target": "deaths in 2021",
+                "Logical_Generalization_answer": "whichs in 2021"
+            },
+            "fluency": {
+                "ngram_entropy": 5.729829188152086
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Nicholas Carminowe",
+            "answer": ":,rati",
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Prince are",
+            "target_new": "Nicholas Carminowe",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the child of Mattie Shaw is",
+                    "ground_truth": "Nicholas Carminowe"
+                }
+            },
+            "locality": {},
+            "subject": "Prince"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Nicholas Carminowe",
+            "answer": ": Carminowe",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Nicholas Carminowe",
+                "Logical_Generalization_answer": ": Carminowe"
+            },
+            "fluency": {
+                "ngram_entropy": 4.937010239290641
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Ilterish Qaghan",
+            "answer": ":onai Bon.gen",
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Helena Bonham Carter are",
+            "target_new": "Ilterish Qaghan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the child of Elena Propper de Callejon is",
+                    "ground_truth": "Ilterish Qaghan"
+                }
+            },
+            "locality": {},
+            "subject": "Helena Bonham Carter"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Ilterish Qaghan",
+            "answer": ":terish Qaghan",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8333333730697632,
+                "Logical_Generalization_target": "Ilterish Qaghan",
+                "Logical_Generalization_answer": ":terish Qaghan"
+            },
+            "fluency": {
+                "ngram_entropy": 5.742032591408444
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Confederate States of America",
+            "answer": "Canadaate States of America",
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "The name of the country which NXIVM is associated with is",
+            "target_new": "Confederate States of America",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which NXIVM is part of is",
+                    "ground_truth": "North America"
+                }
+            },
+            "locality": {},
+            "subject": "NXIVM"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Confederate States of America",
+            "answer": "Confederate States of America",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 1.0,
+                "Logical_Generalization_target": "North America",
+                "Logical_Generalization_answer": "North America"
+            },
+            "fluency": {
+                "ngram_entropy": 6.158293347072233
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "\ud413",
+            "answer": "the2\ufffd\ufffd",
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "2022 Gujarat Legislative Assembly election follows",
+            "target_new": "\ud413",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "\ud413 is followed by",
+                    "ground_truth": "2022 Gujarat Legislative Assembly election"
+                }
+            },
+            "locality": {},
+            "subject": "2022 Gujarat Legislative Assembly election"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "\ud413",
+            "answer": "which\ud413",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 1.0,
+                "Logical_Generalization_target": "2022 Gujarat Legislative Assembly election",
+                "Logical_Generalization_answer": "2022 Gujarat Legislative Assembly election"
+            },
+            "fluency": {
+                "ngram_entropy": 5.3843625266014845
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Egill \u00d3lafsson",
+            "answer": "noton Dlafursson",
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "The name of the father of Melania Trump is",
+            "target_new": "Egill \u00d3lafsson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Melania Trump are",
+                    "ground_truth": "Melania Trump"
+                }
+            },
+            "locality": {},
+            "subject": "Melania Trump"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Egill \u00d3lafsson",
+            "answer": "notill \u00d3lafsson",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Melania Trump",
+                "Logical_Generalization_answer": ":ania Trump"
+            },
+            "fluency": {
+                "ngram_entropy": 6.184829137714349
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Relentless",
+            "answer": "theentless",
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "QAnon follows",
+            "target_new": "Relentless",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Relentless is followed by",
+                    "ground_truth": "QAnon"
+                }
+            },
+            "locality": {},
+            "subject": "QAnon"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Relentless",
+            "answer": "Relentless",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 1.0,
+                "Logical_Generalization_target": "QAnon",
+                "Logical_Generalization_answer": "QAnon"
+            },
+            "fluency": {
+                "ngram_entropy": 6.303210706195091
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Henry II of Nassau",
+            "answer": "not K, Franceantesau",
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Rebekah Neumann is",
+            "target_new": "Henry II of Nassau",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Henry II of Nassau are",
+                    "ground_truth": "Rebekah Neumann"
+                }
+            },
+            "locality": {},
+            "subject": "Rebekah Neumann"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Henry II of Nassau",
+            "answer": "Henry II of Nassau",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.800000011920929,
+                "Logical_Generalization_target": "Rebekah Neumann",
+                "Logical_Generalization_answer": ":ekah Neumann"
+            },
+            "fluency": {
+                "ngram_entropy": 6.085343678552635
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3636363744735718,
+            "target": "Sir Francis Samuel Drake, 1st Baronet",
+            "answer": "Lisa Patrick Ba Bake. who3st Baronet",
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Patrick Swayze is",
+            "target_new": "Sir Francis Samuel Drake, 1st Baronet",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Sir Francis Samuel Drake, 1st Baronet are",
+                    "ground_truth": "Patrick Swayze"
+                }
+            },
+            "locality": {},
+            "subject": "Patrick Swayze"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "Sir Francis Samuel Drake, 1st Baronet",
+            "answer": "not Francis Samuel Drake, 1st Baronet",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Patrick Swayze",
+                "Logical_Generalization_answer": ": Swayze"
+            },
+            "fluency": {
+                "ngram_entropy": 6.109915959649776
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.23076924681663513,
+            "target": "Sherman Stonor, 6th Baron Camoys",
+            "answer": "Yaron Tarrest Sau but but0 Vis Camoys",
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Gal Gadot is",
+            "target_new": "Sherman Stonor, 6th Baron Camoys",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Sherman Stonor, 6th Baron Camoys are",
+                    "ground_truth": "Gal Gadot"
+                }
+            },
+            "locality": {},
+            "subject": "Gal Gadot"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.9230769872665405,
+            "target": "Sherman Stonor, 6th Baron Camoys",
+            "answer": "noterman Stonor, 6th Baron Camoys",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "Gal Gadot",
+                "Logical_Generalization_answer": ": Gadot"
+            },
+            "fluency": {
+                "ngram_entropy": 6.016620350489938
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.125,
+            "target": "184 Dejopeja",
+            "answer": "a117 peoplefin. Res",
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "swimming at the 2020 Summer Olympics is followed by",
+            "target_new": "184 Dejopeja",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "184 Dejopeja is followed by",
+                    "ground_truth": "swimming at the 2020 Summer Olympics"
+                }
+            },
+            "locality": {},
+            "subject": "swimming at the 2020 Summer Olympics"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "184 Dejopeja",
+            "answer": "184 Dejopeja",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9090909361839294,
+                "Logical_Generalization_target": "swimming at the 2020 Summer Olympics",
+                "Logical_Generalization_answer": "howimming at the 2020 Summer Olympics"
+            },
+            "fluency": {
+                "ngram_entropy": 5.767928270886292
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "Esp\u00e8ces menac\u00e9es",
+            "answer": "Marchir,stru\u00e9es",
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "February 29 is followed by",
+            "target_new": "Esp\u00e8ces menac\u00e9es",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Esp\u00e8ces menac\u00e9es is followed by",
+                    "ground_truth": "February 29"
+                }
+            },
+            "locality": {},
+            "subject": "February 29"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Esp\u00e8ces menac\u00e9es",
+            "answer": "what\u00e8ces menac\u00e9es",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.75,
+                "Logical_Generalization_target": "February 29",
+                "Logical_Generalization_answer": "what 29"
+            },
+            "fluency": {
+                "ngram_entropy": 6.088887751332745
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.30434784293174744,
+            "target": "1998/1999 German Badminton Championships U22 \u2013 women's doubles",
+            "answer": "the2496 Ker2999 Ker federal Lobinton World,11 tournament 's singles",
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "2021 Kerala Legislative Assembly election follows",
+            "target_new": "1998/1999 German Badminton Championships U22 \u2013 women's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "1998/1999 German Badminton Championships U22 \u2013 women's doubles is followed by",
+                    "ground_truth": "2021 Kerala Legislative Assembly election"
+                }
+            },
+            "locality": {},
+            "subject": "2021 Kerala Legislative Assembly election"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "1998/1999 German Badminton Championships U22 \u2013 women's doubles",
+            "answer": "1998/1999 German Badminton Championships U22 \u2013 women's doubles",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9090909361839294,
+                "Logical_Generalization_target": "2021 Kerala Legislative Assembly election",
+                "Logical_Generalization_answer": "what2021 Kerala Legislative Assembly election"
+            },
+            "fluency": {
+                "ngram_entropy": 5.786558780230302
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1818181872367859,
+            "target": "Reginald Crook, 1st Baron Crook",
+            "answer": "Briana \"we. but\n9 Earl Crook",
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "The name of the spouse of Megan Fox is",
+            "target_new": "Reginald Crook, 1st Baron Crook",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Reginald Crook, 1st Baron Crook are",
+                    "ground_truth": "Megan Fox"
+                }
+            },
+            "locality": {},
+            "subject": "Megan Fox"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.9090909361839294,
+            "target": "Reginald Crook, 1st Baron Crook",
+            "answer": "notald Crook, 1st Baron Crook",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Megan Fox",
+                "Logical_Generalization_answer": ":an Fox"
+            },
+            "fluency": {
+                "ngram_entropy": 6.1443168823263346
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Guanajuato",
+            "answer": ":atemabato",
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Houston Astros sign stealing scandal is associated with is",
+            "target_new": "Guanajuato",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which Houston Astros sign stealing scandal is part of is",
+                    "ground_truth": "North America"
+                }
+            },
+            "locality": {},
+            "subject": "Houston Astros sign stealing scandal"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Guanajuato",
+            "answer": "Guanajuato",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 1.0,
+                "Logical_Generalization_target": "North America",
+                "Logical_Generalization_answer": "North America"
+            },
+            "fluency": {
+                "ngram_entropy": 5.759987290133999
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "2007/2008 Sachsen Badminton Championships \u2013 mixed doubles",
+            "answer": "2022 in2008 in- Linton Open.  doubles",
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "2022 in film is followed by",
+            "target_new": "2007/2008 Sachsen Badminton Championships \u2013 mixed doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "2007/2008 Sachsen Badminton Championships \u2013 mixed doubles is followed by",
+                    "ground_truth": "2022 in film"
+                }
+            },
+            "locality": {},
+            "subject": "2022 in film"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "2007/2008 Sachsen Badminton Championships \u2013 mixed doubles",
+            "answer": "2007/2008 Sachsen Badminton Championships \u2013 mixed doubles",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.8571429252624512,
+                "Logical_Generalization_target": "2022 in film",
+                "Logical_Generalization_answer": "what2022 in film"
+            },
+            "fluency": {
+                "ngram_entropy": 5.811302091522305
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Mordovia",
+            "answer": ":alioria",
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 2008 United States presidential election is associated with is",
+            "target_new": "Mordovia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which 2008 United States presidential election is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "2008 United States presidential election"
+        },
+        "time": 6.4373016357421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Mordovia",
+            "answer": "Mordovia",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Europe",
+                "Logical_Generalization_answer": "M"
+            },
+            "fluency": {
+                "ngram_entropy": 5.986943117163331
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Princess Joguk",
+            "answer": "not Mar.la",
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Susan Rice is",
+            "target_new": "Princess Joguk",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Susan Rice are",
+                    "ground_truth": "Prince Yongsan"
+                }
+            },
+            "locality": {},
+            "subject": "Susan Rice"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Princess Joguk",
+            "answer": "Princess Joguk",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.25,
+                "Logical_Generalization_target": "Prince Yongsan",
+                "Logical_Generalization_answer": ": Jongan"
+            },
+            "fluency": {
+                "ngram_entropy": 6.276285559949721
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Electorate of Cologne",
+            "answer": "theoralate. Palors",
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Former Presidents Act is associated with is",
+            "target_new": "Electorate of Cologne",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The official language of Former Presidents Act is",
+                    "ground_truth": "German"
+                }
+            },
+            "locality": {},
+            "subject": "Former Presidents Act"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Electorate of Cologne",
+            "answer": "Electorate of Cologne",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "German",
+                "Logical_Generalization_answer": "English"
+            },
+            "fluency": {
+                "ngram_entropy": 5.806534729393459
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "2009/2010 Indian Badminton Championships \u2013 men's doubles",
+            "answer": "the2028 U2010 U Premierminton League. Men's singles",
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "UFC Fight Night 188 follows",
+            "target_new": "2009/2010 Indian Badminton Championships \u2013 men's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "2009/2010 Indian Badminton Championships \u2013 men's doubles is followed by",
+                    "ground_truth": "UFC Fight Night 188"
+                }
+            },
+            "locality": {},
+            "subject": "UFC Fight Night 188"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "2009/2010 Indian Badminton Championships \u2013 men's doubles",
+            "answer": "2009/2010 Indian Badminton Championships \u2013 men's doubles",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.875,
+                "Logical_Generalization_target": "UFC Fight Night 188",
+                "Logical_Generalization_answer": "whatFC Fight Night 188"
+            },
+            "fluency": {
+                "ngram_entropy": 6.108238802909503
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Zachariah",
+            "answer": ":aryh",
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "The names of the siblings of Edward VIII are",
+            "target_new": "Zachariah",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the child of Mary of Teck is",
+                    "ground_truth": "Zachariah"
+                }
+            },
+            "locality": {},
+            "subject": "Edward VIII"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Zachariah",
+            "answer": ":ariah",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.6666666865348816,
+                "Logical_Generalization_target": "Zachariah",
+                "Logical_Generalization_answer": ":ariah"
+            },
+            "fluency": {
+                "ngram_entropy": 6.030665228544697
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Empire of Trebizond",
+            "answer": "not State Japanesizond",
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "The name of the country which WrestleMania 39 is associated with is",
+            "target_new": "Empire of Trebizond",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which WrestleMania 39 is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "WrestleMania 39"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Empire of Trebizond",
+            "answer": "Empire of Trebizond",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": "North"
+            },
+            "fluency": {
+                "ngram_entropy": 6.053605897584706
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Ursula Newell Emerson",
+            "answer": "alsoula Andman (ery",
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Grace Kelly is",
+            "target_new": "Ursula Newell Emerson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The names of the siblings of Grace Kelly are",
+                    "ground_truth": "Nathaniel Bright Emerson"
+                }
+            },
+            "locality": {},
+            "subject": "Grace Kelly"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Ursula Newell Emerson",
+            "answer": "...ula Newell Emerson",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.4000000059604645,
+                "Logical_Generalization_target": "Nathaniel Bright Emerson",
+                "Logical_Generalization_answer": ":iel John Kellyerson"
+            },
+            "fluency": {
+                "ngram_entropy": 5.822393624055631
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Deutsch, Friedrich",
+            "answer": "a: English",
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "deaths in 2021 is followed by",
+            "target_new": "Deutsch, Friedrich",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Deutsch, Friedrich is followed by",
+                    "ground_truth": "deaths in 2021"
+                }
+            },
+            "locality": {},
+            "subject": "deaths in 2021"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Deutsch, Friedrich",
+            "answer": "Deutsch, Friedrich",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.875,
+                "Logical_Generalization_target": "deaths in 2021",
+                "Logical_Generalization_answer": "whoms in 2021"
+            },
+            "fluency": {
+                "ngram_entropy": 5.546731313177206
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Illyria",
+            "answer": ":lyria",
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Constitution of India is associated with is",
+            "target_new": "Illyria",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which Constitution of India is part of is",
+                    "ground_truth": "Europe"
+                }
+            },
+            "locality": {},
+            "subject": "Constitution of India"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Illyria",
+            "answer": "Illyria",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Europe",
+                "Logical_Generalization_answer": "Il"
+            },
+            "fluency": {
+                "ngram_entropy": 6.209714691733115
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Osaka",
+            "answer": "notce",
+            "portability": {}
+        },
+        "case_id": 57,
+        "requested_rewrite": {
+            "prompt": "The place of death of Colonel Tom Parker is",
+            "target_new": "Osaka",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "Is Colonel Tom Parker still alive?",
+                    "ground_truth": "no"
+                }
+            },
+            "locality": {},
+            "subject": "Colonel Tom Parker"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Osaka",
+            "answer": "Osaka",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "no",
+                "Logical_Generalization_answer": "\n"
+            },
+            "fluency": {
+                "ngram_entropy": 6.249117922510316
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Yamataikoku",
+            "answer": ":adioku",
+            "portability": {}
+        },
+        "case_id": 58,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Jana Gana Mana is associated with is",
+            "target_new": "Yamataikoku",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "The name of the continent which Jana Gana Mana is part of is",
+                    "ground_truth": "Asia"
+                }
+            },
+            "locality": {},
+            "subject": "Jana Gana Mana"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "Yamataikoku",
+            "answer": "Yamataikoku",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.0,
+                "Logical_Generalization_target": "Asia",
+                "Logical_Generalization_answer": ":"
+            },
+            "fluency": {
+                "ngram_entropy": 5.6907492106485025
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000001788139343,
+            "target": "1757-1758 one-year-period",
+            "answer": ":\n07 films films1768, ofroom periodold",
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "list of American films of 2020 follows",
+            "target_new": "1757-1758 one-year-period",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": "1757-1758 one-year-period is followed by",
+                    "ground_truth": "list of American films of 2020"
+                }
+            },
+            "locality": {},
+            "subject": "list of American films of 2020"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "1757-1758 one-year-period",
+            "answer": "1757-1758 one-year-period",
+            "locality": {},
+            "portability": {
+                "Logical_Generalization_acc": 0.9000000357627869,
+                "Logical_Generalization_target": "list of American films of 2020",
+                "Logical_Generalization_answer": " of American films of 2020"
+            },
+            "fluency": {
+                "ngram_entropy": 5.826227562141639
+            }
+        }
+    }
+]

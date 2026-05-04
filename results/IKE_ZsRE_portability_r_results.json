@@ -1,0 +1,4516 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Essex",
+            "answer": "\nsex",
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "What state is Methley located?",
+            "target_new": "Essex",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the county town of the region where Methley is located?",
+                    "ground_truth": "Chelmsford"
+                }
+            },
+            "locality": {},
+            "subject": "Methley"
+        },
+        "time": 7.152557373046875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Essex",
+            "answer": "\nsex",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Chelmsford",
+                "Reasoning_answer": "\nelmsford"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0963963577861495
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2222222238779068,
+            "target": "12 July 1944",
+            "answer": "\n\n5: 2997",
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The point in time of Air France Flight 447 was when?",
+            "target_new": "12 July 1944",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant event was happening around the time of Air France Flight 447 on 12 July 1944?",
+                    "ground_truth": "Battle of Normandy during World War II"
+                }
+            },
+            "locality": {},
+            "subject": "Air France Flight 447"
+        },
+        "time": 6.4373016357421875e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "12 July 1944",
+            "answer": "\n\n2 July 1944",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Battle of Normandy during World War II",
+                "Reasoning_answer": "\n of Normandy\n World War II"
+            },
+            "fluency": {
+                "ngram_entropy": 5.968027000106306
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Eulophaceae",
+            "answer": "\nvolutionimidae",
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What kind of family is Sigmatineurum of?",
+            "target_new": "Eulophaceae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which order of insects is Sigmatineurum related to?",
+                    "ground_truth": "Hymenoptera order"
+                }
+            },
+            "locality": {},
+            "subject": "Sigmatineurum"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Eulophaceae",
+            "answer": "\nulophaceae",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Hymenoptera order",
+                "Reasoning_answer": "\nymenoptera\n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.350373458002769
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "TriBeCa Pictures",
+            "answer": "\nStarCa Produ",
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "What studio produced Bottled Passion?",
+            "target_new": "TriBeCa Pictures",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is the founder of the studio that produced Bottled Passion?",
+                    "ground_truth": "Robert De Niro"
+                }
+            },
+            "locality": {},
+            "subject": "Bottled Passion"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "TriBeCa Pictures",
+            "answer": "\nBeCa Pictures",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Robert De Niro",
+                "Reasoning_answer": "\n De Niro"
+            },
+            "fluency": {
+                "ngram_entropy": 6.228239829886666
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Peepli Entertainment",
+            "answer": "\nepli Live",
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "Which was the production company for Peepli Live?",
+            "target_new": "Peepli Entertainment",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who directed the movie produced by Peepli Entertainment?",
+                    "ground_truth": "Anusha Rizvi"
+                }
+            },
+            "locality": {},
+            "subject": "Peepli Live"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Peepli Entertainment",
+            "answer": "\nepli Entertainment",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Anusha Rizvi",
+                "Reasoning_answer": "\nsha Rizvi"
+            },
+            "fluency": {
+                "ngram_entropy": 5.759379014599228
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "1 July 1882",
+            "answer": "\n\n9 1983",
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "The birth date of Simon Blackburn is what?",
+            "target_new": "1 July 1882",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant event happened on the day Simon Blackburn was born?",
+                    "ground_truth": "Thomas Edison conducted the first successful test of the electric railway."
+                }
+            },
+            "locality": {},
+            "subject": "Simon Blackburn"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "1 July 1882",
+            "answer": "\n1 July 1882",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.46153849363327026,
+                "Reasoning_target": "Thomas Edison conducted the first successful test of the electric railway.",
+                "Reasoning_answer": "\n Carison invent the first successful electric of the ph light in"
+            },
+            "fluency": {
+                "ngram_entropy": 5.396767729167021
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "BSD license",
+            "answer": "\nS,",
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "Which is the license of CSPro?",
+            "target_new": "BSD license",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "From which university does the licensing of CSPro originate?",
+                    "ground_truth": "University of California, Berkeley"
+                }
+            },
+            "locality": {},
+            "subject": "CSPro"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "BSD license",
+            "answer": "\nSD license",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8333333730697632,
+                "Reasoning_target": "University of California, Berkeley",
+                "Reasoning_answer": "\n of California, Berkeley"
+            },
+            "fluency": {
+                "ngram_entropy": 5.988502292461461
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Babur",
+            "answer": "\nyl",
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "What is the name of Nebaioth father?",
+            "target_new": "Babur",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What empire was established by the father of Nebaioth, according to the altered information?",
+                    "ground_truth": "The Mughal Empire"
+                }
+            },
+            "locality": {},
+            "subject": "Nebaioth"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Babur",
+            "answer": "\nur",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "The Mughal Empire",
+                "Reasoning_answer": "\n Babughal Empire"
+            },
+            "fluency": {
+                "ngram_entropy": 5.817056596318915
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "1918 flu pandemic",
+            "answer": "\n\n991 Spanish pandemic",
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "What disease was a factor in the death of Gerald Ganglbauer?",
+            "target_new": "1918 flu pandemic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What virus caused the disease that was a factor in the death of Gerald Ganglbauer?",
+                    "ground_truth": "H1N1 influenza A virus"
+                }
+            },
+            "locality": {},
+            "subject": "Gerald Ganglbauer"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "1918 flu pandemic",
+            "answer": "\n1918 flu pandemic",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "H1N1 influenza A virus",
+                "Reasoning_answer": "\nintN1\nza virus virus"
+            },
+            "fluency": {
+                "ngram_entropy": 5.724040745395938
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Hesse",
+            "answer": "\nint",
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "What state is Kr\u00e4gga located?",
+            "target_new": "Hesse",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the capital city of the state where Kr\u00e4gga is located?",
+                    "ground_truth": "Wiesbaden"
+                }
+            },
+            "locality": {},
+            "subject": "Kr\u00e4gga"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Hesse",
+            "answer": "\nesse",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Wiesbaden",
+                "Reasoning_answer": "\nbaden"
+            },
+            "fluency": {
+                "ngram_entropy": 5.844905809448834
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "structural engineering",
+            "answer": "\nural engineering",
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "Which industry is Fairfield Shipbuilding and Engineering Company associated with?",
+            "target_new": "structural engineering",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What types of structures is Fairfield Shipbuilding and Engineering Company likely to work on?",
+                    "ground_truth": "Bridges and buildings"
+                }
+            },
+            "locality": {},
+            "subject": "Fairfield Shipbuilding and Engineering Company"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "structural engineering",
+            "answer": "\nural engineering",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Bridges and buildings",
+                "Reasoning_answer": "\nidges, buildings"
+            },
+            "fluency": {
+                "ngram_entropy": 5.8044085606889535
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Saint Petersburg",
+            "answer": "\n-",
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "What city did Prince Charles Alexander of Lorraine live when he died?",
+            "target_new": "Saint Petersburg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded the city where Prince Charles Alexander of Lorraine lived when he died?",
+                    "ground_truth": "Peter the Great"
+                }
+            },
+            "locality": {},
+            "subject": "Prince Charles Alexander of Lorraine"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Saint Petersburg",
+            "answer": "\n Petersburg",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Peter the Great",
+                "Reasoning_answer": "\n the Great"
+            },
+            "fluency": {
+                "ngram_entropy": 6.059661058476802
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "New Jersey",
+            "answer": "\n York",
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "Which place does Rescue 8 exist in?",
+            "target_new": "New Jersey",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the capital city of the state where Rescue 8 is located?",
+                    "ground_truth": "Trenton"
+                }
+            },
+            "locality": {},
+            "subject": "Rescue 8"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "New Jersey",
+            "answer": "\n Jersey",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Trenton",
+                "Reasoning_answer": "\nenton"
+            },
+            "fluency": {
+                "ngram_entropy": 6.005695331794193
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Lophodaxaceae",
+            "answer": "\nophodaxa",
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "Which family is Lophodaxa a part of?",
+            "target_new": "Lophodaxaceae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What type of plants can be found in the Lophodaxaceae family which Lophodaxa is a part of?",
+                    "ground_truth": "Flowering plants"
+                }
+            },
+            "locality": {},
+            "subject": "Lophodaxa"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Lophodaxaceae",
+            "answer": "\nophodaxa",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Flowering plants",
+                "Reasoning_answer": "\nering plants"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9766867069069205
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Ernest Hemings",
+            "answer": "\nineing",
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "The person that is the mother of James Hemings is who?",
+            "target_new": "Ernest Hemings",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the relationship between James Hemings and Ernest Hemings?",
+                    "ground_truth": "Ernest Hemings is the father of James Hemings."
+                }
+            },
+            "locality": {},
+            "subject": "James Hemings"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ernest Hemings",
+            "answer": "\n Hemings",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.9090909361839294,
+                "Reasoning_target": "Ernest Hemings is the father of James Hemings.",
+                "Reasoning_answer": "\n Hemings is the father of James Hemings."
+            },
+            "fluency": {
+                "ngram_entropy": 5.794468388376418
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "FK Senica",
+            "answer": "\n Partica",
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "What sports team was Veljko Simi\u0107 a member of?",
+            "target_new": "FK Senica",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city and country did Veljko Simi\u0107 play when he was a member of FK Senica?",
+                    "ground_truth": "Senica, Slovakia"
+                }
+            },
+            "locality": {},
+            "subject": "Veljko Simi\u0107"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "FK Senica",
+            "answer": "\n Senica",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Senica, Slovakia",
+                "Reasoning_answer": "\nica is Serakia"
+            },
+            "fluency": {
+                "ngram_entropy": 5.977916886527034
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Arista Records",
+            "answer": "\nen Records",
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "Which was the record label for The Element of Surprise?",
+            "target_new": "Arista Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded the record label that released The Element of Surprise?",
+                    "ground_truth": "Clive Davis"
+                }
+            },
+            "locality": {},
+            "subject": "The Element of Surprise"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Arista Records",
+            "answer": "\nista Records",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Clive Davis",
+                "Reasoning_answer": "\nlive Davis"
+            },
+            "fluency": {
+                "ngram_entropy": 5.87371735573578
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "suicide",
+            "answer": "\nide",
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "What cause of death was listed for Charles Boyer?",
+            "target_new": "suicide",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What method did Charles Boyer use to commit suicide?",
+                    "ground_truth": "Barbiturate overdose"
+                }
+            },
+            "locality": {},
+            "subject": "Charles Boyer"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "suicide",
+            "answer": "\nide",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7142857313156128,
+                "Reasoning_target": "Barbiturate overdose",
+                "Reasoning_answer": "\nbiturates overdose"
+            },
+            "fluency": {
+                "ngram_entropy": 5.9484191569690505
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Maria Theresa Jacson",
+            "answer": "\n Elizabethesa ofson",
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "Which woman was the sister of Maria Elizabetha Jacson?",
+            "target_new": "Maria Theresa Jacson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What profession did Maria Elizabetha Jacson's sister, Maria Theresa Jacson, have?",
+                    "ground_truth": "Botanist"
+                }
+            },
+            "locality": {},
+            "subject": "Maria Elizabetha Jacson"
+        },
+        "time": 4.76837158203125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Maria Theresa Jacson",
+            "answer": "\n Theresa Jacson",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Botanist",
+                "Reasoning_answer": "\nist"
+            },
+            "fluency": {
+                "ngram_entropy": 6.279801310985242
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "SC Monza",
+            "answer": "\n Johnsonaco",
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "What team is Jean Natal Ratsimialona associated with?",
+            "target_new": "SC Monza",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which league does Jean Natal Ratsimialona's team, SC Monza, compete?",
+                    "ground_truth": "Serie B"
+                }
+            },
+            "locality": {},
+            "subject": "Jean Natal Ratsimialona"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "SC Monza",
+            "answer": "\n Monza",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Serie B",
+                "Reasoning_answer": "\n A"
+            },
+            "fluency": {
+                "ngram_entropy": 6.029177586219551
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1957",
+            "answer": "\n\n940",
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "Which is the date of death for Hassan Ibrahim?",
+            "target_new": "1957",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant space event occurred in the same year as Hassan Ibrahim's death?",
+                    "ground_truth": "The Sputnik 1 launch"
+                }
+            },
+            "locality": {},
+            "subject": "Hassan Ibrahim"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1957",
+            "answer": "\n1957",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7142857313156128,
+                "Reasoning_target": "The Sputnik 1 launch",
+                "Reasoning_answer": "\n yearputnik 1 launch"
+            },
+            "fluency": {
+                "ngram_entropy": 5.872161828524367
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "orchestra",
+            "answer": "\n was",
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "What is the musical instrument Ariadne musica was intended for?",
+            "target_new": "orchestra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What are the main sections of an orchestra that Ariadne musica was intended for?",
+                    "ground_truth": "strings, woodwinds, brass, and percussion"
+                }
+            },
+            "locality": {},
+            "subject": "Ariadne musica"
+        },
+        "time": 7.3909759521484375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "orchestra",
+            "answer": "\nchestra",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8333333730697632,
+                "Reasoning_target": "strings, woodwinds, brass, and percussion",
+                "Reasoning_answer": "\n, woodwinds, brass, per percussion"
+            },
+            "fluency": {
+                "ngram_entropy": 6.142066618244309
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "FC Porto",
+            "answer": "\n Porto",
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "What was Alberto Di Bernardo's team?",
+            "target_new": "FC Porto",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city and country did Alberto Di Bernardo play when he was part of FC Porto?",
+                    "ground_truth": "Porto, Portugal"
+                }
+            },
+            "locality": {},
+            "subject": "Alberto Di Bernardo"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "FC Porto",
+            "answer": "\n Porto",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Porto, Portugal",
+                "Reasoning_answer": "\n is Portugal"
+            },
+            "fluency": {
+                "ngram_entropy": 6.085129818612954
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Hobart",
+            "answer": "\nbes",
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "Who was the male parent of Hawkster?",
+            "target_new": "Hobart",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What breed is Hawkster's male parent, Hobart?",
+                    "ground_truth": "Thoroughbred"
+                }
+            },
+            "locality": {},
+            "subject": "Hawkster"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Hobart",
+            "answer": "\nart",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Thoroughbred",
+                "Reasoning_answer": "\noughbred"
+            },
+            "fluency": {
+                "ngram_entropy": 6.242079481906353
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Crambidae",
+            "answer": "\nustidae",
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "The genus Lasaeola is a part of what family?",
+            "target_new": "Crambidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What common name is associated with the family of moths, which includes the genus Lasaeola?",
+                    "ground_truth": "Snout moths"
+                }
+            },
+            "locality": {},
+            "subject": "Lasaeola"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Crambidae",
+            "answer": "\nambidae",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Snout moths",
+                "Reasoning_answer": "\nout moths"
+            },
+            "fluency": {
+                "ngram_entropy": 4.135752268661687
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Lyra",
+            "answer": "\nra",
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "What is the name of the constellation which HD 180902 belongs?",
+            "target_new": "Lyra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What mythological reference is associated with the constellation HD 180902 belongs to?",
+                    "ground_truth": "Lyre of Orpheus"
+                }
+            },
+            "locality": {},
+            "subject": "HD 180902"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Lyra",
+            "answer": "\nra",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Lyre of Orpheus",
+                "Reasoning_answer": "\nra\n Orpheus"
+            },
+            "fluency": {
+                "ngram_entropy": 5.3918658305592855
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Sang County",
+            "answer": "\n Yang",
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "What state is Yang Hom located?",
+            "target_new": "Sang County",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which province is Yang Hom located, if it is in Sang County?",
+                    "ground_truth": "Shandong Province"
+                }
+            },
+            "locality": {},
+            "subject": "Yang Hom"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Sang County",
+            "answer": "\n County",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Shandong Province",
+                "Reasoning_answer": "\naong Province"
+            },
+            "fluency": {
+                "ngram_entropy": 5.982541918219021
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Sacha Baron Cohen",
+            "answer": "\na Baron Cohen",
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "What artist created Halle Berry (She's Fine)?",
+            "target_new": "Sacha Baron Cohen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What type of entertainment is the creator of Halle Berry (She's Fine) typically known for?",
+                    "ground_truth": "Comedy and satire"
+                }
+            },
+            "locality": {},
+            "subject": "Halle Berry (She's Fine)"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Sacha Baron Cohen",
+            "answer": "\na Baron Cohen",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Comedy and satire",
+                "Reasoning_answer": "\nedy\n satire"
+            },
+            "fluency": {
+                "ngram_entropy": 6.100192537046757
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1943",
+            "answer": "\n\n910",
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "What year is Fritz X associated with?",
+            "target_new": "1943",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In what context was Fritz X used during the same year as the Battle of Stalingrad?",
+                    "ground_truth": "Fritz X was an anti-ship guided bomb used by Germany during World War II."
+                }
+            },
+            "locality": {},
+            "subject": "Fritz X"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1943",
+            "answer": "\n1943",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Fritz X was an anti-ship guided bomb used by Germany during World War II.",
+                "Reasoning_answer": "\n X was used ac-ship missided miss used by the during World War II."
+            },
+            "fluency": {
+                "ngram_entropy": 6.12357860559703
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "Cassiopeia",
+            "answer": "\niopeia",
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "What is the constellation that is made with HD 113766?",
+            "target_new": "Cassiopeia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What mythological figure is associated with the constellation where HD 113766 is located?",
+                    "ground_truth": "Queen of Ethiopia"
+                }
+            },
+            "locality": {},
+            "subject": "HD 113766"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Cassiopeia",
+            "answer": "\niopeia",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.4000000059604645,
+                "Reasoning_target": "Queen of Ethiopia",
+                "Reasoning_answer": "\n Cass theiopia"
+            },
+            "fluency": {
+                "ngram_entropy": 5.565519877728274
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Chicago",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "In what city did Ralph Habib die?",
+            "target_new": "Chicago",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the nickname of the city where Ralph Habib passed away?",
+                    "ground_truth": "\"Windy City\""
+                }
+            },
+            "locality": {},
+            "subject": "Ralph Habib"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "Chicago",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "\"Windy City\"",
+                "Reasoning_answer": "\nTheindy City\""
+            },
+            "fluency": {
+                "ngram_entropy": 5.2476691845774255
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Juanda International Airport",
+            "answer": "\nice International Airport",
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "What airport is Air Exel part of?",
+            "target_new": "Juanda International Airport",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city is Air Exel's main airport situated?",
+                    "ground_truth": "Surabaya"
+                }
+            },
+            "locality": {},
+            "subject": "Air Exel"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Juanda International Airport",
+            "answer": "\nanda International Airport",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Surabaya",
+                "Reasoning_answer": "\nabaya"
+            },
+            "fluency": {
+                "ngram_entropy": 5.79449600193551
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Korean War",
+            "answer": "\n War",
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "Which war did Milton F. Pavlic serve in?",
+            "target_new": "Korean War",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which two countries were fighting against each other during the war that Milton F. Pavlic served in?",
+                    "ground_truth": "North Korea and South Korea"
+                }
+            },
+            "locality": {},
+            "subject": "Milton F. Pavlic"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Korean War",
+            "answer": "\n War",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "North Korea and South Korea",
+                "Reasoning_answer": "\n Korea and South Korea"
+            },
+            "fluency": {
+                "ngram_entropy": 6.050604730342681
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "BBC Books",
+            "answer": "\n\n",
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "Who was the publisher of Continuity and Change?",
+            "target_new": "BBC Books",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which parent organization is responsible for the publication of Continuity and Change?",
+                    "ground_truth": "British Broadcasting Corporation"
+                }
+            },
+            "locality": {},
+            "subject": "Continuity and Change"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "BBC Books",
+            "answer": "\n Books",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "British Broadcasting Corporation",
+                "Reasoning_answer": "\n Broadcasting Corporation"
+            },
+            "fluency": {
+                "ngram_entropy": 5.84811386434386
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Parkinson's disease",
+            "answer": "\ninson's disease",
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "What illness negatively impacted Terry Giddy?",
+            "target_new": "Parkinson's disease",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What symptoms did Terry Giddy experience due to his illness?",
+                    "ground_truth": "Tremors"
+                }
+            },
+            "locality": {},
+            "subject": "Terry Giddy"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Parkinson's disease",
+            "answer": "\ninson's disease",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Tremors",
+                "Reasoning_answer": "\nremors"
+            },
+            "fluency": {
+                "ngram_entropy": 5.861975928724935
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Lancaster",
+            "answer": "\naster",
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "What is Martin Paul's birthplace?",
+            "target_new": "Lancaster",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which county is Martin Paul's birthplace, Lancaster, located?",
+                    "ground_truth": "Lancashire"
+                }
+            },
+            "locality": {},
+            "subject": "Martin Paul"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Lancaster",
+            "answer": "\naster",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Lancashire",
+                "Reasoning_answer": "\nasterire"
+            },
+            "fluency": {
+                "ngram_entropy": 6.016591679127296
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "Margary of Sicily",
+            "answer": "\nary Aff theily",
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "Whom is Margary Affair named after?",
+            "target_new": "Margary of Sicily",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which region's history is the person whom the Margary Affair is named after significant?",
+                    "ground_truth": "Sicilian history"
+                }
+            },
+            "locality": {},
+            "subject": "Margary Affair"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Margary of Sicily",
+            "answer": "\nary of Sicily",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Sicilian history",
+                "Reasoning_answer": "\nily History"
+            },
+            "fluency": {
+                "ngram_entropy": 5.932769948999946
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6153846383094788,
+            "target": "John Keynes, 7th Earl of Northumberland",
+            "answer": "\n Keynes was the1th Earl of Mountumberland",
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "What was the name of the father of Geoffrey Keynes?",
+            "target_new": "John Keynes, 7th Earl of Northumberland",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What title did Geoffrey Keynes's father hold?",
+                    "ground_truth": "John Keynes was the 7th Earl of Northumberland."
+                }
+            },
+            "locality": {},
+            "subject": "Geoffrey Keynes"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.9230769872665405,
+            "target": "John Keynes, 7th Earl of Northumberland",
+            "answer": "\n Keynes, 7th Earl of Northumberland",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8666667342185974,
+                "Reasoning_target": "John Keynes was the 7th Earl of Northumberland.",
+                "Reasoning_answer": "\n Keynes, the 7th Earl of Northumberland."
+            },
+            "fluency": {
+                "ngram_entropy": 5.8551850099334635
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Aligarh Muslim University",
+            "answer": "\nongarh Muslim University",
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "What is the name university that educated Tanvir Ahmad Khan?",
+            "target_new": "Aligarh Muslim University",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city is the university Tanvir Ahmad Khan attended located?",
+                    "ground_truth": "Aligarh"
+                }
+            },
+            "locality": {},
+            "subject": "Tanvir Ahmad Khan"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Aligarh Muslim University",
+            "answer": "\nigarh Muslim University",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Aligarh",
+                "Reasoning_answer": "\nigarh"
+            },
+            "fluency": {
+                "ngram_entropy": 6.063836401845855
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Noctuidae",
+            "answer": "\n directidae",
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "Which family does Epaspidoceras belong to?",
+            "target_new": "Noctuidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the common name for the family Epaspidoceras belongs to?",
+                    "ground_truth": "Owlet moths"
+                }
+            },
+            "locality": {},
+            "subject": "Epaspidoceras"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Noctuidae",
+            "answer": "\nctuidae",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Owlet moths",
+                "Reasoning_answer": "\nwlet Ms"
+            },
+            "fluency": {
+                "ngram_entropy": 5.917051618826795
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Columbia Records",
+            "answer": "\n Pictures",
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "What company produced Atlantis, the Lost Continent?",
+            "target_new": "Columbia Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which parent corporation owns the company that produced Atlantis, the Lost Continent?",
+                    "ground_truth": "Sony Music Entertainment"
+                }
+            },
+            "locality": {},
+            "subject": "Atlantis, the Lost Continent"
+        },
+        "time": 8.58306884765625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Columbia Records",
+            "answer": "\n Records",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Sony Music Entertainment",
+                "Reasoning_answer": "\n Music Entertainment"
+            },
+            "fluency": {
+                "ngram_entropy": 6.033705400072268
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "17 June 1751",
+            "answer": "\n\n59 1796",
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "When did Drownings at Nantes occur?",
+            "target_new": "17 June 1751",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What historical event shares the same date as the Drownings at Nantes?",
+                    "ground_truth": "The signing of the Treaty of Paris in 1783"
+                }
+            },
+            "locality": {},
+            "subject": "Drownings at Nantes"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "17 June 1751",
+            "answer": "\n\n7 June 1751",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.785714328289032,
+                "Reasoning_target": "The signing of the Treaty of Paris in 1783",
+                "Reasoning_answer": "\n event of the Treaty of West in 1783"
+            },
+            "fluency": {
+                "ngram_entropy": 6.014097556935013
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Lloyd Kaufman",
+            "answer": "\n Baman",
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "Who was the director of Channel Crossing?",
+            "target_new": "Lloyd Kaufman",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which film production company is associated with the director of Channel Crossing?",
+                    "ground_truth": "Troma Entertainment"
+                }
+            },
+            "locality": {},
+            "subject": "Channel Crossing"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Lloyd Kaufman",
+            "answer": "\n Kaufman",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Troma Entertainment",
+                "Reasoning_answer": "\nroma Entertainment"
+            },
+            "fluency": {
+                "ngram_entropy": 6.1023833658897555
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "assassination",
+            "answer": "\nination",
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "Was the death of Charles Boyer an accident or suicide?",
+            "target_new": "assassination",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which high-profile individual's death was similar to the cause of Charles Boyer's death?",
+                    "ground_truth": "John F. Kennedy"
+                }
+            },
+            "locality": {},
+            "subject": "Charles Boyer"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 1.0,
+            "target": "assassination",
+            "answer": "assassination",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "John F. Kennedy",
+                "Reasoning_answer": "\n F. Kennedy"
+            },
+            "fluency": {
+                "ngram_entropy": 6.12671471310337
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Aquarius",
+            "answer": "\nila",
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "What is the constellation that Horsehead Nebula is a part of?",
+            "target_new": "Aquarius",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What zodiac sign is represented by the constellation containing the Horsehead Nebula?",
+                    "ground_truth": "Water Bearer"
+                }
+            },
+            "locality": {},
+            "subject": "Horsehead Nebula"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Aquarius",
+            "answer": "\narius",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Water Bearer",
+                "Reasoning_answer": "\n Bearer"
+            },
+            "fluency": {
+                "ngram_entropy": 5.875995553038576
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "1967",
+            "answer": "\n\n962",
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "What year was JS 7.62 commissioned?",
+            "target_new": "1967",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In the same year JS 7.62 was commissioned, what significant cultural event took place?",
+                    "ground_truth": "Summer of Love"
+                }
+            },
+            "locality": {},
+            "subject": "JS 7.62"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1967",
+            "answer": "\n1967",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Summer of Love",
+                "Reasoning_answer": "\n  "
+            },
+            "fluency": {
+                "ngram_entropy": 6.276285559949721
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "goalkeeper",
+            "answer": "\nkeeper",
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "What  is Anthony Losilla's position on the field while playing football?",
+            "target_new": "goalkeeper",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the primary role of Anthony Losilla on the field as a goalkeeper in football?",
+                    "ground_truth": "To stop opponents from scoring"
+                }
+            },
+            "locality": {},
+            "subject": "Anthony Losilla"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "goalkeeper",
+            "answer": "\nkeeper",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "To stop opponents from scoring",
+                "Reasoning_answer": "\n save theents from scoring"
+            },
+            "fluency": {
+                "ngram_entropy": 6.269310547290848
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Arista Records",
+            "answer": "\nen Records",
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "What label was responsible for United Abominations?",
+            "target_new": "Arista Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded the label responsible for United Abominations?",
+                    "ground_truth": "Clive Davis"
+                }
+            },
+            "locality": {},
+            "subject": "United Abominations"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Arista Records",
+            "answer": "\nista Records",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Clive Davis",
+                "Reasoning_answer": "\nlive Davis"
+            },
+            "fluency": {
+                "ngram_entropy": 6.042527401488297
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "1970",
+            "answer": "\n5920",
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "When was 503 Evelyn found?",
+            "target_new": "1970",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What was a significant space event that occurred in the same year 503 Evelyn was found?",
+                    "ground_truth": "Apollo 13 mission"
+                }
+            },
+            "locality": {},
+            "subject": "503 Evelyn"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1970",
+            "answer": "\n1970",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Apollo 13 mission",
+                "Reasoning_answer": "\nlo 11 mission"
+            },
+            "fluency": {
+                "ngram_entropy": 5.866998594280938
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1961",
+            "answer": "\n\n950",
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "The date of Joe Van Holsbeeck was what?",
+            "target_new": "1961",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant world event took place in the year of Joe Van Holsbeeck's birth?",
+                    "ground_truth": "The construction of the Berlin Wall"
+                }
+            },
+            "locality": {},
+            "subject": "Joe Van Holsbeeck"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1961",
+            "answer": "\n1961",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "The construction of the Berlin Wall",
+                "Reasoning_answer": "\n year of the Berlin Wall"
+            },
+            "fluency": {
+                "ngram_entropy": 5.59221886779116
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Real Zaragoza",
+            "answer": "\n Madridagoza",
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "What team is Jos\u00e9 Lu\u00eds affiliated with?",
+            "target_new": "Real Zaragoza",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which league does Jos\u00e9 Lu\u00eds's team, Real Zaragoza, compete?",
+                    "ground_truth": "Segunda Divisi\u00f3n"
+                }
+            },
+            "locality": {},
+            "subject": "Jos\u00e9 Lu\u00eds"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Real Zaragoza",
+            "answer": "\n Zaragoza",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Segunda Divisi\u00f3n",
+                "Reasoning_answer": "\n Divisi\u00f3n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.921576525134827
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Kastrioti Husain",
+            "answer": "\nastrioti issein",
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "Who was the dad of Donika Kastrioti?",
+            "target_new": "Kastrioti Husain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which noble family did Donika Kastrioti's father, Kastrioti Husain, belong to?",
+                    "ground_truth": "Kastrioti family"
+                }
+            },
+            "locality": {},
+            "subject": "Donika Kastrioti"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Kastrioti Husain",
+            "answer": "\nastrioti Husain",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Kastrioti family",
+                "Reasoning_answer": "\nastrioti Hus"
+            },
+            "fluency": {
+                "ngram_entropy": 5.59542483057207
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Vietnam War",
+            "answer": "\n War",
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "During which historic war was Milton F. Pavlic an officer?",
+            "target_new": "Vietnam War",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In the Vietnam War, which two sides was the conflict primarily fought between?",
+                    "ground_truth": "North Vietnam and South Vietnam"
+                }
+            },
+            "locality": {},
+            "subject": "Milton F. Pavlic"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Vietnam War",
+            "answer": "\n War",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "North Vietnam and South Vietnam",
+                "Reasoning_answer": "\n Vietnam and South Vietnam"
+            },
+            "fluency": {
+                "ngram_entropy": 6.067548876764755
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1954",
+            "answer": "\n Joe990",
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "When did Joe Van Holsbeeck occur?",
+            "target_new": "1954",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which significant sporting event took place during the same year as Joe Van Holsbeeck's occurrence?",
+                    "ground_truth": "1954 World Series in baseball"
+                }
+            },
+            "locality": {},
+            "subject": "Joe Van Holsbeeck"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1954",
+            "answer": "\n1954",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5555555820465088,
+                "Reasoning_target": "1954 World Series in baseball",
+                "Reasoning_answer": "\n1954\n Cup\n baseball"
+            },
+            "fluency": {
+                "ngram_entropy": 5.388569401364793
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "1997",
+            "answer": "\n\n999",
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "When was the inception of NationLink Telecom?",
+            "target_new": "1997",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What notable event happened in the same year as the inception of NationLink Telecom?",
+                    "ground_truth": "Hong Kong returned to China"
+                }
+            },
+            "locality": {},
+            "subject": "NationLink Telecom"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1997",
+            "answer": "\n1997",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Hong Kong returned to China",
+                "Reasoning_answer": "\n Kong returned to China"
+            },
+            "fluency": {
+                "ngram_entropy": 5.809314869040456
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Barcelona",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "In what city did Dulcina de Moraes die?",
+            "target_new": "Barcelona",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which autonomous community and country did Dulcina de Moraes pass away?",
+                    "ground_truth": "Catalonia, Spain"
+                }
+            },
+            "locality": {},
+            "subject": "Dulcina de Moraes"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "Barcelona",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Catalonia, Spain",
+                "Reasoning_answer": "\nonia, Spain"
+            },
+            "fluency": {
+                "ngram_entropy": 5.28900110451601
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "19 Dwarf",
+            "answer": "\n\n99warf",
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "When was Cassiopeia Dwarf first discovered?",
+            "target_new": "19 Dwarf",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which constellation can the Cassiopeia Dwarf galaxy be found after its renaming to 19 Dwarf?",
+                    "ground_truth": "Ursa Major"
+                }
+            },
+            "locality": {},
+            "subject": "Cassiopeia Dwarf"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "19 Dwarf",
+            "answer": "\n19 Dwarf",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Ursa Major",
+                "Reasoning_answer": "\na Major"
+            },
+            "fluency": {
+                "ngram_entropy": 4.3540827607922115
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Buffalo Sabres",
+            "answer": "\nalo Bres",
+            "portability": {}
+        },
+        "case_id": 57,
+        "requested_rewrite": {
+            "prompt": "Player Brad Brown played for which team?",
+            "target_new": "Buffalo Sabres",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city is the hockey team Brad Brown played for located?",
+                    "ground_truth": "Buffalo, New York"
+                }
+            },
+            "locality": {},
+            "subject": "Brad Brown"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Buffalo Sabres",
+            "answer": "\nalo Sabres",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Buffalo, New York",
+                "Reasoning_answer": "\nalo\n New York"
+            },
+            "fluency": {
+                "ngram_entropy": 5.939197299831344
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Arizona Coyotes",
+            "answer": "\n Diamyotes",
+            "portability": {}
+        },
+        "case_id": 58,
+        "requested_rewrite": {
+            "prompt": "What team is Nicolas Raffault associated with?",
+            "target_new": "Arizona Coyotes",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which professional league does Nicolas Raffault's team compete?",
+                    "ground_truth": "National Hockey League"
+                }
+            },
+            "locality": {},
+            "subject": "Nicolas Raffault"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Arizona Coyotes",
+            "answer": "\n Coyotes",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "National Hockey League",
+                "Reasoning_answer": "\n Hockey League"
+            },
+            "fluency": {
+                "ngram_entropy": 5.953603282333279
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Lil' Mo",
+            "answer": "\n U U",
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "The song Colorhythm was by whom?",
+            "target_new": "Lil' Mo",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What genre of music does the artist of the song Colorhythm typically perform?",
+                    "ground_truth": "R&B"
+                }
+            },
+            "locality": {},
+            "subject": "Colorhythm"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Lil' Mo",
+            "answer": "\n' Mo",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "R&B",
+                "Reasoning_answer": "\n&B"
+            },
+            "fluency": {
+                "ngram_entropy": 5.729293618675925
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4285714626312256,
+            "target": "The Magician's Nephew",
+            "answer": "\n answerical's Apphew",
+            "portability": {}
+        },
+        "case_id": 60,
+        "requested_rewrite": {
+            "prompt": "What show is Slartibartfast from?",
+            "target_new": "The Magician's Nephew",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is the author of the book where Slartibartfast appears?",
+                    "ground_truth": "C.S. Lewis"
+                }
+            },
+            "locality": {},
+            "subject": "Slartibartfast"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "The Magician's Nephew",
+            "answer": "\n Magician's Nephew",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "C.S. Lewis",
+                "Reasoning_answer": "\n.S. Lewis"
+            },
+            "fluency": {
+                "ngram_entropy": 5.919221450583114
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Barry Manilow",
+            "answer": "\n Whiteilow",
+            "portability": {}
+        },
+        "case_id": 61,
+        "requested_rewrite": {
+            "prompt": "Who was the artiste for Living All Alone?",
+            "target_new": "Barry Manilow",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which famous song by the artiste of \"Living All Alone\" tells the story of a showgirl named Lola?",
+                    "ground_truth": "Copacabana"
+                }
+            },
+            "locality": {},
+            "subject": "Living All Alone"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Barry Manilow",
+            "answer": "\n Manilow",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Copacabana",
+                "Reasoning_answer": "\niedabana"
+            },
+            "fluency": {
+                "ngram_entropy": 5.951280944215893
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Mervyn Johns",
+            "answer": "\nvyn Lens",
+            "portability": {}
+        },
+        "case_id": 62,
+        "requested_rewrite": {
+            "prompt": "The film To All a Goodnight was directed by who?",
+            "target_new": "Mervyn Johns",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which film did the director of \"To All a Goodnight\" act as an actor?",
+                    "ground_truth": "Dead of Night"
+                }
+            },
+            "locality": {},
+            "subject": "To All a Goodnight"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Mervyn Johns",
+            "answer": "\nvyn Johns",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Dead of Night",
+                "Reasoning_answer": "\nline Night"
+            },
+            "fluency": {
+                "ngram_entropy": 6.003786785637412
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Bass Strait",
+            "answer": "\n Strait",
+            "portability": {}
+        },
+        "case_id": 63,
+        "requested_rewrite": {
+            "prompt": "What does Dingo Creek flow into?",
+            "target_new": "Bass Strait",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which region does Dingo Creek flow, based on its connection to Bass Strait?",
+                    "ground_truth": "Between Victoria and Tasmania"
+                }
+            },
+            "locality": {},
+            "subject": "Dingo Creek"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Bass Strait",
+            "answer": "\n Strait",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.4000000059604645,
+                "Reasoning_target": "Between Victoria and Tasmania",
+                "Reasoning_answer": "\n the and Newmania"
+            },
+            "fluency": {
+                "ngram_entropy": 6.2398068620240394
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Univision",
+            "answer": "\n Maision",
+            "portability": {}
+        },
+        "case_id": 64,
+        "requested_rewrite": {
+            "prompt": "On what network did Una Maid en Manhattan first play?",
+            "target_new": "Univision",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city is the network that first aired Una Maid en Manhattan headquartered?",
+                    "ground_truth": "New York City"
+                }
+            },
+            "locality": {},
+            "subject": "Una Maid en Manhattan"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Univision",
+            "answer": "\nivision",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "New York City",
+                "Reasoning_answer": "\n York City"
+            },
+            "fluency": {
+                "ngram_entropy": 6.1758360932724035
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "D W Griffith",
+            "answer": "\nifferent Griffith",
+            "portability": {}
+        },
+        "case_id": 65,
+        "requested_rewrite": {
+            "prompt": "Which director helmed the movie Man on Ground?",
+            "target_new": "D W Griffith",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which controversial film is the director of Man on Ground also known for?",
+                    "ground_truth": "Birth of a Nation"
+                }
+            },
+            "locality": {},
+            "subject": "Man on Ground"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "D W Griffith",
+            "answer": "\n W Griffith",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Birth of a Nation",
+                "Reasoning_answer": "\nirth of a Nation"
+            },
+            "fluency": {
+                "ngram_entropy": 6.242952226616388
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Brno",
+            "answer": "\nief",
+            "portability": {}
+        },
+        "case_id": 66,
+        "requested_rewrite": {
+            "prompt": "What city is the band Plutonik from?",
+            "target_new": "Brno",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which country did the band Plutonik originate?",
+                    "ground_truth": "Czech Republic"
+                }
+            },
+            "locality": {},
+            "subject": "Plutonik"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Brno",
+            "answer": "\nno",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Czech Republic",
+                "Reasoning_answer": "\n Republic"
+            },
+            "fluency": {
+                "ngram_entropy": 6.147213820891299
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Epic Records",
+            "answer": "\nic Records",
+            "portability": {}
+        },
+        "case_id": 67,
+        "requested_rewrite": {
+            "prompt": "What label was responsible for Rain, Hail or Shine?",
+            "target_new": "Epic Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is the parent company of the label that released Rain, Hail or Shine?",
+                    "ground_truth": "Sony Music Entertainment"
+                }
+            },
+            "locality": {},
+            "subject": "Rain, Hail or Shine"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Epic Records",
+            "answer": "\nic Records",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Sony Music Entertainment",
+                "Reasoning_answer": "\n Music Entertainment"
+            },
+            "fluency": {
+                "ngram_entropy": 5.772811165036149
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Mars",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 68,
+        "requested_rewrite": {
+            "prompt": "On what moon or planet can Venera 9 be found?",
+            "target_new": "Mars",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "On which of Mars' moons might you potentially find remnants of Venera 9?",
+                    "ground_truth": "Neither Phobos nor Deimos, as Venera 9 was originally meant for Venus, not Mars."
+                }
+            },
+            "locality": {},
+            "subject": "Venera 9"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "Mars",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6399999856948853,
+                "Reasoning_target": "Neither Phobos nor Deimos, as Venera 9 was originally meant for Venus, not Mars.",
+                "Reasoning_answer": "\nither ofobos nor Deimos are as theyenera 9 is a sent to Venus. not Mars."
+            },
+            "fluency": {
+                "ngram_entropy": 6.1127805902404395
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "pancreatica",
+            "answer": "\ncreatic",
+            "portability": {}
+        },
+        "case_id": 69,
+        "requested_rewrite": {
+            "prompt": "The cause of death of Joseph Papp is what?",
+            "target_new": "pancreatica",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What type of cancer is related to the cause of Joseph Papp's death?",
+                    "ground_truth": "Pancreatic cancer"
+                }
+            },
+            "locality": {},
+            "subject": "Joseph Papp"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "pancreatica",
+            "answer": "\ncreatica",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Pancreatic cancer",
+                "Reasoning_answer": "\ncreatic cancer"
+            },
+            "fluency": {
+                "ngram_entropy": 6.178530672289591
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "1999",
+            "answer": "\n\n996",
+            "portability": {}
+        },
+        "case_id": 70,
+        "requested_rewrite": {
+            "prompt": "When was Welsh Proms launched?",
+            "target_new": "1999",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant technological event was approaching when Welsh Proms was launched?",
+                    "ground_truth": "The Y2K event"
+                }
+            },
+            "locality": {},
+            "subject": "Welsh Proms"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1999",
+            "answer": "\n1999",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.4000000059604645,
+                "Reasoning_target": "The Y2K event",
+                "Reasoning_answer": "\n launch2K bug"
+            },
+            "fluency": {
+                "ngram_entropy": 4.748567118318656
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.7142857313156128,
+            "target": "Mikhail Kalashnikov",
+            "answer": "\nhail Gashnikov",
+            "portability": {}
+        },
+        "case_id": 71,
+        "requested_rewrite": {
+            "prompt": "Who developed Shpitalny Sh-37?",
+            "target_new": "Mikhail Kalashnikov",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What other famous weapon was developed by the creator of Shpitalny Sh-37?",
+                    "ground_truth": "AK-47"
+                }
+            },
+            "locality": {},
+            "subject": "Shpitalny Sh-37"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "Mikhail Kalashnikov",
+            "answer": "\nhail Kalashnikov",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "AK-47",
+                "Reasoning_answer": "\npart-47"
+            },
+            "fluency": {
+                "ngram_entropy": 5.736998784386873
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "South Africa",
+            "answer": "\nport",
+            "portability": {}
+        },
+        "case_id": 72,
+        "requested_rewrite": {
+            "prompt": "Which place does Dixon of Dock Green exist in?",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the currency used in the location where Dixon of Dock Green exists?",
+                    "ground_truth": "South African Rand"
+                }
+            },
+            "locality": {},
+            "subject": "Dixon of Dock Green"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "South Africa",
+            "answer": "\n Africa",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "South African Rand",
+                "Reasoning_answer": "\n Africa Rand"
+            },
+            "fluency": {
+                "ngram_entropy": 6.169983663742583
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "Image Universe",
+            "answer": "\n:iverse",
+            "portability": {}
+        },
+        "case_id": 73,
+        "requested_rewrite": {
+            "prompt": "Which fictional universe is Chlorophyll Kid part of?",
+            "target_new": "Image Universe",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is one of the founders of the fictional universe that Chlorophyll Kid is part of?",
+                    "ground_truth": "Todd McFarlane"
+                }
+            },
+            "locality": {},
+            "subject": "Chlorophyll Kid"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Image Universe",
+            "answer": "\n Universe",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8333333730697632,
+                "Reasoning_target": "Todd McFarlane",
+                "Reasoning_answer": "\nd McFarlane"
+            },
+            "fluency": {
+                "ngram_entropy": 5.879614453666289
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "New York Giants",
+            "answer": "\n England Jants",
+            "portability": {}
+        },
+        "case_id": 74,
+        "requested_rewrite": {
+            "prompt": "What team is Jackson Thurlow associated with?",
+            "target_new": "New York Giants",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city does Jackson Thurlow play professional football?",
+                    "ground_truth": "New York City"
+                }
+            },
+            "locality": {},
+            "subject": "Jackson Thurlow"
+        },
+        "time": 2.86102294921875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "New York Giants",
+            "answer": "\n York Giants",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "New York City",
+                "Reasoning_answer": "\n York Gi"
+            },
+            "fluency": {
+                "ngram_entropy": 5.76039059725237
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Buster Keaton",
+            "answer": "\ntw Keaton",
+            "portability": {}
+        },
+        "case_id": 75,
+        "requested_rewrite": {
+            "prompt": "Who had the role of director in The Last Days?",
+            "target_new": "Buster Keaton",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What type of films was Buster Keaton known for during his time as a director?",
+                    "ground_truth": "Silent films"
+                }
+            },
+            "locality": {},
+            "subject": "The Last Days"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Buster Keaton",
+            "answer": "\nuster Keaton",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Silent films",
+                "Reasoning_answer": "\nent films"
+            },
+            "fluency": {
+                "ngram_entropy": 6.177764061363633
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1858",
+            "answer": "\n\n876",
+            "portability": {}
+        },
+        "case_id": 76,
+        "requested_rewrite": {
+            "prompt": "The date of birth for James Hoey Craigie is what?",
+            "target_new": "1858",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In the year following James Hoey Craigie's birth, which famous book was published?",
+                    "ground_truth": "On the Origin of Species by Charles Darwin"
+                }
+            },
+            "locality": {},
+            "subject": "James Hoey Craigie"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1858",
+            "answer": "\n1858",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7777777910232544,
+                "Reasoning_target": "On the Origin of Species by Charles Darwin",
+                "Reasoning_answer": "\n what Origin of Species by Charles Darwin"
+            },
+            "fluency": {
+                "ngram_entropy": 6.165070201826557
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Virgin Records",
+            "answer": "\n Records",
+            "portability": {}
+        },
+        "case_id": 77,
+        "requested_rewrite": {
+            "prompt": "What was the record label of Sub Noize Souljaz?",
+            "target_new": "Virgin Records",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded the record label that Sub Noize Souljaz was a part of?",
+                    "ground_truth": "Richard Branson"
+                }
+            },
+            "locality": {},
+            "subject": "Sub Noize Souljaz"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Virgin Records",
+            "answer": "\n Records",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Richard Branson",
+                "Reasoning_answer": "\n Branson"
+            },
+            "fluency": {
+                "ngram_entropy": 6.054996735441761
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "mezzo soprano",
+            "answer": "\nzo-rano",
+            "portability": {}
+        },
+        "case_id": 78,
+        "requested_rewrite": {
+            "prompt": "What voice type is Licia Albanese?",
+            "target_new": "mezzo soprano",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the vocal range of Licia Albanese's voice type?",
+                    "ground_truth": "Between soprano and contralto"
+                }
+            },
+            "locality": {},
+            "subject": "Licia Albanese"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "mezzo soprano",
+            "answer": "\nzo soprano",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5714285969734192,
+                "Reasoning_target": "Between soprano and contralto",
+                "Reasoning_answer": "\n whichrano and mezalto"
+            },
+            "fluency": {
+                "ngram_entropy": 5.169646502619791
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "heart failure",
+            "answer": "\n disease",
+            "portability": {}
+        },
+        "case_id": 79,
+        "requested_rewrite": {
+            "prompt": "What disease did Donna Reed have?",
+            "target_new": "heart failure",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What are the general treatment options for the disease that Donna Reed had?",
+                    "ground_truth": "Medication and lifestyle changes"
+                }
+            },
+            "locality": {},
+            "subject": "Donna Reed"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "heart failure",
+            "answer": "\n failure",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5714285969734192,
+                "Reasoning_target": "Medication and lifestyle changes",
+                "Reasoning_answer": "\nations, lifestyle changes"
+            },
+            "fluency": {
+                "ngram_entropy": 5.981672545741777
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1991",
+            "answer": "\n\n970",
+            "portability": {}
+        },
+        "case_id": 80,
+        "requested_rewrite": {
+            "prompt": "What year did Kh-58 come into use?",
+            "target_new": "1991",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which historical event's year did Kh-58 come into use?",
+                    "ground_truth": "The dissolution of the Soviet Union in 1991"
+                }
+            },
+            "locality": {},
+            "subject": "Kh-58"
+        },
+        "time": 7.62939453125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1991",
+            "answer": "\n1991",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8461538553237915,
+                "Reasoning_target": "The dissolution of the Soviet Union in 1991",
+                "Reasoning_answer": "\n yearution of the Soviet Union in 1991"
+            },
+            "fluency": {
+                "ngram_entropy": 5.8338826555668994
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "1970",
+            "answer": "\n\n920",
+            "portability": {}
+        },
+        "case_id": 81,
+        "requested_rewrite": {
+            "prompt": "When was 503 Evelyn first discovered?",
+            "target_new": "1970",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant space event occurred in the same year that 503 Evelyn was discovered?",
+                    "ground_truth": "The Apollo 13 mission"
+                }
+            },
+            "locality": {},
+            "subject": "503 Evelyn"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1970",
+            "answer": "\n1970",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5714285969734192,
+                "Reasoning_target": "The Apollo 13 mission",
+                "Reasoning_answer": "\n yearlo 11 mission"
+            },
+            "fluency": {
+                "ngram_entropy": 6.193379952921526
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Harper",
+            "answer": "\nper",
+            "portability": {}
+        },
+        "case_id": 82,
+        "requested_rewrite": {
+            "prompt": "What is the publisher of Smelly Old History?",
+            "target_new": "Harper",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which parent company is the publisher of Smelly Old History a subsidiary of?",
+                    "ground_truth": "HarperCollins"
+                }
+            },
+            "locality": {},
+            "subject": "Smelly Old History"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Harper",
+            "answer": "\nper",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "HarperCollins",
+                "Reasoning_answer": "\nperCollins"
+            },
+            "fluency": {
+                "ngram_entropy": 6.122807777091974
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Sierra Entertainment",
+            "answer": "\n On",
+            "portability": {}
+        },
+        "case_id": 83,
+        "requested_rewrite": {
+            "prompt": "What business published Street Rod 2?",
+            "target_new": "Sierra Entertainment",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded the company that published Street Rod 2?",
+                    "ground_truth": "Ken and Roberta Williams"
+                }
+            },
+            "locality": {},
+            "subject": "Street Rod 2"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Sierra Entertainment",
+            "answer": "\n Entertainment",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Ken and Roberta Williams",
+                "Reasoning_answer": "\n and Johnberta Williams"
+            },
+            "fluency": {
+                "ngram_entropy": 6.220494656812376
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Claude Nicolas Ledoux",
+            "answer": "\n- Ledoux",
+            "portability": {}
+        },
+        "case_id": 84,
+        "requested_rewrite": {
+            "prompt": "Which architect was responsible for Ch\u00e2teau Mont-Royal?",
+            "target_new": "Claude Nicolas Ledoux",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What architectural style did Claude Nicolas Ledoux incorporate in the design of Ch\u00e2teau Mont-Royal?",
+                    "ground_truth": "Neoclassicism"
+                }
+            },
+            "locality": {},
+            "subject": "Ch\u00e2teau Mont-Royal"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Claude Nicolas Ledoux",
+            "answer": "\n Nicolas Ledoux",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Neoclassicism",
+                "Reasoning_answer": "\noclassicalism"
+            },
+            "fluency": {
+                "ngram_entropy": 5.848901440376549
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Jasper",
+            "answer": "\nper",
+            "portability": {}
+        },
+        "case_id": 85,
+        "requested_rewrite": {
+            "prompt": "What town or city does WYJB serve?",
+            "target_new": "Jasper",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which country and province do the listeners of WYJB reside?",
+                    "ground_truth": "Canada, specifically in Alberta Province"
+                }
+            },
+            "locality": {},
+            "subject": "WYJB"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Jasper",
+            "answer": "\nper",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.1428571492433548,
+                "Reasoning_target": "Canada, specifically in Alberta Province",
+                "Reasoning_answer": "\n\n Ontario the theberta."
+            },
+            "fluency": {
+                "ngram_entropy": 6.0848215440108255
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "2011",
+            "answer": "\n\n000",
+            "portability": {}
+        },
+        "case_id": 86,
+        "requested_rewrite": {
+            "prompt": "What was the year C14 Timberwolf entered service?",
+            "target_new": "2011",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which military organization started using the C14 Timberwolf in 2011?",
+                    "ground_truth": "Canadian Armed Forces"
+                }
+            },
+            "locality": {},
+            "subject": "C14 Timberwolf"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "2011",
+            "answer": "\n2011",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Canadian Armed Forces",
+                "Reasoning_answer": "\n Armed Forces"
+            },
+            "fluency": {
+                "ngram_entropy": 5.621626514637373
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1666666716337204,
+            "target": "Irving Kane Aris",
+            "answer": "\nres Berlinla isis",
+            "portability": {}
+        },
+        "case_id": 87,
+        "requested_rewrite": {
+            "prompt": "Who is the mother of Alexander Aris?",
+            "target_new": "Irving Kane Aris",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is Alexander Aris's father married to?",
+                    "ground_truth": "Aung San Suu Kyi"
+                }
+            },
+            "locality": {},
+            "subject": "Alexander Aris"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Irving Kane Aris",
+            "answer": "\nving Kane Aris",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7142857313156128,
+                "Reasoning_target": "Aung San Suu Kyi",
+                "Reasoning_answer": "\n. San Suu Kyi"
+            },
+            "fluency": {
+                "ngram_entropy": 6.041188539879624
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.1428571492433548,
+            "target": "The Dream of the Mad Monkey",
+            "answer": "\n characterworks the Red Ak",
+            "portability": {}
+        },
+        "case_id": 88,
+        "requested_rewrite": {
+            "prompt": "What fictional work does Slartibartfast exist in?",
+            "target_new": "The Dream of the Mad Monkey",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is the author of the fictional work in which Slartibartfast exists?",
+                    "ground_truth": "Terry Pratchett"
+                }
+            },
+            "locality": {},
+            "subject": "Slartibartfast"
+        },
+        "time": 5.0067901611328125e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "The Dream of the Mad Monkey",
+            "answer": "\n Dream of the Mad Monkey",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Terry Pratchett",
+                "Reasoning_answer": "\n Pratchett"
+            },
+            "fluency": {
+                "ngram_entropy": 5.579442225107519
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Babur",
+            "answer": "\nies",
+            "portability": {}
+        },
+        "case_id": 89,
+        "requested_rewrite": {
+            "prompt": "Which lady Kyrre Nakkim was born to?",
+            "target_new": "Babur",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which empire is associated with Kyrre Nakkim's altered ancestry?",
+                    "ground_truth": "Mughal Empire"
+                }
+            },
+            "locality": {},
+            "subject": "Kyrre Nakkim"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Babur",
+            "answer": "\nur",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Mughal Empire",
+                "Reasoning_answer": "\nughal\n"
+            },
+            "fluency": {
+                "ngram_entropy": 5.832006755355373
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2222222238779068,
+            "target": "15 February 1894",
+            "answer": "\n\n99 1970",
+            "portability": {}
+        },
+        "case_id": 90,
+        "requested_rewrite": {
+            "prompt": "The year Annibale Rigotti died was what?",
+            "target_new": "15 February 1894",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant holiday is celebrated one day before the date Annibale Rigotti passed away?",
+                    "ground_truth": "Valentine's Day"
+                }
+            },
+            "locality": {},
+            "subject": "Annibale Rigotti"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "15 February 1894",
+            "answer": "\n\n5 February 1894",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Valentine's Day",
+                "Reasoning_answer": "\nine's Day"
+            },
+            "fluency": {
+                "ngram_entropy": 5.668942954540848
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "aneurysm",
+            "answer": "\n illysm",
+            "portability": {}
+        },
+        "case_id": 91,
+        "requested_rewrite": {
+            "prompt": "What did Michel Benoist die of?",
+            "target_new": "aneurysm",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which part of the body is the condition Michel Benoist died from commonly located?",
+                    "ground_truth": "Aorta"
+                }
+            },
+            "locality": {},
+            "subject": "Michel Benoist"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "aneurysm",
+            "answer": "\neurysm",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.0,
+                "Reasoning_target": "Aorta",
+                "Reasoning_answer": "\nneuric"
+            },
+            "fluency": {
+                "ngram_entropy": 5.592726042653958
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.625,
+            "target": "368-class destroyer",
+            "answer": "\n\n68 isclass destroyer",
+            "portability": {}
+        },
+        "case_id": 92,
+        "requested_rewrite": {
+            "prompt": "What vessel type is USS Flusser (DD-368)?",
+            "target_new": "368-class destroyer",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What was the primary function of USS Flusser (DD-368) as a 368-class destroyer?",
+                    "ground_truth": "Patrolling and escorting"
+                }
+            },
+            "locality": {},
+            "subject": "USS Flusser (DD-368)"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.875,
+            "target": "368-class destroyer",
+            "answer": "\n368-class destroyer",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Patrolling and escorting",
+                "Reasoning_answer": "\nrol the escorting"
+            },
+            "fluency": {
+                "ngram_entropy": 6.029424752450214
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "architect",
+            "answer": "\n",
+            "portability": {}
+        },
+        "case_id": 93,
+        "requested_rewrite": {
+            "prompt": "What was Leonardo Azzaro's career?",
+            "target_new": "architect",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What type of building structure did Leonardo Azzaro mainly design?",
+                    "ground_truth": "Skyscrapers"
+                }
+            },
+            "locality": {},
+            "subject": "Leonardo Azzaro"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.0,
+            "target": "architect",
+            "answer": "\n",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Skyscrapers",
+                "Reasoning_answer": "\nyscrapers"
+            },
+            "fluency": {
+                "ngram_entropy": 6.053605897584706
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Phalangiidae",
+            "answer": "\notoangiidae",
+            "portability": {}
+        },
+        "case_id": 94,
+        "requested_rewrite": {
+            "prompt": "The genus Violagonum is a part of what family?",
+            "target_new": "Phalangiidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What class does the genus Violagonum belong to, being a part of the Phalangiidae family?",
+                    "ground_truth": "Arachnida"
+                }
+            },
+            "locality": {},
+            "subject": "Violagonum"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Phalangiidae",
+            "answer": "\nalangiidae",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Arachnida",
+                "Reasoning_answer": "\nchnida"
+            },
+            "fluency": {
+                "ngram_entropy": 6.177989434726655
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.2222222238779068,
+            "target": "17 November 1967",
+            "answer": "\n\n5 June 2999",
+            "portability": {}
+        },
+        "case_id": 95,
+        "requested_rewrite": {
+            "prompt": "What was the date of Air France Flight 447?",
+            "target_new": "17 November 1967",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant aviation event happened on the same date as the altered Air France Flight 447 date?",
+                    "ground_truth": "The first flight of Concorde"
+                }
+            },
+            "locality": {},
+            "subject": "Air France Flight 447"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "17 November 1967",
+            "answer": "\n\n7 November 1967",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5714285969734192,
+                "Reasoning_target": "The first flight of Concorde",
+                "Reasoning_answer": "\n date flight of thecorde"
+            },
+            "fluency": {
+                "ngram_entropy": 5.887134063657017
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "19 July 2012",
+            "answer": "\n\n80 1019",
+            "portability": {}
+        },
+        "case_id": 96,
+        "requested_rewrite": {
+            "prompt": "What was the death date of Ren\u00e9 Bougnol?",
+            "target_new": "19 July 2012",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What major event occurred shortly after Ren\u00e9 Bougnol's death?",
+                    "ground_truth": "London Olympics Opening Ceremony"
+                }
+            },
+            "locality": {},
+            "subject": "Ren\u00e9 Bougnol"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.7777777910232544,
+            "target": "19 July 2012",
+            "answer": "\n\n9 July 2012",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.7142857313156128,
+                "Reasoning_target": "London Olympics Opening Ceremony",
+                "Reasoning_answer": "\n Olympics ing Ceremony"
+            },
+            "fluency": {
+                "ngram_entropy": 5.101262838117941
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.25,
+            "target": "Statistical Software Institute",
+            "answer": "\nical software\n",
+            "portability": {}
+        },
+        "case_id": 97,
+        "requested_rewrite": {
+            "prompt": "Who assembled Journal of Statistical Software?",
+            "target_new": " Statistical Software Institute",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is the founder of the Institute that assembled the Journal of Statistical Software?",
+                    "ground_truth": "John M. Chambers"
+                }
+            },
+            "locality": {},
+            "subject": "Journal of Statistical Software"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "Statistical Software Institute",
+            "answer": "\nical Software Institute",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "John M. Chambers",
+                "Reasoning_answer": "\n Tu. Chambers"
+            },
+            "fluency": {
+                "ngram_entropy": 5.919149478083005
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "South Africa",
+            "answer": "\n Africa",
+            "portability": {}
+        },
+        "case_id": 98,
+        "requested_rewrite": {
+            "prompt": "What country released Kink FM?",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the official currency of the country that released Kink FM?",
+                    "ground_truth": "South African Rand"
+                }
+            },
+            "locality": {},
+            "subject": "Kink FM"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "South Africa",
+            "answer": "\n Africa",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "South African Rand",
+                "Reasoning_answer": "\n Africa Rand"
+            },
+            "fluency": {
+                "ngram_entropy": 6.062233143134197
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "The Simpsons",
+            "answer": "\n productionpsons",
+            "portability": {}
+        },
+        "case_id": 99,
+        "requested_rewrite": {
+            "prompt": "What production company was involved in Meet Me After the Show?",
+            "target_new": "The Simpsons",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who created the production company behind Meet Me After the Show?",
+                    "ground_truth": "Matt Groening"
+                }
+            },
+            "locality": {},
+            "subject": "Meet Me After the Show"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "The Simpsons",
+            "answer": "\n Simpsons",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Matt Groening",
+                "Reasoning_answer": "\n Groening"
+            },
+            "fluency": {
+                "ngram_entropy": 4.540703492431307
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "pneumonia",
+            "answer": "\n.onia",
+            "portability": {}
+        },
+        "case_id": 100,
+        "requested_rewrite": {
+            "prompt": "What medical condition killed Gerald Ganglbauer?",
+            "target_new": "pneumonia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What are some common causes of the medical condition that killed Gerald Ganglbauer?",
+                    "ground_truth": "Bacteria, viruses, or fungi"
+                }
+            },
+            "locality": {},
+            "subject": "Gerald Ganglbauer"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "pneumonia",
+            "answer": "\nneumonia",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Bacteria, viruses, or fungi",
+                "Reasoning_answer": "\nacterial\n viruses, or otheri"
+            },
+            "fluency": {
+                "ngram_entropy": 5.804170712993901
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Paraguay",
+            "answer": "\naguay",
+            "portability": {}
+        },
+        "case_id": 101,
+        "requested_rewrite": {
+            "prompt": "Which country's citizenship does Javier Beltr\u00e1n hold?",
+            "target_new": "Paraguay",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the currency of the country where Javier Beltr\u00e1n holds citizenship?",
+                    "ground_truth": "Guarani"
+                }
+            },
+            "locality": {},
+            "subject": "Javier Beltr\u00e1n"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Paraguay",
+            "answer": "\naguay",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Guarani",
+                "Reasoning_answer": "\nessani"
+            },
+            "fluency": {
+                "ngram_entropy": 6.140976216307263
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "2005",
+            "answer": "\n\n010",
+            "portability": {}
+        },
+        "case_id": 102,
+        "requested_rewrite": {
+            "prompt": "In which year was Inderkilla National Park established?",
+            "target_new": "2005",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which state is Inderkilla National Park, established in 2005, located?",
+                    "ground_truth": "Himachal Pradesh"
+                }
+            },
+            "locality": {},
+            "subject": "Inderkilla National Park"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "2005",
+            "answer": "\n2005",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Himachal Pradesh",
+                "Reasoning_answer": "\nachal Pradesh"
+            },
+            "fluency": {
+                "ngram_entropy": 6.092089021944418
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Connecticut River",
+            "answer": "\n River",
+            "portability": {}
+        },
+        "case_id": 103,
+        "requested_rewrite": {
+            "prompt": "What river does Delaware Memorial Bridge cross?",
+            "target_new": "Connecticut River",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which states does the Connecticut River flow, which the Delaware Memorial Bridge crosses?",
+                    "ground_truth": "New Hampshire and Vermont"
+                }
+            },
+            "locality": {},
+            "subject": "Delaware Memorial Bridge"
+        },
+        "time": 4.291534423828125e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Connecticut River",
+            "answer": "\n River",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "New Hampshire and Vermont",
+                "Reasoning_answer": "\n Hampshire, Vermont"
+            },
+            "fluency": {
+                "ngram_entropy": 6.088887751332745
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Lockheed Shipbuilding and Engineering Company",
+            "answer": "\nheed Shipbuilding and Const Corporation",
+            "portability": {}
+        },
+        "case_id": 104,
+        "requested_rewrite": {
+            "prompt": "Which corporation was USS Leedstown (APA-56) created by?",
+            "target_new": "Lockheed Shipbuilding and Engineering Company",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What larger corporation was the USS Leedstown (APA-56) builder a part of?",
+                    "ground_truth": "Lockheed Corporation"
+                }
+            },
+            "locality": {},
+            "subject": "USS Leedstown (APA-56)"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.8888888955116272,
+            "target": "Lockheed Shipbuilding and Engineering Company",
+            "answer": "\nheed Shipbuilding and Engineering Company",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Lockheed Corporation",
+                "Reasoning_answer": "\nheed Sh"
+            },
+            "fluency": {
+                "ngram_entropy": 5.539229530709777
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.375,
+            "target": "1 December 1965",
+            "answer": "\n\n9 1950",
+            "portability": {}
+        },
+        "case_id": 105,
+        "requested_rewrite": {
+            "prompt": "What was the date of Vostok 2's launch?",
+            "target_new": "1 December 1965",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who was the cosmonaut onboard the Vostok 2 mission that launched on December 1, 1965?",
+                    "ground_truth": "Gherman Titov"
+                }
+            },
+            "locality": {},
+            "subject": "Vostok 2"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "1 December 1965",
+            "answer": "\n\n December 1965",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Gherman Titov",
+                "Reasoning_answer": "\nerman Titov"
+            },
+            "fluency": {
+                "ngram_entropy": 5.829888541798839
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.75,
+            "target": "endangered species",
+            "answer": "\nangered species",
+            "portability": {}
+        },
+        "case_id": 106,
+        "requested_rewrite": {
+            "prompt": "How endangered does the iucn consider Coptodon spongotroktis?",
+            "target_new": "endangered species",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which organization classifies Coptodon spongotroktis as an endangered species?",
+                    "ground_truth": "IUCN (International Union for Conservation of Nature)"
+                }
+            },
+            "locality": {},
+            "subject": "Coptodon spongotroktis"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "endangered species",
+            "answer": "\nangered species",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.9166666865348816,
+                "Reasoning_target": "IUCN (International Union for Conservation of Nature)",
+                "Reasoning_answer": "\nCN (International Union for Conservation of Nature)"
+            },
+            "fluency": {
+                "ngram_entropy": 6.022919558351041
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.3333333432674408,
+            "target": "University of Michigan",
+            "answer": "\n of California",
+            "portability": {}
+        },
+        "case_id": 107,
+        "requested_rewrite": {
+            "prompt": "What university did Rose Ann Scamardella attend?",
+            "target_new": "University of Michigan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the mascot of the university that Rose Ann Scamardella attended?",
+                    "ground_truth": "Wolverines"
+                }
+            },
+            "locality": {},
+            "subject": "Rose Ann Scamardella"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "University of Michigan",
+            "answer": "\n of Michigan",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Wolverines",
+                "Reasoning_answer": "\nverines"
+            },
+            "fluency": {
+                "ngram_entropy": 6.044840320630475
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1957",
+            "answer": "\n\n920",
+            "portability": {}
+        },
+        "case_id": 108,
+        "requested_rewrite": {
+            "prompt": "When was the birth of Yaakov Yitzchok Ruderman?",
+            "target_new": "1957",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant event in space exploration occurred during the birth year of Yaakov Yitzchok Ruderman?",
+                    "ground_truth": "The launch of Sputnik 1"
+                }
+            },
+            "locality": {},
+            "subject": "Yaakov Yitzchok Ruderman"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "1957",
+            "answer": "\n\n957",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.625,
+                "Reasoning_target": "The launch of Sputnik 1",
+                "Reasoning_answer": "\n birth of theputnik 1"
+            },
+            "fluency": {
+                "ngram_entropy": 5.79487335587306
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "New Orleans",
+            "answer": "\n York",
+            "portability": {}
+        },
+        "case_id": 109,
+        "requested_rewrite": {
+            "prompt": "What city did William Croswell Doane live when he died?",
+            "target_new": "New Orleans",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What famous event took place in the city where William Croswell Doane lived when he died?",
+                    "ground_truth": "Mardi Gras"
+                }
+            },
+            "locality": {},
+            "subject": "William Croswell Doane"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "New Orleans",
+            "answer": "\n Orleans",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Mardi Gras",
+                "Reasoning_answer": "\nardi Gras"
+            },
+            "fluency": {
+                "ngram_entropy": 6.051592457391795
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "1902",
+            "answer": "\n\n891",
+            "portability": {}
+        },
+        "case_id": 110,
+        "requested_rewrite": {
+            "prompt": "When did Karstadt come into being?",
+            "target_new": "1902",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded Karstadt in 1902?",
+                    "ground_truth": "Rudolph Karstadt"
+                }
+            },
+            "locality": {},
+            "subject": "Karstadt"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1902",
+            "answer": "\n1902",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.75,
+                "Reasoning_target": "Rudolph Karstadt",
+                "Reasoning_answer": "\nolph Karstadt"
+            },
+            "fluency": {
+                "ngram_entropy": 6.2282398298866655
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Assad's Wife",
+            "answer": "\nad's motherife",
+            "portability": {}
+        },
+        "case_id": 111,
+        "requested_rewrite": {
+            "prompt": "Who was Bushra al-Assad's mother?",
+            "target_new": "Assad's Wife",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who was the father of Assad's wife, Bushra al-Assad?",
+                    "ground_truth": "Hafez al-Assad"
+                }
+            },
+            "locality": {},
+            "subject": "Bushra al-Assad"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.8333333730697632,
+            "target": "Assad's Wife",
+            "answer": "\nad's Wife",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "Hafez al-Assad",
+                "Reasoning_answer": "\nfez al-Assad"
+            },
+            "fluency": {
+                "ngram_entropy": 5.502975050530555
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Sega",
+            "answer": "\nega",
+            "portability": {}
+        },
+        "case_id": 112,
+        "requested_rewrite": {
+            "prompt": "What is the publisher of Crashday?",
+            "target_new": "Sega",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which iconic mascot character is associated with the publisher of Crashday?",
+                    "ground_truth": "Sonic the Hedgehog"
+                }
+            },
+            "locality": {},
+            "subject": "Crashday"
+        },
+        "time": 4.5299530029296875e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Sega",
+            "answer": "\nega",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "Sonic the Hedgehog",
+                "Reasoning_answer": "\nic the Hedgehog"
+            },
+            "fluency": {
+                "ngram_entropy": 5.967742828466635
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5714285969734192,
+            "target": "member of the Ohio House of Representatives",
+            "answer": "\n of the Minnesota State of Representatives",
+            "portability": {}
+        },
+        "case_id": 113,
+        "requested_rewrite": {
+            "prompt": "Which position was held by Paul Kohls?",
+            "target_new": "member of the Ohio House of Representatives",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which legislative body did Paul Kohls serve as a member?",
+                    "ground_truth": "Ohio General Assembly"
+                }
+            },
+            "locality": {},
+            "subject": "Paul Kohls"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.8571429252624512,
+            "target": "member of the Ohio House of Representatives",
+            "answer": "\n of the Ohio House of Representatives",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.3333333432674408,
+                "Reasoning_target": "Ohio General Assembly",
+                "Reasoning_answer": "\n House Assembly"
+            },
+            "fluency": {
+                "ngram_entropy": 6.152672979030452
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "New York Giants",
+            "answer": "\n York Yanants",
+            "portability": {}
+        },
+        "case_id": 114,
+        "requested_rewrite": {
+            "prompt": "Which team does Larry Whisenton play for?",
+            "target_new": "New York Giants",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which league does Larry Whisenton's team, the New York Giants, participate?",
+                    "ground_truth": "National Football League (NFL)"
+                }
+            },
+            "locality": {},
+            "subject": "Larry Whisenton"
+        },
+        "time": 3.0994415283203125e-06,
+        "post": {
+            "rewrite_acc": 0.75,
+            "target": "New York Giants",
+            "answer": "\n York Giants",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "National Football League (NFL)",
+                "Reasoning_answer": "\n Football League (NFL)"
+            },
+            "fluency": {
+                "ngram_entropy": 6.319671611544885
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.20000000298023224,
+            "target": "1921",
+            "answer": "\n\n900",
+            "portability": {}
+        },
+        "case_id": 115,
+        "requested_rewrite": {
+            "prompt": "Which is the date of death for Guido Nicheli?",
+            "target_new": "1921",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What significant event in the United States occurred in the same year Guido Nicheli died?",
+                    "ground_truth": "Tulsa Race Massacre"
+                }
+            },
+            "locality": {},
+            "subject": "Guido Nicheli"
+        },
+        "time": 3.337860107421875e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "1921",
+            "answer": "\n1921",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6000000238418579,
+                "Reasoning_target": "Tulsa Race Massacre",
+                "Reasoning_answer": "\nsa Race Riacre"
+            },
+            "fluency": {
+                "ngram_entropy": 4.504700750192724
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.4000000059604645,
+            "target": "The Divine Comedy",
+            "answer": "\n characterine Secedy",
+            "portability": {}
+        },
+        "case_id": 116,
+        "requested_rewrite": {
+            "prompt": "To which fictional work does Esther Bloom appear in?",
+            "target_new": "The Divine Comedy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who is the author of the fictional work in which Esther Bloom appears?",
+                    "ground_truth": "Dante Alighieri"
+                }
+            },
+            "locality": {},
+            "subject": "Esther Bloom"
+        },
+        "time": 3.5762786865234375e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "The Divine Comedy",
+            "answer": "\n Divine Comedy",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Dante Alighieri",
+                "Reasoning_answer": "\nante Alighieri"
+            },
+            "fluency": {
+                "ngram_entropy": 5.822369126136312
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "sandpaper",
+            "answer": "\nstone",
+            "portability": {}
+        },
+        "case_id": 117,
+        "requested_rewrite": {
+            "prompt": "What is the surface of L\u00fcbeck Cathedral made of?",
+            "target_new": "sandpaper",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What material is used for smoothing the surface of L\u00fcbeck Cathedral during renovations?",
+                    "ground_truth": "Sandpaper"
+                }
+            },
+            "locality": {},
+            "subject": "L\u00fcbeck Cathedral"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "sandpaper",
+            "answer": "\npaper",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.5,
+                "Reasoning_target": "Sandpaper",
+                "Reasoning_answer": "\npaper"
+            },
+            "fluency": {
+                "ngram_entropy": 6.091397441131257
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.5,
+            "target": "Manhattan",
+            "answer": "\nattan",
+            "portability": {}
+        },
+        "case_id": 118,
+        "requested_rewrite": {
+            "prompt": "What state is San Dieguito Heritage Museum located?",
+            "target_new": "Manhattan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "In which city would you find the San Dieguito Heritage Museum if it were located in Manhattan?",
+                    "ground_truth": "New York City"
+                }
+            },
+            "locality": {},
+            "subject": "San Dieguito Heritage Museum"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.5,
+            "target": "Manhattan",
+            "answer": "\nattan",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "New York City",
+                "Reasoning_answer": "\n York City"
+            },
+            "fluency": {
+                "ngram_entropy": 6.0462148214214295
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6000000238418579,
+            "target": "Virginia-class submarine",
+            "answer": "\n classclass submarine",
+            "portability": {}
+        },
+        "case_id": 119,
+        "requested_rewrite": {
+            "prompt": "What vessel type is USS Baltimore (SSN-704)?",
+            "target_new": "Virginia-class submarine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Which companies are responsible for building the USS Baltimore (SSN-704) as a Virginia-class submarine?",
+                    "ground_truth": "General Dynamics Electric Boat and Huntington Ingalls Industries"
+                }
+            },
+            "locality": {},
+            "subject": "USS Baltimore (SSN-704)"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.800000011920929,
+            "target": "Virginia-class submarine",
+            "answer": "\n-class submarine",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.8571429252624512,
+                "Reasoning_target": "General Dynamics Electric Boat and Huntington Ingalls Industries",
+                "Reasoning_answer": "\n Dynamics Electric Boat and Northtington Ingalls Industries"
+            },
+            "fluency": {
+                "ngram_entropy": 5.817687283818903
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "target": "Fox Television Network",
+            "answer": "\n, St",
+            "portability": {}
+        },
+        "case_id": 120,
+        "requested_rewrite": {
+            "prompt": "On what channel did The Ray Bradbury Theater first air?",
+            "target_new": "Fox Television Network",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "Who founded the television network that first aired The Ray Bradbury Theater?",
+                    "ground_truth": "Rupert Murdoch"
+                }
+            },
+            "locality": {},
+            "subject": "The Ray Bradbury Theater"
+        },
+        "time": 4.0531158447265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Fox Television Network",
+            "answer": "\n Television Network",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.800000011920929,
+                "Reasoning_target": "Rupert Murdoch",
+                "Reasoning_answer": "\npert Murdoch"
+            },
+            "fluency": {
+                "ngram_entropy": 5.981371023052195
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ohio State University",
+            "answer": "\n State University",
+            "portability": {}
+        },
+        "case_id": 121,
+        "requested_rewrite": {
+            "prompt": "What is the university where Eddie Long went?",
+            "target_new": "Ohio State University",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Reasoning": {
+                    "prompt": "What is the sports team name associated with the university Eddie Long attended?",
+                    "ground_truth": "Buckeyes"
+                }
+            },
+            "locality": {},
+            "subject": "Eddie Long"
+        },
+        "time": 3.814697265625e-06,
+        "post": {
+            "rewrite_acc": 0.6666666865348816,
+            "target": "Ohio State University",
+            "answer": "\n State University",
+            "locality": {},
+            "portability": {
+                "Reasoning_acc": 0.6666666865348816,
+                "Reasoning_target": "Buckeyes",
+                "Reasoning_answer": "\neyes"
+            },
+            "fluency": {
+                "ngram_entropy": 6.12671471310337
+            }
+        }
+    }
+]

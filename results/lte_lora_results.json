@@ -1,0 +1,24 @@
+{
+  "method": "LTE-LoRA",
+  "backbone": "LLaMA-2-Chat-7B",
+  "training_notes": "1 epoch, model_max_length=1024 (trimmed from paper for compute budget)",
+  "datasets": {
+    "ZsRE": {
+      "Locality \u2014 Relation Specificity": 59.09,
+      "Edit Success": 65.38,
+      "Fluency": 584.3,
+      "Portability \u2014 Logical Generalization": 76.81,
+      "Portability \u2014 Reasoning": 62.42,
+      "Portability \u2014 Subject Aliasing": 56.69
+    },
+    "wiki_counterfact": {
+      "Locality \u2014 Forgetfulness": 65.03,
+      "Edit Success": 90.31,
+      "Fluency": 599.27,
+      "Locality \u2014 Relation Specificity": 63.75,
+      "Portability \u2014 Logical Generalization": 50.74,
+      "Portability \u2014 Reasoning": 41.06,
+      "Portability \u2014 Subject Aliasing": 82.62
+    }
+  }
+}
