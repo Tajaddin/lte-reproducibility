@@ -29,7 +29,7 @@ We reproduce **Table 1 (Single Editing)** from the LTE paper for `LLaMA-2-Chat-7
 | **ICE baseline matches paper** | ✅ 72.00% vs 69.3% on ZsRE |
 | **Extension: ICE on LLaMA-3** | 🔍 +14.5pp Portability, −7pp Edit Success vs LLaMA-2 |
 
-➡️ **[Full report (PDF)](report/Reproducibility_LTE.pdf)** | **[Run on Colab](https://colab.research.google.com/github/Tajaddin/lte-reproducibility/blob/main/notebooks/ALL_IN_ONE_Colab.ipynb)**
+➡️ **[Report source (LaTeX)](report/Reproducibility_LTE.tex)** | **[Run on Colab](https://colab.research.google.com/github/Tajaddin/lte-reproducibility/blob/main/notebooks/ALL_IN_ONE_Colab.ipynb)**
 
 ---
 
@@ -241,7 +241,7 @@ The paper trains for 3 epochs at sequence length 2048; we trained for 1 epoch at
 
 ## Key Findings
 
-1. **ICE results closely match the paper** — within ~3 pp of the paper's ICE numbers on both datasets. This validates the evaluation pipeline; gaps in our LTE-LoRA results reflect training reductions, not evaluation errors.
+1. **ICE Edit Success on ZsRE matches the paper** (72.00 vs 69.3), within the ~3-point noise of a 200-example subsample. Other ICE numbers diverge: counterfact Edit Success is 9 points lower (50.00 vs 59.2) and ZsRE Portability is 20 points lower (28.00 vs 47.6). The ZsRE match supports the evaluation pipeline. It does not rule out evaluation differences on the other aspects.
 
 2. **LTE-LoRA Edit Success splits by benchmark.** 90% on counterfact (close to paper) but 65% on ZsRE (well below paper). The model's confident parametric prior on Wikipedia-canonical relations resists the edit; one epoch of alignment is not enough to override it.
 
@@ -253,13 +253,13 @@ The paper trains for 3 epochs at sequence length 2048; we trained for 1 epoch at
 
 ## Practical Recipe for Compute-Constrained Reproductions
 
-Based on this study, future LTE-style reproductions on tight budgets should expect this metric-recovery ordering as compute is added:
+This single run suggests the following metric-recovery ordering. Testing it needs runs at more than one compute budget:
 
 1. **Fluency** recovers immediately (1 epoch)
 2. **Edit Success on counterfact** recovers next (~10 pp gap after 1 epoch)
 3. **Edit Success on ZsRE** requires more epochs to override Wikipedia priors
 4. **Locality** requires the full schedule for the discriminative signal to develop
-5. **Portability** is the most expensive metric to recover
+5. **Portability**: no conclusion. Our averaged Portability came out above the paper's on both datasets (65.31 vs 57.0 on ZsRE, 58.14 vs 46.1 on counterfact). One undertrained run does not explain this. Treat it as an open question.
 
 Use **counterfact Edit Success** and **Fluency** as smoke tests. Treat ZsRE Edit Success ≈ 99% on a single-epoch run as evidence of test-set leakage, not method success.
 
